@@ -4,6 +4,8 @@ This is a collection of datasets for COVID-19 specifically for the Indian subcon
 
 This dataset has been inspired by the [repository maintained by the good people at JHU](https://github.com/CSSEGISandData/COVID-19).
 
+This dataset is mainly maintained to perform certain COVID-19 related analyses by University of Kalyani. You can view these analyses at [https://debacharya.com/covid](https://debacharya.com/covid).
+
 This repository is being continuously updated and new datasets shall be added from time to time as and when available. All information about the datasets are available in the README section of their enclosing folders.
 
 ### Visualization
