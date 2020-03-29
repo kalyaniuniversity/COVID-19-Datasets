@@ -25,6 +25,9 @@ If you find any misinformation or discrepancy with the data provided here, we re
 * Sreshtha Dey
 * Rahul Saha
 * Tapasree Seal
+* Puja Saha
+* Abhijit Mitra
+* Kaustav Nandy
 
 ### Contact us
 
