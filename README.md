@@ -18,6 +18,8 @@ If you find any misinformation or discrepancy with the data provided here, we re
 
 ### Contributors
 
+We deeply thank everyone who has put their time and effort and contributed to make this possible.
+
 * Inder Kaur
 * Gourav Karmakar
 * Anirban Mitra

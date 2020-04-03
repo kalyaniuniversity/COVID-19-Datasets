@@ -1,6 +1,6 @@
 # COVID-19 Timeseries dataset for all states in India
 
-This folder contains the daily confirmed case reports for all states in India. The contents of this folder may be updated multiple times each day as an when new cases are reported. We are continuously updating the dataset to add more data as available to us.
+This folder contains the daily death case reports for all states in India. The contents of this folder may be updated multiple times each day as an when new cases are reported. We are continuously updating the dataset to add more data as available to us.
 
 ### Data sources
 
