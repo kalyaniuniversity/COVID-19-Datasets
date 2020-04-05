@@ -2,7 +2,7 @@
 
 This is a collection of datasets for COVID-19 specifically for the Indian subcontinent. The repository is being created, updated and maintained by University of Kalyani Department of Computer Science & Engineering (KU CSE) and Department of Statistics.
 
-This dataset has been inspired by the [repository maintained by the good people at JHU](https://github.com/CSSEGISandData/COVID-19).
+This dataset has been inspired by the [repository maintained by the good people at JHU](https://github.com/CSSEGISandData/COVID-19) and [covid19India.org](https://github.com/covid19india).
 
 This dataset is mainly maintained to perform certain COVID-19 related analyses by University of Kalyani. You can view these analyses at [https://debacharya.com/covid](https://debacharya.com/covid).
 
@@ -10,6 +10,9 @@ This repository is being continuously updated and new datasets shall be added fr
 
 ### Visualization
 A visualization of the dataset(s) can be found [here](https://debacharya.com/covid).
+
+### Tools
+We shall update more information about our tools and scripts shortly.
 
 ### Contributing
 Please note that we are **not accepting** any pull requests for these datasets. If you'd like to contribute to these datasets, kindly open an issue with with us to discuss what you'd like to change.
@@ -23,6 +26,7 @@ We deeply thank everyone who has put their time and effort and contributed to ma
 * Inder Kaur
 * Gourav Karmakar
 * Anirban Mitra
+* Dripta Senapati
 * Sayan Ghosh
 * Sreshtha Dey
 * Rahul Saha
