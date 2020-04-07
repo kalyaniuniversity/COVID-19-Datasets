@@ -175,11 +175,13 @@ for date in unique_dates:
                 state[date][item['status']] = item[state['code']]
 
 def needs_patch(date_to_fetch, state_code):
+
     if (date_to_fetch == '26-Mar-20' and state_code == 'ap') or (date_to_fetch == '16-Mar-20' and state_code == 'mp'):
         return True
     return False
 
 def apply_patch(date_to_fetch, state_code):
+    
     if date_to_fetch == '26-Mar-20' and state_code == 'ap':
         return {'Confirmed': '1', 'Recovered': '0', 'Deceased': '0'}
     if date_to_fetch == '16-Mar-20' and state_code == 'mp':
