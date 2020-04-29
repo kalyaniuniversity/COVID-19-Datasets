@@ -12,7 +12,7 @@ This repository is being continuously updated and new datasets shall be added fr
 A visualization of the dataset(s) can be found [here](https://debacharya.com/covid).
 
 ### Tools
-We shall update more information about our tools and scripts shortly.
+We shall update more information about our tools and scripts shortly. Meanwhile, you can check our `tools` folder for more information.
 
 ### Contributing
 Please note that we are **not accepting** any pull requests for these datasets. If you'd like to contribute to these datasets, kindly open an issue with with us to discuss what you'd like to change.
