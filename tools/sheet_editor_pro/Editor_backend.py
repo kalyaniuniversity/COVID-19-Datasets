@@ -184,7 +184,7 @@ def updater(skip=False):
                                 value = datetime.strftime(datetime.strptime(
                                     Confirmed.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
                                 sheet.update_cell(
-                                    i+1, sheet_confirmed.shape[1]+j+1, value)
+                                    i+1, sheet_confirmed.shape[1], value)
                                 pull_counter = pull_counter+1
                             else:
                                 if i != sheet_confirmed.shape[0]:
@@ -277,7 +277,7 @@ def updater(skip=False):
                                     value = datetime.strftime(datetime.strptime(
                                         Recovered.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
                                     sheet.update_cell(
-                                        i+1, sheet_recovered.shape[1]+j+1, value)
+                                        i+1, sheet_recovered.shape[1], value)
                                     pull_counter = pull_counter+1
                                 else:
                                     if i != sheet_recovered.shape[0]:
@@ -361,7 +361,7 @@ def updater(skip=False):
                                     value = datetime.strftime(datetime.strptime(
                                         Death.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
                                     sheet.update_cell(
-                                        i+1, sheet_death.shape[1]+j+1, value)
+                                        i+1, sheet_death.shape[1], value)
                                     pull_counter = pull_counter+1
                                 else:
                                     if i != sheet_death.shape[0]:
@@ -448,7 +448,7 @@ def updater(skip=False):
                                     value = datetime.strftime(datetime.strptime(
                                         Confirmed.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
                                     sheet.update_cell(
-                                        i+1, sheet_confirmed.shape[1]+j+1, value)
+                                        i+1, sheet_confirmed.shape[1], value)
                                     pull_counter = pull_counter+1
                                 else:
                                     if i != sheet_confirmed.shape[0]:
@@ -539,7 +539,7 @@ def updater(skip=False):
                                         value = datetime.strftime(datetime.strptime(
                                             Recovered.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
                                         sheet.update_cell(
-                                            i+1, sheet_recovered.shape[1]+j+1, value)
+                                            i+1, sheet_recovered.shape[1], value)
                                         pull_counter = pull_counter+1
                                     else:
                                         if i != sheet_recovered.shape[0]:
@@ -623,7 +623,7 @@ def updater(skip=False):
                                         value = datetime.strftime(datetime.strptime(
                                             Death.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
                                         sheet.update_cell(
-                                            i+1, sheet_death.shape[1]+j+1, value)
+                                            i+1, sheet_death.shape[1], value)
                                         pull_counter = pull_counter+1
                                     else:
                                         if i != sheet_death.shape[0]:
