@@ -1,0 +1,490 @@
+#################################################################
+	Confirmed changes
+#################################################################
+{('4/30/2020', 'Tripura'): {'api_sheet': 3,
+                            'google_sheet': 2},
+ ('5/1/2020', 'Tripura'): {'api_sheet': 3,
+                           'google_sheet': 2},
+ ('5/10/2020', 'Tripura'): {'api_sheet': 152,
+                            'google_sheet': 151},
+ ('5/11/2020', 'Tripura'): {'api_sheet': 152,
+                            'google_sheet': 151},
+ ('5/12/2020', 'Tripura'): {'api_sheet': 154,
+                            'google_sheet': 153},
+ ('5/13/2020', 'Tripura'): {'api_sheet': 155,
+                            'google_sheet': 154},
+ ('5/14/2020', 'Tripura'): {'api_sheet': 156,
+                            'google_sheet': 155},
+ ('5/15/2020', 'Tripura'): {'api_sheet': 156,
+                            'google_sheet': 155},
+ ('5/16/2020', 'Tripura'): {'api_sheet': 167,
+                            'google_sheet': 166},
+ ('5/17/2020', 'Tripura'): {'api_sheet': 165,
+                            'google_sheet': 164},
+ ('5/18/2020', 'Tripura'): {'api_sheet': 165,
+                            'google_sheet': 164},
+ ('5/19/2020', 'Tripura'): {'api_sheet': 173,
+                            'google_sheet': 172},
+ ('5/2/2020', 'Tripura'): {'api_sheet': 5,
+                           'google_sheet': 4},
+ ('5/20/2020', 'Tripura'): {'api_sheet': 173,
+                            'google_sheet': 172},
+ ('5/21/2020', 'Tripura'): {'api_sheet': 175,
+                            'google_sheet': 174},
+ ('5/22/2020', 'Tripura'): {'api_sheet': 175,
+                            'google_sheet': 174},
+ ('5/23/2020', 'Tripura'): {'api_sheet': 191,
+                            'google_sheet': 190},
+ ('5/24/2020', 'Tripura'): {'api_sheet': 194,
+                            'google_sheet': 193},
+ ('5/25/2020', 'Tripura'): {'api_sheet': 198,
+                            'google_sheet': 197},
+ ('5/26/2020', 'Tripura'): {'api_sheet': 232,
+                            'google_sheet': 231},
+ ('5/27/2020', 'Tripura'): {'api_sheet': 242,
+                            'google_sheet': 241},
+ ('5/28/2020', 'Tripura'): {'api_sheet': 244,
+                            'google_sheet': 243},
+ ('5/29/2020', 'Tripura'): {'api_sheet': 254,
+                            'google_sheet': 253},
+ ('5/3/2020', 'Tripura'): {'api_sheet': 17,
+                           'google_sheet': 16},
+ ('5/30/2020', 'Tripura'): {'api_sheet': 271,
+                            'google_sheet': 270},
+ ('5/31/2020', 'Himachal Pradesh'): {'api_sheet': 331,
+                                     'google_sheet': 330},
+ ('5/31/2020', 'Jharkhand'): {'api_sheet': 635,
+                              'google_sheet': 610},
+ ('5/31/2020', 'Tripura'): {'api_sheet': 316,
+                            'google_sheet': 315},
+ ('5/4/2020', 'Tripura'): {'api_sheet': 30,
+                           'google_sheet': 29},
+ ('5/5/2020', 'Tripura'): {'api_sheet': 43,
+                           'google_sheet': 42},
+ ('5/6/2020', 'Tripura'): {'api_sheet': 65,
+                           'google_sheet': 64},
+ ('5/7/2020', 'Tripura'): {'api_sheet': 89,
+                           'google_sheet': 88},
+ ('5/8/2020', 'Tripura'): {'api_sheet': 119,
+                           'google_sheet': 118},
+ ('5/9/2020', 'Tripura'): {'api_sheet': 136,
+                           'google_sheet': 135},
+ ('6/1/2020', 'Arunachal Pradesh'): {'api_sheet': 22,
+                                     'google_sheet': 20},
+ ('6/1/2020', 'Chhattisgarh'): {'api_sheet': 547,
+                                'google_sheet': 548},
+ ('6/1/2020', 'Tripura'): {'api_sheet': 423,
+                           'google_sheet': 422},
+ ('6/10/2020', 'Arunachal Pradesh'): {'api_sheet': 58,
+                                      'google_sheet': 61},
+ ('6/10/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 29,
+                                           'google_sheet': 27},
+ ('6/11/2020', 'Arunachal Pradesh'): {'api_sheet': 64,
+                                      'google_sheet': 67},
+ ('6/11/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 30,
+                                           'google_sheet': 28},
+ ('6/11/2020', 'Tripura'): {'api_sheet': 922,
+                            'google_sheet': 915},
+ ('6/12/2020', 'Arunachal Pradesh'): {'api_sheet': 83,
+                                      'google_sheet': 80},
+ ('6/12/2020', 'Nagaland'): {'api_sheet': 156,
+                             'google_sheet': 164},
+ ('6/13/2020', 'Arunachal Pradesh'): {'api_sheet': 88,
+                                      'google_sheet': 91},
+ ('6/13/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 35,
+                                           'google_sheet': 31},
+ ('6/13/2020', 'Mizoram'): {'api_sheet': 110,
+                            'google_sheet': 107},
+ ('6/14/2020', 'Arunachal Pradesh'): {'api_sheet': 91,
+                                      'google_sheet': 94},
+ ('6/14/2020', 'Chhattisgarh'): {'api_sheet': 1671,
+                                 'google_sheet': 1662},
+ ('6/14/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 39,
+                                           'google_sheet': 36},
+ ('6/14/2020', 'Jharkhand'): {'api_sheet': 1763,
+                              'google_sheet': 1748},
+ ('6/14/2020', 'Nagaland'): {'api_sheet': 173,
+                             'google_sheet': 168},
+ ('6/15/2020', 'Arunachal Pradesh'): {'api_sheet': 95,
+                                      'google_sheet': 98},
+ ('6/16/2020', 'Arunachal Pradesh'): {'api_sheet': 99,
+                                      'google_sheet': 102},
+ ('6/16/2020', 'Sikkim'): {'api_sheet': 68,
+                           'google_sheet': 72},
+ ('6/17/2020', 'Arunachal Pradesh'): {'api_sheet': 103,
+                                      'google_sheet': 106},
+ ('6/17/2020', 'Jharkhand'): {'api_sheet': 1896,
+                              'google_sheet': 1895},
+ ('6/18/2020', 'Arunachal Pradesh'): {'api_sheet': 103,
+                                      'google_sheet': 106},
+ ('6/18/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 63,
+                                           'google_sheet': 60},
+ ('6/19/2020', 'Arunachal Pradesh'): {'api_sheet': 135,
+                                      'google_sheet': 138},
+ ('6/19/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 77,
+                                           'google_sheet': 74},
+ ('6/2/2020', 'Arunachal Pradesh'): {'api_sheet': 24,
+                                     'google_sheet': 28},
+ ('6/2/2020', 'Assam'): {'api_sheet': 1560,
+                         'google_sheet': 1562},
+ ('6/2/2020', 'Chhattisgarh'): {'api_sheet': 562,
+                                'google_sheet': 564},
+ ('6/2/2020', 'Tripura'): {'api_sheet': 471,
+                           'google_sheet': 470},
+ ('6/20/2020', 'Arunachal Pradesh'): {'api_sheet': 135,
+                                      'google_sheet': 138},
+ ('6/20/2020', 'Chandigarh'): {'api_sheet': 404,
+                               'google_sheet': 390},
+ ('6/20/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 94,
+                                           'google_sheet': 88},
+ ('6/21/2020', 'Assam'): {'api_sheet': 5485,
+                          'google_sheet': 5484},
+ ('6/21/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 99,
+                                           'google_sheet': 98},
+ ('6/21/2020', 'Jharkhand'): {'api_sheet': 2098,
+                              'google_sheet': 2089},
+ ('6/22/2020', 'Assam'): {'api_sheet': 5752,
+                          'google_sheet': 5751},
+ ('6/22/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 114,
+                                           'google_sheet': 102},
+ ('6/23/2020', 'Assam'): {'api_sheet': 5955,
+                          'google_sheet': 5954},
+ ('6/23/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 123,
+                                           'google_sheet': 121},
+ ('6/23/2020', 'Sikkim'): {'api_sheet': 79,
+                           'google_sheet': 78},
+ ('6/25/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 156,
+                                           'google_sheet': 147},
+ ('6/25/2020', 'Jharkhand'): {'api_sheet': 2263,
+                              'google_sheet': 2261},
+ ('6/25/2020', 'Ladakh'): {'api_sheet': 941,
+                           'google_sheet': 932},
+ ('6/26/2020', 'Tripura'): {'api_sheet': 1330,
+                            'google_sheet': 1331},
+ ('6/27/2020', 'Chhattisgarh'): {'api_sheet': 2610,
+                                 'google_sheet': 2602},
+ ('6/3/2020', 'Arunachal Pradesh'): {'api_sheet': 34,
+                                     'google_sheet': 37},
+ ('6/3/2020', 'Puducherry'): {'api_sheet': 90,
+                              'google_sheet': 88},
+ ('6/3/2020', 'Tripura'): {'api_sheet': 622,
+                           'google_sheet': 573},
+ ('6/4/2020', 'Arunachal Pradesh'): {'api_sheet': 39,
+                                     'google_sheet': 42},
+ ('6/4/2020', 'Puducherry'): {'api_sheet': 99,
+                              'google_sheet': 90},
+ ('6/5/2020', 'Andhra Pradesh'): {'api_sheet': 4250,
+                                  'google_sheet': 4253},
+ ('6/5/2020', 'Arunachal Pradesh'): {'api_sheet': 43,
+                                     'google_sheet': 47},
+ ('6/5/2020', 'Assam'): {'api_sheet': 2244,
+                         'google_sheet': 2401},
+ ('6/5/2020', 'Bihar'): {'api_sheet': 4598,
+                         'google_sheet': 4578},
+ ('6/5/2020', 'Chandigarh'): {'api_sheet': 309,
+                              'google_sheet': 303},
+ ('6/5/2020', 'Chhattisgarh'): {'api_sheet': 863,
+                                'google_sheet': 920},
+ ('6/5/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 14,
+                                          'google_sheet': 17},
+ ('6/5/2020', 'Delhi'): {'api_sheet': 26334,
+                         'google_sheet': 26363},
+ ('6/5/2020', 'Goa'): {'api_sheet': 196,
+                       'google_sheet': 206},
+ ('6/5/2020', 'Gujarat'): {'api_sheet': 19119,
+                           'google_sheet': 19101},
+ ('6/5/2020', 'Haryana'): {'api_sheet': 3597,
+                           'google_sheet': 3608},
+ ('6/5/2020', 'Himachal Pradesh'): {'api_sheet': 393,
+                                    'google_sheet': 407},
+ ('6/5/2020', 'Jammu and Kashmir'): {'api_sheet': 3324,
+                                     'google_sheet': 3427},
+ ('6/5/2020', 'Jharkhand'): {'api_sheet': 922,
+                             'google_sheet': 890},
+ ('6/5/2020', 'Karnataka'): {'api_sheet': 4835,
+                             'google_sheet': 4577},
+ ('6/5/2020', 'Ladakh'): {'api_sheet': 97,
+                          'google_sheet': 98},
+ ('6/5/2020', 'Madhya Pradesh'): {'api_sheet': 8996,
+                                  'google_sheet': 8936},
+ ('6/5/2020', 'Manipur'): {'api_sheet': 132,
+                           'google_sheet': 140},
+ ('6/5/2020', 'Mizoram'): {'api_sheet': 24,
+                           'google_sheet': 20},
+ ('6/5/2020', 'Nagaland'): {'api_sheet': 107,
+                            'google_sheet': 102},
+ ('6/5/2020', 'Odisha'): {'api_sheet': 2608,
+                          'google_sheet': 2568},
+ ('6/5/2020', 'Puducherry'): {'api_sheet': 104,
+                              'google_sheet': 108},
+ ('6/5/2020', 'Punjab'): {'api_sheet': 2461,
+                          'google_sheet': 2454},
+ ('6/5/2020', 'Rajasthan'): {'api_sheet': 10084,
+                             'google_sheet': 10072},
+ ('6/5/2020', 'Sikkim'): {'api_sheet': 3,
+                          'google_sheet': 2},
+ ('6/5/2020', 'Tamil Nadu'): {'api_sheet': 28694,
+                              'google_sheet': 28640},
+ ('6/5/2020', 'Telangana'): {'api_sheet': 3290,
+                             'google_sheet': 3274},
+ ('6/5/2020', 'Tripura'): {'api_sheet': 694,
+                           'google_sheet': 670},
+ ('6/5/2020', 'Unassigned State'): {'api_sheet': 7610,
+                                    'google_sheet': 7843},
+ ('6/5/2020', 'Uttar Pradesh'): {'api_sheet': 9733,
+                                 'google_sheet': 9604},
+ ('6/5/2020', 'Uttarakhand'): {'api_sheet': 1215,
+                               'google_sheet': 1221},
+ ('6/5/2020', 'West Bengal'): {'api_sheet': 7303,
+                               'google_sheet': 7244},
+ ('6/6/2020', 'Arunachal Pradesh'): {'api_sheet': 45,
+                                     'google_sheet': 48},
+ ('6/6/2020', 'Tamil Nadu'): {'api_sheet': 30152,
+                              'google_sheet': 30172},
+ ('6/7/2020', 'Arunachal Pradesh'): {'api_sheet': 48,
+                                     'google_sheet': 50},
+ ('6/7/2020', 'Chandigarh'): {'api_sheet': 314,
+                              'google_sheet': 315},
+ ('6/7/2020', 'Nagaland'): {'api_sheet': 116,
+                            'google_sheet': 118},
+ ('6/8/2020', 'Arunachal Pradesh'): {'api_sheet': 54,
+                                     'google_sheet': 57},
+ ('6/9/2020', 'Andaman and Nicobar Islands'): {'api_sheet': 34,
+                                               'google_sheet': 33},
+ ('6/9/2020', 'Andhra Pradesh'): {'api_sheet': 4882,
+                                  'google_sheet': 5029},
+ ('6/9/2020', 'Arunachal Pradesh'): {'api_sheet': 54,
+                                     'google_sheet': 57},
+ ('6/9/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 24,
+                                          'google_sheet': 22},
+ ('6/9/2020', 'Delhi'): {'api_sheet': 31309,
+                         'google_sheet': 29943},
+ ('7/1/2020', 'Sikkim'): {'api_sheet': 89,
+                          'google_sheet': 88},
+ ('7/11/2020', 'Andaman and Nicobar Islands'): {'api_sheet': 156,
+                                                'google_sheet': 163},
+ ('7/11/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 486,
+                                           'google_sheet': 484},
+ ('7/11/2020', 'Mizoram'): {'api_sheet': 227,
+                            'google_sheet': 228},
+ ('7/11/2020', 'Puducherry'): {'api_sheet': 1339,
+                               'google_sheet': 1338},
+ ('7/3/2020', 'Bihar'): {'api_sheet': 11108,
+                         'google_sheet': 11111},
+ ('7/5/2020', 'Himachal Pradesh'): {'api_sheet': 1063,
+                                    'google_sheet': 1066},
+ ('7/5/2020', 'Nagaland'): {'api_sheet': 590,
+                            'google_sheet': 578},
+ ('7/5/2020', 'Tripura'): {'api_sheet': 1581,
+                           'google_sheet': 1580},
+ ('7/7/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 429,
+                                          'google_sheet': 417},
+ ('7/8/2020', 'Puducherry'): {'api_sheet': 1153,
+                              'google_sheet': 1151}}
+#################################################################
+
+#################################################################
+	Recovered changes
+#################################################################
+{('5/31/2020', 'Himachal Pradesh'): {'api_sheet': 117,
+                                     'google_sheet': 110},
+ ('6/1/2020', 'Karnataka'): {'api_sheet': 1318,
+                             'google_sheet': 1328},
+ ('6/10/2020', 'Chhattisgarh'): {'api_sheet': 351,
+                                 'google_sheet': 402},
+ ('6/12/2020', 'Ladakh'): {'api_sheet': 58,
+                           'google_sheet': 62},
+ ('6/12/2020', 'Nagaland'): {'api_sheet': 57,
+                             'google_sheet': 49},
+ ('6/13/2020', 'Himachal Pradesh'): {'api_sheet': 310,
+                                     'google_sheet': 309},
+ ('6/14/2020', 'Chhattisgarh'): {'api_sheet': 719,
+                                 'google_sheet': 717},
+ ('6/14/2020', 'Nagaland'): {'api_sheet': 88,
+                             'google_sheet': 96},
+ ('6/15/2020', 'Chhattisgarh'): {'api_sheet': 843,
+                                 'google_sheet': 835},
+ ('6/15/2020', 'Karnataka'): {'api_sheet': 4134,
+                              'google_sheet': 4140},
+ ('6/16/2020', 'Chandigarh'): {'api_sheet': 302,
+                               'google_sheet': 301},
+ ('6/16/2020', 'Sikkim'): {'api_sheet': 5,
+                           'google_sheet': 8},
+ ('6/17/2020', 'West Bengal'): {'api_sheet': 6533,
+                                'google_sheet': 6532},
+ ('6/18/2020', 'Karnataka'): {'api_sheet': 4980,
+                              'google_sheet': 4983},
+ ('6/18/2020', 'Sikkim'): {'api_sheet': 6,
+                           'google_sheet': 5},
+ ('6/2/2020', 'Karnataka'): {'api_sheet': 1393,
+                             'google_sheet': 1403},
+ ('6/20/2020', 'Karnataka'): {'api_sheet': 5393,
+                              'google_sheet': 5391},
+ ('6/21/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 27,
+                                           'google_sheet': 26},
+ ('6/21/2020', 'Karnataka'): {'api_sheet': 5619,
+                              'google_sheet': 5618},
+ ('6/21/2020', 'Sikkim'): {'api_sheet': 26,
+                           'google_sheet': 22},
+ ('6/28/2020', 'Uttarakhand'): {'api_sheet': 2018,
+                                'google_sheet': 2015},
+ ('6/29/2020', 'Uttarakhand'): {'api_sheet': 2111,
+                                'google_sheet': 2108},
+ ('6/3/2020', 'Karnataka'): {'api_sheet': 1504,
+                             'google_sheet': 1514},
+ ('6/3/2020', 'Puducherry'): {'api_sheet': 33,
+                              'google_sheet': 30},
+ ('6/4/2020', 'Puducherry'): {'api_sheet': 37,
+                              'google_sheet': 33},
+ ('6/5/2020', 'Andhra Pradesh'): {'api_sheet': 2565,
+                                  'google_sheet': 2594},
+ ('6/5/2020', 'Assam'): {'api_sheet': 510,
+                         'google_sheet': 506},
+ ('6/5/2020', 'Bihar'): {'api_sheet': 2233,
+                         'google_sheet': 2215},
+ ('6/5/2020', 'Chandigarh'): {'api_sheet': 273,
+                              'google_sheet': 230},
+ ('6/5/2020', 'Chhattisgarh'): {'api_sheet': 231,
+                                'google_sheet': 242},
+ ('6/5/2020', 'Delhi'): {'api_sheet': 10315,
+                         'google_sheet': 10254},
+ ('6/5/2020', 'Goa'): {'api_sheet': 65,
+                       'google_sheet': 57},
+ ('6/5/2020', 'Gujarat'): {'api_sheet': 13011,
+                           'google_sheet': 13122},
+ ('6/5/2020', 'Haryana'): {'api_sheet': 1208,
+                           'google_sheet': 1156},
+ ('6/5/2020', 'Himachal Pradesh'): {'api_sheet': 186,
+                                    'google_sheet': 205},
+ ('6/5/2020', 'Jammu and Kashmir'): {'api_sheet': 1086,
+                                     'google_sheet': 1089},
+ ('6/5/2020', 'Karnataka'): {'api_sheet': 1693,
+                             'google_sheet': 1716},
+ ('6/5/2020', 'Madhya Pradesh'): {'api_sheet': 5878,
+                                  'google_sheet': 5829},
+ ('6/5/2020', 'Odisha'): {'api_sheet': 1604,
+                          'google_sheet': 1546},
+ ('6/5/2020', 'Puducherry'): {'api_sheet': 43,
+                              'google_sheet': 41},
+ ('6/5/2020', 'Punjab'): {'api_sheet': 2069,
+                          'google_sheet': 2057},
+ ('6/5/2020', 'Rajasthan'): {'api_sheet': 7359,
+                             'google_sheet': 7464},
+ ('6/5/2020', 'Tamil Nadu'): {'api_sheet': 15762,
+                              'google_sheet': 15486},
+ ('6/5/2020', 'Telangana'): {'api_sheet': 1627,
+                             'google_sheet': 1618},
+ ('6/5/2020', 'Uttar Pradesh'): {'api_sheet': 5648,
+                                 'google_sheet': 5621},
+ ('6/5/2020', 'Uttarakhand'): {'api_sheet': 344,
+                               'google_sheet': 335},
+ ('6/5/2020', 'West Bengal'): {'api_sheet': 2912,
+                               'google_sheet': 2956},
+ ('6/6/2020', 'Assam'): {'api_sheet': 589,
+                         'google_sheet': 627},
+ ('6/7/2020', 'Chandigarh'): {'api_sheet': 274,
+                              'google_sheet': 273},
+ ('6/7/2020', 'Himachal Pradesh'): {'api_sheet': 219,
+                                    'google_sheet': 220},
+ ('6/8/2020', 'Andhra Pradesh'): {'api_sheet': 2711,
+                                  'google_sheet': 2720},
+ ('6/8/2020', 'Karnataka'): {'api_sheet': 2441,
+                             'google_sheet': 2519},
+ ('6/8/2020', 'Telangana'): {'api_sheet': 1742,
+                             'google_sheet': 2135},
+ ('6/9/2020', 'Andhra Pradesh'): {'api_sheet': 2759,
+                                  'google_sheet': 2775},
+ ('6/9/2020', 'Assam'): {'api_sheet': 1097,
+                         'google_sheet': 1098},
+ ('6/9/2020', 'Delhi'): {'api_sheet': 11861,
+                         'google_sheet': 11357},
+ ('7/1/2020', 'Andaman and Nicobar Islands'): {'api_sheet': 50,
+                                               'google_sheet': 45},
+ ('7/1/2020', 'Sikkim'): {'api_sheet': 53,
+                          'google_sheet': 51},
+ ('7/10/2020', 'Andaman and Nicobar Islands'): {'api_sheet': 92,
+                                                'google_sheet': 83},
+ ('7/10/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 225,
+                                           'google_sheet': 224},
+ ('7/11/2020', 'Andaman and Nicobar Islands'): {'api_sheet': 92,
+                                                'google_sheet': 93},
+ ('7/5/2020', 'Nagaland'): {'api_sheet': 231,
+                            'google_sheet': 228},
+ ('7/6/2020', 'Assam'): {'api_sheet': 7942,
+                         'google_sheet': 7883},
+ ('7/7/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 185,
+                                          'google_sheet': 183},
+ ('7/7/2020', 'Sikkim'): {'api_sheet': 66,
+                          'google_sheet': 81},
+ ('7/9/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 206,
+                                          'google_sheet': 205}}
+#################################################################
+
+#################################################################
+	Death changes
+#################################################################
+{('5/31/2020', 'Rajasthan'): {'api_sheet': 194,
+                              'google_sheet': 195},
+ ('6/10/2020', 'Assam'): {'api_sheet': 5,
+                          'google_sheet': 4},
+ ('6/14/2020', 'Chhattisgarh'): {'api_sheet': 9,
+                                 'google_sheet': 6},
+ ('6/19/2020', 'Karnataka'): {'api_sheet': 125,
+                              'google_sheet': 126},
+ ('6/2/2020', 'Chhattisgarh'): {'api_sheet': 2,
+                                'google_sheet': 1},
+ ('6/3/2020', 'Chhattisgarh'): {'api_sheet': 2,
+                                'google_sheet': 1},
+ ('6/5/2020', 'Andhra Pradesh'): {'api_sheet': 73,
+                                  'google_sheet': 74},
+ ('6/5/2020', 'Bihar'): {'api_sheet': 29,
+                         'google_sheet': 31},
+ ('6/5/2020', 'Delhi'): {'api_sheet': 708,
+                         'google_sheet': 703},
+ ('6/5/2020', 'Gujarat'): {'api_sheet': 1190,
+                           'google_sheet': 1188},
+ ('6/5/2020', 'Haryana'): {'api_sheet': 24,
+                           'google_sheet': 25},
+ ('6/5/2020', 'Karnataka'): {'api_sheet': 57,
+                             'google_sheet': 61},
+ ('6/5/2020', 'Madhya Pradesh'): {'api_sheet': 385,
+                                  'google_sheet': 384},
+ ('6/5/2020', 'Odisha'): {'api_sheet': 10,
+                          'google_sheet': 9},
+ ('6/5/2020', 'Punjab'): {'api_sheet': 48,
+                          'google_sheet': 47},
+ ('6/5/2020', 'Rajasthan'): {'api_sheet': 218,
+                             'google_sheet': 217},
+ ('6/5/2020', 'Tamil Nadu'): {'api_sheet': 235,
+                              'google_sheet': 238},
+ ('6/5/2020', 'Telangana'): {'api_sheet': 113,
+                             'google_sheet': 111},
+ ('6/5/2020', 'Uttar Pradesh'): {'api_sheet': 257,
+                                 'google_sheet': 260},
+ ('6/5/2020', 'Uttarakhand'): {'api_sheet': 11,
+                               'google_sheet': 12},
+ ('6/5/2020', 'West Bengal'): {'api_sheet': 366,
+                               'google_sheet': 365},
+ ('6/9/2020', 'Delhi'): {'api_sheet': 905,
+                         'google_sheet': 874},
+ ('7/4/2020', 'Himachal Pradesh'): {'api_sheet': 10,
+                                    'google_sheet': 9},
+ ('7/5/2020', 'Jharkhand'): {'api_sheet': 19,
+                             'google_sheet': 18},
+ ('7/7/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 1,
+                                          'google_sheet': 0},
+ ('7/7/2020', 'Meghalaya'): {'api_sheet': 1,
+                             'google_sheet': 2},
+ ('7/8/2020', 'Meghalaya'): {'api_sheet': 2,
+                             'google_sheet': 1},
+ ('7/9/2020', 'Meghalaya'): {'api_sheet': 2,
+                             'google_sheet': 1}}
+#################################################################
+
+Confirmed Google Sheet will be updated till 07/12/2020
+Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED
+Recovery Google Sheet will be updated till 07/12/2020
+Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_RECOVERY
+Wait for 100s: 0Wait for 100s: 1Wait for 100s: 2Wait for 100s: 3Wait for 100s: 4Wait for 100s: 5Wait for 100s: 6Wait for 100s: 7Wait for 100s: 8Wait for 100s: 9Wait for 100s: 10Wait for 100s: 11Wait for 100s: 12Wait for 100s: 13Wait for 100s: 14Wait for 100s: 15Wait for 100s: 16Wait for 100s: 17Wait for 100s: 18Wait for 100s: 19Wait for 100s: 20Wait for 100s: 21Wait for 100s: 22Wait for 100s: 23Wait for 100s: 24Wait for 100s: 25Wait for 100s: 26Wait for 100s: 27Wait for 100s: 28Wait for 100s: 29Wait for 100s: 30Wait for 100s: 31Wait for 100s: 32Wait for 100s: 33Wait for 100s: 34Wait for 100s: 35Wait for 100s: 36Wait for 100s: 37Wait for 100s: 38Wait for 100s: 39Wait for 100s: 40Wait for 100s: 41Wait for 100s: 42Wait for 100s: 43Wait for 100s: 44Wait for 100s: 45Wait for 100s: 46Wait for 100s: 47Wait for 100s: 48Wait for 100s: 49Wait for 100s: 50Wait for 100s: 51Wait for 100s: 52Wait for 100s: 53Wait for 100s: 54Wait for 100s: 55Wait for 100s: 56Wait for 100s: 57Wait for 100s: 58Wait for 100s: 59Wait for 100s: 60Wait for 100s: 61Wait for 100s: 62Wait for 100s: 63Wait for 100s: 64Wait for 100s: 65Wait for 100s: 66Wait for 100s: 67Wait for 100s: 68Wait for 100s: 69Wait for 100s: 70Wait for 100s: 71Wait for 100s: 72Wait for 100s: 73Wait for 100s: 74Wait for 100s: 75Wait for 100s: 76Wait for 100s: 77Wait for 100s: 78Wait for 100s: 79Wait for 100s: 80Wait for 100s: 81Wait for 100s: 82Wait for 100s: 83Wait for 100s: 84Wait for 100s: 85Wait for 100s: 86Wait for 100s: 87Wait for 100s: 88Wait for 100s: 89Wait for 100s: 90Wait for 100s: 91Wait for 100s: 92Wait for 100s: 93Wait for 100s: 94Wait for 100s: 95Wait for 100s: 96Wait for 100s: 97Wait for 100s: 98Wait for 100s: 99Deceased Google Sheet will be updated till 07/12/2020
+Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_DEATH
+All google sheets are saved
