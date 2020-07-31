@@ -474,6 +474,14 @@
                                'google_sheet': 1721},
  ('7/27/2020', 'Rajasthan'): {'api_sheet': 26834,
                               'google_sheet': 26934},
+ ('7/30/2020', 'Unassigned State'): {'api_sheet': 0,
+                                     'google_sheet': ''},
+ ('7/30/2020', 'Uttar Pradesh'): {'api_sheet': 46803,
+                                  'google_sheet': ''},
+ ('7/30/2020', 'Uttarakhand'): {'api_sheet': 3996,
+                                'google_sheet': ''},
+ ('7/30/2020', 'West Bengal'): {'api_sheet': 46256,
+                                'google_sheet': ''},
  ('7/5/2020', 'Nagaland'): {'api_sheet': 231,
                             'google_sheet': 228},
  ('7/6/2020', 'Assam'): {'api_sheet': 7942,
@@ -563,6 +571,9 @@
                              'google_sheet': 1}}
 #################################################################
 
-Confirmed Google Sheet will be updated till 07/30/2020
-Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED
-Recovery Google Sheet will be updated till 07/30/2020
+No update Required for COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED
+Dates are up-to-date but all fields are not filled... filling that up
+Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_RECOVERY
+Deceased Google Sheet will be updated till 07/30/2020
+Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_DEATH
+All google sheets are saved
