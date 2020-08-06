@@ -489,7 +489,23 @@
  ('7/9/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 206,
                                           'google_sheet': 205},
  ('8/1/2020', 'Tripura'): {'api_sheet': 3463,
-                           'google_sheet': 3327}}
+                           'google_sheet': 3327},
+ ('8/5/2020', 'Sikkim'): {'api_sheet': 304,
+                          'google_sheet': ''},
+ ('8/5/2020', 'Tamil Nadu'): {'api_sheet': 214815,
+                              'google_sheet': ''},
+ ('8/5/2020', 'Telangana'): {'api_sheet': 50814,
+                             'google_sheet': ''},
+ ('8/5/2020', 'Tripura'): {'api_sheet': 3725,
+                           'google_sheet': ''},
+ ('8/5/2020', 'Unassigned State'): {'api_sheet': 0,
+                                    'google_sheet': ''},
+ ('8/5/2020', 'Uttar Pradesh'): {'api_sheet': 60558,
+                                 'google_sheet': ''},
+ ('8/5/2020', 'Uttarakhand'): {'api_sheet': 5233,
+                               'google_sheet': ''},
+ ('8/5/2020', 'West Bengal'): {'api_sheet': 58962,
+                               'google_sheet': ''}}
 #################################################################
 
 #################################################################
@@ -573,6 +589,9 @@
                            'google_sheet': 21}}
 #################################################################
 
-Confirmed Google Sheet will be updated till 08/05/2020
-Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED
-Recovery Google Sheet will be updated till 08/05/2020
+No update Required for COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED
+Dates are up-to-date but all fields are not filled... filling that up
+Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_RECOVERY
+Deceased Google Sheet will be updated till 08/05/2020
+Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_DEATH
+All google sheets are saved
