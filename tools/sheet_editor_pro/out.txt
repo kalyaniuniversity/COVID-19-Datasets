@@ -573,7 +573,6 @@
                            'google_sheet': 21}}
 #################################################################
 
-No update Required for COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED
-No update Required for COVID19_INDIA_STATEWISE_TIME_SERIES_RECOVERY
-No update Required for COVID19_INDIA_STATEWISE_TIME_SERIES_DEATH
-All google sheets are saved
+Confirmed Google Sheet will be updated till 08/05/2020
+Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED
+Recovery Google Sheet will be updated till 08/05/2020
