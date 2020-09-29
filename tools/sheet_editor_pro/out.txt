@@ -439,6 +439,30 @@
                           'google_sheet': 260623},
  ('9/25/2020', 'Sikkim'): {'api_sheet': 2717,
                            'google_sheet': 2720},
+ ('9/26/2020', 'Goa'): {'api_sheet': 31574,
+                        'google_sheet': 31071},
+ ('9/27/2020', 'Andaman and Nicobar Islands'): {'api_sheet': 3790,
+                                                'google_sheet': 3770},
+ ('9/27/2020', 'Assam'): {'api_sheet': 169883,
+                          'google_sheet': 169008},
+ ('9/27/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 3002,
+                                           'google_sheet': 2999},
+ ('9/27/2020', 'Delhi'): {'api_sheet': 271114,
+                          'google_sheet': 267822},
+ ('9/27/2020', 'Goa'): {'api_sheet': 31958,
+                        'google_sheet': 31071},
+ ('9/27/2020', 'Himachal Pradesh'): {'api_sheet': 14191,
+                                     'google_sheet': 13996},
+ ('9/27/2020', 'Ladakh'): {'api_sheet': 4103,
+                           'google_sheet': 4093},
+ ('9/27/2020', 'Manipur'): {'api_sheet': 10299,
+                            'google_sheet': 10051},
+ ('9/27/2020', 'Meghalaya'): {'api_sheet': 5302,
+                              'google_sheet': 5212},
+ ('9/27/2020', 'Nagaland'): {'api_sheet': 5946,
+                             'google_sheet': 5862},
+ ('9/27/2020', 'Sikkim'): {'api_sheet': 2803,
+                           'google_sheet': 2765},
  ('9/3/2020', 'Puducherry'): {'api_sheet': 15583,
                               'google_sheet': 15152},
  ('9/4/2020', 'Arunachal Pradesh'): {'api_sheet': 4775,
@@ -730,6 +754,30 @@
                           'google_sheet': 224375},
  ('9/25/2020', 'Himachal Pradesh'): {'api_sheet': 9529,
                                      'google_sheet': 9527},
+ ('9/27/2020', 'Andaman and Nicobar Islands'): {'api_sheet': 3544,
+                                                'google_sheet': 3542},
+ ('9/27/2020', 'Assam'): {'api_sheet': 139977,
+                          'google_sheet': 138307},
+ ('9/27/2020', 'Dadra and Nagar Haveli'): {'api_sheet': 2799,
+                                           'google_sheet': 2787},
+ ('9/27/2020', 'Delhi'): {'api_sheet': 236651,
+                          'google_sheet': 232912},
+ ('9/27/2020', 'Goa'): {'api_sheet': 26460,
+                        'google_sheet': 25759},
+ ('9/27/2020', 'Himachal Pradesh'): {'api_sheet': 10340,
+                                     'google_sheet': 9711},
+ ('9/27/2020', 'Ladakh'): {'api_sheet': 3032,
+                           'google_sheet': 3018},
+ ('9/27/2020', 'Manipur'): {'api_sheet': 7876,
+                            'google_sheet': 7681},
+ ('9/27/2020', 'Meghalaya'): {'api_sheet': 3779,
+                              'google_sheet': 3654},
+ ('9/27/2020', 'Mizoram'): {'api_sheet': 1368,
+                            'google_sheet': 1316},
+ ('9/27/2020', 'Nagaland'): {'api_sheet': 4848,
+                             'google_sheet': 4782},
+ ('9/27/2020', 'Sikkim'): {'api_sheet': 2066,
+                           'google_sheet': 2017},
  ('9/3/2020', 'Puducherry'): {'api_sheet': 10279,
                               'google_sheet': 9968},
  ('9/5/2020', 'Goa'): {'api_sheet': 15281,
@@ -919,6 +967,20 @@
                                      'google_sheet': 118},
  ('9/25/2020', 'Delhi'): {'api_sheet': 5147,
                           'google_sheet': 5123},
+ ('9/27/2020', 'Andaman and Nicobar Islands'): {'api_sheet': 53,
+                                                'google_sheet': 52},
+ ('9/27/2020', 'Assam'): {'api_sheet': 659,
+                          'google_sheet': 642},
+ ('9/27/2020', 'Delhi'): {'api_sheet': 5235,
+                          'google_sheet': 5193},
+ ('9/27/2020', 'Goa'): {'api_sheet': 401,
+                        'google_sheet': 391},
+ ('9/27/2020', 'Himachal Pradesh'): {'api_sheet': 170,
+                                     'google_sheet': 159},
+ ('9/27/2020', 'Ladakh'): {'api_sheet': 58,
+                           'google_sheet': 57},
+ ('9/27/2020', 'Sikkim'): {'api_sheet': 33,
+                           'google_sheet': 31},
  ('9/3/2020', 'Karnataka'): {'api_sheet': 5709,
                              'google_sheet': 6061},
  ('9/3/2020', 'Puducherry'): {'api_sheet': 260,
@@ -949,10 +1011,10 @@
                               'google_sheet': 8093}}
 #################################################################
 
-Confirmed Google Sheet will be updated till 09/27/2020
+Confirmed Google Sheet will be updated till 09/28/2020
 Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED
-Recovery Google Sheet will be updated till 09/27/2020
+Recovery Google Sheet will be updated till 09/28/2020
 Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_RECOVERY
-Wait for 100s: 0Wait for 100s: 1Wait for 100s: 2Wait for 100s: 3Wait for 100s: 4Wait for 100s: 5Wait for 100s: 6Wait for 100s: 7Wait for 100s: 8Wait for 100s: 9Wait for 100s: 10Wait for 100s: 11Wait for 100s: 12Wait for 100s: 13Wait for 100s: 14Wait for 100s: 15Wait for 100s: 16Wait for 100s: 17Wait for 100s: 18Wait for 100s: 19Wait for 100s: 20Wait for 100s: 21Wait for 100s: 22Wait for 100s: 23Wait for 100s: 24Wait for 100s: 25Wait for 100s: 26Wait for 100s: 27Wait for 100s: 28Wait for 100s: 29Wait for 100s: 30Wait for 100s: 31Wait for 100s: 32Wait for 100s: 33Wait for 100s: 34Wait for 100s: 35Wait for 100s: 36Wait for 100s: 37Wait for 100s: 38Wait for 100s: 39Wait for 100s: 40Wait for 100s: 41Wait for 100s: 42Wait for 100s: 43Wait for 100s: 44Wait for 100s: 45Wait for 100s: 46Wait for 100s: 47Wait for 100s: 48Wait for 100s: 49Wait for 100s: 50Wait for 100s: 51Wait for 100s: 52Wait for 100s: 53Wait for 100s: 54Wait for 100s: 55Wait for 100s: 56Wait for 100s: 57Wait for 100s: 58Wait for 100s: 59Wait for 100s: 60Wait for 100s: 61Wait for 100s: 62Wait for 100s: 63Wait for 100s: 64Wait for 100s: 65Wait for 100s: 66Wait for 100s: 67Wait for 100s: 68Wait for 100s: 69Wait for 100s: 70Wait for 100s: 71Wait for 100s: 72Wait for 100s: 73Wait for 100s: 74Wait for 100s: 75Wait for 100s: 76Wait for 100s: 77Wait for 100s: 78Wait for 100s: 79Wait for 100s: 80Wait for 100s: 81Wait for 100s: 82Wait for 100s: 83Wait for 100s: 84Wait for 100s: 85Wait for 100s: 86Wait for 100s: 87Wait for 100s: 88Wait for 100s: 89Wait for 100s: 90Wait for 100s: 91Wait for 100s: 92Wait for 100s: 93Wait for 100s: 94Wait for 100s: 95Wait for 100s: 96Wait for 100s: 97Wait for 100s: 98Wait for 100s: 99Deceased Google Sheet will be updated till 09/27/2020
+Wait for 100s: 0Wait for 100s: 1Wait for 100s: 2Wait for 100s: 3Wait for 100s: 4Wait for 100s: 5Wait for 100s: 6Wait for 100s: 7Wait for 100s: 8Wait for 100s: 9Wait for 100s: 10Wait for 100s: 11Wait for 100s: 12Wait for 100s: 13Wait for 100s: 14Wait for 100s: 15Wait for 100s: 16Wait for 100s: 17Wait for 100s: 18Wait for 100s: 19Wait for 100s: 20Wait for 100s: 21Wait for 100s: 22Wait for 100s: 23Wait for 100s: 24Wait for 100s: 25Wait for 100s: 26Wait for 100s: 27Wait for 100s: 28Wait for 100s: 29Wait for 100s: 30Wait for 100s: 31Wait for 100s: 32Wait for 100s: 33Wait for 100s: 34Wait for 100s: 35Wait for 100s: 36Wait for 100s: 37Wait for 100s: 38Wait for 100s: 39Wait for 100s: 40Wait for 100s: 41Wait for 100s: 42Wait for 100s: 43Wait for 100s: 44Wait for 100s: 45Wait for 100s: 46Wait for 100s: 47Wait for 100s: 48Wait for 100s: 49Wait for 100s: 50Wait for 100s: 51Wait for 100s: 52Wait for 100s: 53Wait for 100s: 54Wait for 100s: 55Wait for 100s: 56Wait for 100s: 57Wait for 100s: 58Wait for 100s: 59Wait for 100s: 60Wait for 100s: 61Wait for 100s: 62Wait for 100s: 63Wait for 100s: 64Wait for 100s: 65Wait for 100s: 66Wait for 100s: 67Wait for 100s: 68Wait for 100s: 69Wait for 100s: 70Wait for 100s: 71Wait for 100s: 72Wait for 100s: 73Wait for 100s: 74Wait for 100s: 75Wait for 100s: 76Wait for 100s: 77Wait for 100s: 78Wait for 100s: 79Wait for 100s: 80Wait for 100s: 81Wait for 100s: 82Wait for 100s: 83Wait for 100s: 84Wait for 100s: 85Wait for 100s: 86Wait for 100s: 87Wait for 100s: 88Wait for 100s: 89Wait for 100s: 90Wait for 100s: 91Wait for 100s: 92Wait for 100s: 93Wait for 100s: 94Wait for 100s: 95Wait for 100s: 96Wait for 100s: 97Wait for 100s: 98Wait for 100s: 99Deceased Google Sheet will be updated till 09/28/2020
 Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_DEATH
 All google sheets are saved
