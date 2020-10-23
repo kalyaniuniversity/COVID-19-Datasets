@@ -90,13 +90,14 @@ def checker(api_list, sheet_list):
                 date = '{d.month}/{d.day}/{d.year}'.format(
                     d=datetime.strptime(j, "%d-%b-%y"))
                 # date=datetime.strftime(datetime.strptime(j,"%d-%b-%y"),'%m/%d/%Y')
-                if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Kerala'):
-                    if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Maharashtra'):
-                        if x.loc[i, j] != y[y['CODE'] == i][date].values[0]:
-                            flag = 1
-                            error = True
-                            change_dict[(date, y[y['CODE'] == i]['STATE/UT'].values[0])] = {'api_sheet': x.loc[i, j],
-                                                                                            'google_sheet': y[y['CODE'] == i][date].values[0]}
+                if i in list(y['CODE']):
+                    if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Kerala'):
+                        if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Maharashtra'):
+                            if x.loc[i, j] != y[y['CODE'] == i][date].values[0]:
+                                flag = 1
+                                error = True
+                                change_dict[(date, y[y['CODE'] == i]['STATE/UT'].values[0])] = {'api_sheet': x.loc[i, j],
+                                                                                                'google_sheet': y[y['CODE'] == i][date].values[0]}
         if flag == 1:
             print('#################################################################')
             print(f'\t{tag[k]} changes')
