@@ -911,34 +911,98 @@
 #################################################################
 	Death changes
 #################################################################
-{('10/1/2020', 'Ladakh'): {'api_sheet': 61,
+{('10/1/2020', 'Karnataka'): {'api_sheet': 9001,
+                              'google_sheet': 8405},
+ ('10/1/2020', 'Ladakh'): {'api_sheet': 61,
                            'google_sheet': 58},
+ ('10/10/2020', 'Karnataka'): {'api_sheet': 9898,
+                               'google_sheet': 9302},
+ ('10/11/2020', 'Karnataka'): {'api_sheet': 9973,
+                               'google_sheet': 9377},
+ ('10/12/2020', 'Karnataka'): {'api_sheet': 10043,
+                               'google_sheet': 9447},
  ('10/13/2020', 'Arunachal Pradesh'): {'api_sheet': 28,
                                        'google_sheet': 24},
+ ('10/13/2020', 'Karnataka'): {'api_sheet': 10130,
+                               'google_sheet': 9534},
+ ('10/14/2020', 'Karnataka'): {'api_sheet': 10205,
+                               'google_sheet': 9609},
+ ('10/15/2020', 'Karnataka'): {'api_sheet': 10290,
+                               'google_sheet': 9694},
+ ('10/16/2020', 'Karnataka'): {'api_sheet': 10363,
+                               'google_sheet': 9767},
+ ('10/17/2020', 'Karnataka'): {'api_sheet': 10434,
+                               'google_sheet': 9838},
  ('10/17/2020', 'Ladakh'): {'api_sheet': 66,
                             'google_sheet': 65},
+ ('10/18/2020', 'Karnataka'): {'api_sheet': 10485,
+                               'google_sheet': 9889},
+ ('10/19/2020', 'Karnataka'): {'api_sheet': 10549,
+                               'google_sheet': 9953},
+ ('10/2/2020', 'Karnataka'): {'api_sheet': 9126,
+                              'google_sheet': 8530},
+ ('10/20/2020', 'Karnataka'): {'api_sheet': 10615,
+                               'google_sheet': 10019},
+ ('10/21/2020', 'Karnataka'): {'api_sheet': 10703,
+                               'google_sheet': 10107},
+ ('10/22/2020', 'Karnataka'): {'api_sheet': 10777,
+                               'google_sheet': 10181},
  ('10/22/2020', 'Meghalaya'): {'api_sheet': 78,
                                'google_sheet': 77},
+ ('10/23/2020', 'Karnataka'): {'api_sheet': 10828,
+                               'google_sheet': 10232},
+ ('10/24/2020', 'Karnataka'): {'api_sheet': 10880,
+                               'google_sheet': 10284},
+ ('10/25/2020', 'Karnataka'): {'api_sheet': 10912,
+                               'google_sheet': 10316},
  ('10/25/2020', 'Nagaland'): {'api_sheet': 25,
                               'google_sheet': 24},
  ('10/25/2020', 'Uttarakhand'): {'api_sheet': 993,
                                  'google_sheet': 984},
+ ('10/26/2020', 'Karnataka'): {'api_sheet': 10954,
+                               'google_sheet': 10358},
  ('10/26/2020', 'Nagaland'): {'api_sheet': 27,
                               'google_sheet': 25},
+ ('10/27/2020', 'Karnataka'): {'api_sheet': 10998,
+                               'google_sheet': 10402},
  ('10/27/2020', 'Nagaland'): {'api_sheet': 27,
                               'google_sheet': 33},
+ ('10/28/2020', 'Karnataka'): {'api_sheet': 11053,
+                               'google_sheet': 10457},
  ('10/28/2020', 'Ladakh'): {'api_sheet': 74,
                             'google_sheet': 73},
+ ('10/29/2020', 'Karnataka'): {'api_sheet': 11098,
+                               'google_sheet': 10502},
  ('10/29/2020', 'Ladakh'): {'api_sheet': 74,
                             'google_sheet': 73},
+ ('10/3/2020', 'Karnataka'): {'api_sheet': 9226,
+                              'google_sheet': 8630},
+ ('10/30/2020', 'Karnataka'): {'api_sheet': 11147,
+                               'google_sheet': 10551},
  ('10/30/2020', 'Ladakh'): {'api_sheet': 74,
                             'google_sheet': 73},
  ('10/31/2020', 'Haryana'): {'api_sheet': 1789,
                              'google_sheet': 1787},
+ ('10/31/2020', 'Karnataka'): {'api_sheet': 11175,
+                               'google_sheet': 10579},
  ('10/4/2020', 'Chhattisgarh'): {'api_sheet': 1045,
                                  'google_sheet': 1044},
+ ('10/4/2020', 'Karnataka'): {'api_sheet': 9293,
+                              'google_sheet': 8697},
  ('10/5/2020', 'Arunachal Pradesh'): {'api_sheet': 19,
                                       'google_sheet': 18},
+ ('10/5/2020', 'Karnataka'): {'api_sheet': 9377,
+                              'google_sheet': 8781},
+ ('10/6/2020', 'Karnataka'): {'api_sheet': 9468,
+                              'google_sheet': 8872},
+ ('10/7/2020', 'Karnataka'): {'api_sheet': 9581,
+                              'google_sheet': 8985},
+ ('10/8/2020', 'Karnataka'): {'api_sheet': 9682,
+                              'google_sheet': 9086},
+ ('10/9/2020', 'Karnataka'): {'api_sheet': 9796,
+                              'google_sheet': 9200},
+ ('11/1/2020', 'Karnataka'): {'api_sheet': 11199,
+                              'google_sheet': 10603},
  ('5/31/2020', 'Rajasthan'): {'api_sheet': 194,
                               'google_sheet': 195},
  ('6/10/2020', 'Assam'): {'api_sheet': 5,
@@ -1043,10 +1107,10 @@
                              'google_sheet': 3098},
  ('8/9/2020', 'Karnataka'): {'api_sheet': 3204,
                              'google_sheet': 3205},
- ('9/1/2020', 'Karnataka'): {'api_sheet': 5709,
-                             'google_sheet': 5844},
  ('9/10/2020', 'Goa'): {'api_sheet': 268,
                         'google_sheet': 259},
+ ('9/10/2020', 'Karnataka'): {'api_sheet': 6944,
+                              'google_sheet': 6348},
  ('9/10/2020', 'Madhya Pradesh'): {'api_sheet': 1662,
                                    'google_sheet': 1661},
  ('9/10/2020', 'Odisha'): {'api_sheet': 644,
@@ -1055,30 +1119,44 @@
                                'google_sheet': 8157},
  ('9/11/2020', 'Goa'): {'api_sheet': 276,
                         'google_sheet': 267},
+ ('9/11/2020', 'Karnataka'): {'api_sheet': 7074,
+                              'google_sheet': 6478},
  ('9/11/2020', 'Madhya Pradesh'): {'api_sheet': 1692,
                                    'google_sheet': 1689},
  ('9/11/2020', 'Odisha'): {'api_sheet': 658,
                            'google_sheet': 655},
  ('9/11/2020', 'Tamil Nadu'): {'api_sheet': 8231,
                                'google_sheet': 8234},
+ ('9/12/2020', 'Karnataka'): {'api_sheet': 7168,
+                              'google_sheet': 6572},
  ('9/13/2020', 'Assam'): {'api_sheet': 473,
                           'google_sheet': 457},
+ ('9/13/2020', 'Karnataka'): {'api_sheet': 7272,
+                              'google_sheet': 6676},
  ('9/13/2020', 'Sikkim'): {'api_sheet': 16,
                            'google_sheet': 13},
  ('9/14/2020', 'Assam'): {'api_sheet': 486,
                           'google_sheet': 470},
+ ('9/14/2020', 'Karnataka'): {'api_sheet': 7391,
+                              'google_sheet': 6795},
  ('9/14/2020', 'Sikkim'): {'api_sheet': 16,
                            'google_sheet': 13},
  ('9/15/2020', 'Assam'): {'api_sheet': 496,
                           'google_sheet': 480},
+ ('9/15/2020', 'Karnataka'): {'api_sheet': 7488,
+                              'google_sheet': 6892},
  ('9/15/2020', 'Sikkim'): {'api_sheet': 19,
                            'google_sheet': 17},
  ('9/16/2020', 'Assam'): {'api_sheet': 515,
                           'google_sheet': 499},
+ ('9/16/2020', 'Karnataka'): {'api_sheet': 7543,
+                              'google_sheet': 6947},
  ('9/16/2020', 'Sikkim'): {'api_sheet': 19,
                            'google_sheet': 16},
  ('9/17/2020', 'Assam'): {'api_sheet': 532,
                           'google_sheet': 516},
+ ('9/17/2020', 'Karnataka'): {'api_sheet': 7636,
+                              'google_sheet': 7040},
  ('9/17/2020', 'Sikkim'): {'api_sheet': 23,
                            'google_sheet': 20},
  ('9/18/2020', 'Assam'): {'api_sheet': 544,
@@ -1087,16 +1165,20 @@
                           'google_sheet': 4877},
  ('9/18/2020', 'Himachal Pradesh'): {'api_sheet': 109,
                                      'google_sheet': 97},
+ ('9/18/2020', 'Karnataka'): {'api_sheet': 7815,
+                              'google_sheet': 7219},
  ('9/18/2020', 'Sikkim'): {'api_sheet': 26,
                            'google_sheet': 23},
  ('9/18/2020', 'Uttarakhand'): {'api_sheet': 464,
                                 'google_sheet': 460},
- ('9/2/2020', 'Karnataka'): {'api_sheet': 5709,
-                             'google_sheet': 5957},
+ ('9/19/2020', 'Karnataka'): {'api_sheet': 7929,
+                              'google_sheet': 7333},
  ('9/20/2020', 'Chandigarh'): {'api_sheet': 120,
                                'google_sheet': 116},
  ('9/20/2020', 'Delhi'): {'api_sheet': 4982,
                           'google_sheet': 4945},
+ ('9/20/2020', 'Karnataka'): {'api_sheet': 8030,
+                              'google_sheet': 7434},
  ('9/21/2020', 'Assam'): {'api_sheet': 582,
                           'google_sheet': 566},
  ('9/21/2020', 'Chandigarh'): {'api_sheet': 123,
@@ -1105,8 +1187,20 @@
                           'google_sheet': 4977},
  ('9/21/2020', 'Himachal Pradesh'): {'api_sheet': 125,
                                      'google_sheet': 118},
+ ('9/21/2020', 'Karnataka'): {'api_sheet': 8152,
+                              'google_sheet': 7556},
+ ('9/22/2020', 'Karnataka'): {'api_sheet': 8235,
+                              'google_sheet': 7639},
+ ('9/23/2020', 'Karnataka'): {'api_sheet': 8273,
+                              'google_sheet': 7677},
+ ('9/24/2020', 'Karnataka'): {'api_sheet': 8338,
+                              'google_sheet': 7742},
  ('9/25/2020', 'Delhi'): {'api_sheet': 5147,
                           'google_sheet': 5123},
+ ('9/25/2020', 'Karnataka'): {'api_sheet': 8424,
+                              'google_sheet': 7828},
+ ('9/26/2020', 'Karnataka'): {'api_sheet': 8510,
+                              'google_sheet': 7914},
  ('9/27/2020', 'Andaman and Nicobar Islands'): {'api_sheet': 53,
                                                 'google_sheet': 52},
  ('9/27/2020', 'Assam'): {'api_sheet': 659,
@@ -1117,44 +1211,54 @@
                         'google_sheet': 391},
  ('9/27/2020', 'Himachal Pradesh'): {'api_sheet': 170,
                                      'google_sheet': 159},
+ ('9/27/2020', 'Karnataka'): {'api_sheet': 8589,
+                              'google_sheet': 7993},
  ('9/27/2020', 'Ladakh'): {'api_sheet': 58,
                            'google_sheet': 57},
  ('9/27/2020', 'Sikkim'): {'api_sheet': 33,
                            'google_sheet': 31},
- ('9/3/2020', 'Karnataka'): {'api_sheet': 5709,
-                             'google_sheet': 6061},
+ ('9/28/2020', 'Karnataka'): {'api_sheet': 8648,
+                              'google_sheet': 8052},
+ ('9/29/2020', 'Karnataka'): {'api_sheet': 8784,
+                              'google_sheet': 8188},
  ('9/3/2020', 'Puducherry'): {'api_sheet': 260,
                               'google_sheet': 253},
- ('9/4/2020', 'Karnataka'): {'api_sheet': 5709,
-                             'google_sheet': 6177},
+ ('9/30/2020', 'Karnataka'): {'api_sheet': 8871,
+                              'google_sheet': 8275},
  ('9/5/2020', 'Goa'): {'api_sheet': 229,
                        'google_sheet': 220},
- ('9/5/2020', 'Karnataka'): {'api_sheet': 5709,
-                             'google_sheet': 6305},
+ ('9/6/2020', 'Karnataka'): {'api_sheet': 6400,
+                             'google_sheet': 5804},
  ('9/6/2020', 'Tamil Nadu'): {'api_sheet': 7836,
                               'google_sheet': 7839},
  ('9/7/2020', 'Goa'): {'api_sheet': 245,
                        'google_sheet': 236},
+ ('9/7/2020', 'Karnataka'): {'api_sheet': 6541,
+                             'google_sheet': 5945},
  ('9/7/2020', 'Tamil Nadu'): {'api_sheet': 7925,
                               'google_sheet': 7928},
  ('9/8/2020', 'Goa'): {'api_sheet': 256,
                        'google_sheet': 247},
+ ('9/8/2020', 'Karnataka'): {'api_sheet': 6687,
+                             'google_sheet': 6091},
  ('9/8/2020', 'Odisha'): {'api_sheet': 622,
                           'google_sheet': 619},
  ('9/8/2020', 'Tamil Nadu'): {'api_sheet': 8012,
                               'google_sheet': 8015},
  ('9/9/2020', 'Goa'): {'api_sheet': 262,
                        'google_sheet': 253},
+ ('9/9/2020', 'Karnataka'): {'api_sheet': 6815,
+                             'google_sheet': 6219},
  ('9/9/2020', 'Odisha'): {'api_sheet': 633,
                           'google_sheet': 630},
  ('9/9/2020', 'Tamil Nadu'): {'api_sheet': 8090,
                               'google_sheet': 8093}}
 #################################################################
 
-Confirmed Google Sheet will be updated till 11/01/2020
+Confirmed Google Sheet will be updated till 11/02/2020
 Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED
-Recovery Google Sheet will be updated till 11/01/2020
+Recovery Google Sheet will be updated till 11/02/2020
 Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_RECOVERY
-Wait for 100s: 0Wait for 100s: 1Wait for 100s: 2Wait for 100s: 3Wait for 100s: 4Wait for 100s: 5Wait for 100s: 6Wait for 100s: 7Wait for 100s: 8Wait for 100s: 9Wait for 100s: 10Wait for 100s: 11Wait for 100s: 12Wait for 100s: 13Wait for 100s: 14Wait for 100s: 15Wait for 100s: 16Wait for 100s: 17Wait for 100s: 18Wait for 100s: 19Wait for 100s: 20Wait for 100s: 21Wait for 100s: 22Wait for 100s: 23Wait for 100s: 24Wait for 100s: 25Wait for 100s: 26Wait for 100s: 27Wait for 100s: 28Wait for 100s: 29Wait for 100s: 30Wait for 100s: 31Wait for 100s: 32Wait for 100s: 33Wait for 100s: 34Wait for 100s: 35Wait for 100s: 36Wait for 100s: 37Wait for 100s: 38Wait for 100s: 39Wait for 100s: 40Wait for 100s: 41Wait for 100s: 42Wait for 100s: 43Wait for 100s: 44Wait for 100s: 45Wait for 100s: 46Wait for 100s: 47Wait for 100s: 48Wait for 100s: 49Wait for 100s: 50Wait for 100s: 51Wait for 100s: 52Wait for 100s: 53Wait for 100s: 54Wait for 100s: 55Wait for 100s: 56Wait for 100s: 57Wait for 100s: 58Wait for 100s: 59Wait for 100s: 60Wait for 100s: 61Wait for 100s: 62Wait for 100s: 63Wait for 100s: 64Wait for 100s: 65Wait for 100s: 66Wait for 100s: 67Wait for 100s: 68Wait for 100s: 69Wait for 100s: 70Wait for 100s: 71Wait for 100s: 72Wait for 100s: 73Wait for 100s: 74Wait for 100s: 75Wait for 100s: 76Wait for 100s: 77Wait for 100s: 78Wait for 100s: 79Wait for 100s: 80Wait for 100s: 81Wait for 100s: 82Wait for 100s: 83Wait for 100s: 84Wait for 100s: 85Wait for 100s: 86Wait for 100s: 87Wait for 100s: 88Wait for 100s: 89Wait for 100s: 90Wait for 100s: 91Wait for 100s: 92Wait for 100s: 93Wait for 100s: 94Wait for 100s: 95Wait for 100s: 96Wait for 100s: 97Wait for 100s: 98Wait for 100s: 99Deceased Google Sheet will be updated till 11/01/2020
+Wait for 100s: 0Wait for 100s: 1Wait for 100s: 2Wait for 100s: 3Wait for 100s: 4Wait for 100s: 5Wait for 100s: 6Wait for 100s: 7Wait for 100s: 8Wait for 100s: 9Wait for 100s: 10Wait for 100s: 11Wait for 100s: 12Wait for 100s: 13Wait for 100s: 14Wait for 100s: 15Wait for 100s: 16Wait for 100s: 17Wait for 100s: 18Wait for 100s: 19Wait for 100s: 20Wait for 100s: 21Wait for 100s: 22Wait for 100s: 23Wait for 100s: 24Wait for 100s: 25Wait for 100s: 26Wait for 100s: 27Wait for 100s: 28Wait for 100s: 29Wait for 100s: 30Wait for 100s: 31Wait for 100s: 32Wait for 100s: 33Wait for 100s: 34Wait for 100s: 35Wait for 100s: 36Wait for 100s: 37Wait for 100s: 38Wait for 100s: 39Wait for 100s: 40Wait for 100s: 41Wait for 100s: 42Wait for 100s: 43Wait for 100s: 44Wait for 100s: 45Wait for 100s: 46Wait for 100s: 47Wait for 100s: 48Wait for 100s: 49Wait for 100s: 50Wait for 100s: 51Wait for 100s: 52Wait for 100s: 53Wait for 100s: 54Wait for 100s: 55Wait for 100s: 56Wait for 100s: 57Wait for 100s: 58Wait for 100s: 59Wait for 100s: 60Wait for 100s: 61Wait for 100s: 62Wait for 100s: 63Wait for 100s: 64Wait for 100s: 65Wait for 100s: 66Wait for 100s: 67Wait for 100s: 68Wait for 100s: 69Wait for 100s: 70Wait for 100s: 71Wait for 100s: 72Wait for 100s: 73Wait for 100s: 74Wait for 100s: 75Wait for 100s: 76Wait for 100s: 77Wait for 100s: 78Wait for 100s: 79Wait for 100s: 80Wait for 100s: 81Wait for 100s: 82Wait for 100s: 83Wait for 100s: 84Wait for 100s: 85Wait for 100s: 86Wait for 100s: 87Wait for 100s: 88Wait for 100s: 89Wait for 100s: 90Wait for 100s: 91Wait for 100s: 92Wait for 100s: 93Wait for 100s: 94Wait for 100s: 95Wait for 100s: 96Wait for 100s: 97Wait for 100s: 98Wait for 100s: 99Deceased Google Sheet will be updated till 11/02/2020
 Update done for COVID19_INDIA_STATEWISE_TIME_SERIES_DEATH
 All google sheets are saved
