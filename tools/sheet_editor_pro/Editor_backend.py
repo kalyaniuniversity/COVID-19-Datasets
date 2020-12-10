@@ -87,6 +87,8 @@ def checker(api_list, sheet_list):
         for i in x.index:
             for j in x.columns[:column_index_api[sheet_last_date]+1]:
                 # print(i)
+                if "Sept" in j:
+                    j = j.replace('Sept','Sep')
                 date = '{d.month}/{d.day}/{d.year}'.format(
                     d=datetime.strptime(j, "%d-%b-%y"))
                 # date=datetime.strftime(datetime.strptime(j,"%d-%b-%y"),'%m/%d/%Y')
