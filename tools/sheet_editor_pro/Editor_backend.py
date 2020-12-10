@@ -88,9 +88,12 @@ def checker(api_list, sheet_list):
             for j in x.columns[:column_index_api[sheet_last_date]+1]:
                 # print(i)
                 if "Sept" in j:
-                    j = j.replace('Sept','Sep')
-                date = '{d.month}/{d.day}/{d.year}'.format(
-                    d=datetime.strptime(j, "%d-%b-%y"))
+                    c = j.replace('Sept','Sep')
+                    date = '{d.month}/{d.day}/{d.year}'.format(
+                        d=datetime.strptime(c, "%d-%b-%y"))
+                else:
+                    date = '{d.month}/{d.day}/{d.year}'.format(
+                        d=datetime.strptime(j, "%d-%b-%y"))
                 # date=datetime.strftime(datetime.strptime(j,"%d-%b-%y"),'%m/%d/%Y')
                 if i in list(y['CODE']):
                     if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Kerala'):
