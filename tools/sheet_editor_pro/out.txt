@@ -1353,4 +1353,4 @@
                               'google_sheet': 8093}}
 #################################################################
 
-Confirmed Google Sheet will be updated till 12/09/2020
+Confirmed Google Sheet will be updated till 12/10/2020
