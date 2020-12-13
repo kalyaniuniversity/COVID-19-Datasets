@@ -13,6 +13,7 @@ import pandas as pd
 import urllib
 import json
 import pprint
+from utils import DateChecker, WriteonSheet, resolveData
 pp = pprint.PrettyPrinter(width=41, compact=True)
 
 
@@ -21,13 +22,12 @@ scope = ['https://spreadsheets.google.com/feeds',
 creds = ServiceAccountCredentials.from_json_keyfile_name(
     'cred_sheet.json', scope)
 client = gspread.authorize(creds)
-sheet_list = ['COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED', 'COVID19_INDIA_STATEWISE_TIME_SERIES_RECOVERY',
+sheet_data_list = ['COVID19_INDIA_STATEWISE_TIME_SERIES_CONFIRMED', 'COVID19_INDIA_STATEWISE_TIME_SERIES_RECOVERY',
               'COVID19_INDIA_STATEWISE_TIME_SERIES_DEATH']
 
 
 def pull_api_data(url='https://api.covid19india.org/states_daily.json'):
-    global pull_counter
-    pull_counter = 0
+    print('Scraping API data...')
     json_url = urllib.request.urlopen(url)
     data = json.loads(json_url.read())
     states_daily = data['states_daily']
@@ -49,17 +49,16 @@ def pull_api_data(url='https://api.covid19india.org/states_daily.json'):
     cum_conf = cum_conf.drop(columns='tt').T
     cum_recovered = cum_recovered.drop(columns='tt').T
     cum_death = cum_death.drop(columns='tt').T
-    return cum_conf, cum_recovered, cum_death
+    return DateChecker(cum_conf, cum_recovered, cum_death)
 
-# Confirmed,Recovered,Death=pull_api_data()
+
 
 
 def pull_sheet_data():
-    global pull_counter
-    for i in sheet_list:
+    print('Scraping Google Sheet data....')
+    for i in sheet_data_list:
         sheet = client.open(i).sheet1
         result = sheet.get_all_records()
-        pull_counter = pull_counter+1
         if 'CONFIRMED' in i.split('_'):
             sheet_confirmed = pd.DataFrame(result)
         elif 'RECOVERY' in i.split('_'):
@@ -68,596 +67,126 @@ def pull_sheet_data():
             sheet_death = pd.DataFrame(result)
     return sheet_confirmed, sheet_recovered, sheet_death
 
-# sheet_confirmed,sheet_recovered,sheet_death=pull_sheet_data()
 
 
-def checker(api_list, sheet_list):
-    global pull_counter
+
+def checker(api_list, sheet_list, resolve=True):
     error = False
     tag = ['Confirmed', 'Recovered', 'Death']
     k = 0
     for x, y in zip(api_list, sheet_list):
+        print(f'Checking errors for {tag[k]}')
         flag = 0
         column_index_api = {}
         for i, j in enumerate(x.columns):
             column_index_api[j] = i
         sheet_last_date = datetime.strftime(
             datetime.strptime(y.columns[-1], '%m/%d/%Y'), '%d-%b-%y')
-        change_dict = {}
+        change_dict_list = []
         for i in x.index:
             for j in x.columns[:column_index_api[sheet_last_date]+1]:
-                # print(i)
-                if "Sept" in j:
-                    c = j.replace('Sept','Sep')
-                    date = '{d.month}/{d.day}/{d.year}'.format(
-                        d=datetime.strptime(c, "%d-%b-%y"))
-                else:
-                    date = '{d.month}/{d.day}/{d.year}'.format(
-                        d=datetime.strptime(j, "%d-%b-%y"))
-                # date=datetime.strftime(datetime.strptime(j,"%d-%b-%y"),'%m/%d/%Y')
+                date = '{d.month}/{d.day}/{d.year}'.format(
+                    d=datetime.strptime(j, "%d-%b-%y"))
                 if i in list(y['CODE']):
                     if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Kerala'):
                         if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Maharashtra'):
                             if x.loc[i, j] != y[y['CODE'] == i][date].values[0]:
                                 flag = 1
                                 error = True
-                                change_dict[(date, y[y['CODE'] == i]['STATE/UT'].values[0])] = {'api_sheet': x.loc[i, j],
-                                                                                                'google_sheet': y[y['CODE'] == i][date].values[0]}
+                                change_dict_list.append({'api_sheet': x.loc[i, j],
+                                                     'google_sheet': y[y['CODE'] == i][date].values[0].item(),
+                                                     'position': {
+                                    'api': (i, j),
+                                    'gsheet': (y['CODE'][y['CODE'] == i].index.tolist()[0]+2, list(y.columns).index(date)+1)
+                                },
+                                    'State': y[y['CODE'] == i]['STATE/UT'].values[0],
+                                    'Date':date})
         if flag == 1:
-            print('#################################################################')
-            print(f'\t{tag[k]} changes')
-
-            print('#################################################################')
-            pp.pprint(change_dict)
-            print('#################################################################\n')
+            print('Printing in a file...')
+            with open(f'{tag[k]}_error.json', 'w') as f:
+                json.dump(change_dict_list, f, indent=4)
         else:
             print(f'All values are ok for {tag[k]}')
+
+        if resolve and flag==1:
+            resolveData(dictionary=change_dict_list,name = sheet_data_list[k], api_client = client)
         k = k+1
     return error
 
 
-def updater(skip=False):
-    global pull_counter
+def updater(skip=False, check_error=True):
     Confirmed, Recovered, Death = pull_api_data()
     sheet_confirmed, sheet_recovered, sheet_death = pull_sheet_data()
     api_data = [Confirmed, Recovered, Death]
     sheet_data = [sheet_confirmed, sheet_recovered, sheet_death]
-    error = checker(api_data, sheet_data)
-    if skip == True:
-        for name in sheet_list:
+    if check_error and skip:
+        error = checker(api_data, sheet_data)
+        for name in sheet_data_list:
             if 'CONFIRMED' in name.split('_'):
                 sheet = client.open(name).sheet1
                 code_list = list(sheet_confirmed['CODE'])
                 days_diff = datetime.strptime(
                     Confirmed.columns[-1], '%d-%b-%y')-datetime.strptime(sheet_confirmed.columns[-1], '%m/%d/%Y')
-                if days_diff.days > 0:
-                    api_updated_date = datetime.strftime(datetime.strptime(
-                        Confirmed.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                    sheet_updated_date = sheet_confirmed.columns[-1]
-                    if api_updated_date != sheet_updated_date:
-                        print(
-                            f'Confirmed Google Sheet will be updated till {api_updated_date}')
-                        sheet.add_cols(days_diff.days)
-                        k = days_diff.days
-                        for j in range(days_diff.days):
-                            val = []
-                            for i in range(sheet_confirmed.shape[0]+1):
-                                if i == 0:
-                                    value = datetime.strftime(datetime.strptime(
-                                        Confirmed.columns[-k], '%d-%b-%y'), '%m/%d/%Y')
-                                    sheet.update_cell(
-                                        i+1, sheet_confirmed.shape[1]+j+1, value)
-                                    pull_counter = pull_counter+1
-
-                                else:
-                                    if i != sheet_confirmed.shape[0]:
-                                        value = int(
-                                            Confirmed[Confirmed.columns[-k]][code_list[i-1]])
-                                        sheet.update_cell(
-                                            i+1, sheet_confirmed.shape[1]+j+1, value)
-                                        val.append(value)
-                                        pull_counter = pull_counter+1
-                                    else:
-                                        value = sum(val)
-                                        sheet.update_cell(
-                                            i+1, sheet_confirmed.shape[1]+j+1, value)
-                                        pull_counter = pull_counter+1
-                            if j != days_diff.days-1:
-                                if pull_counter+38 >= 100:
-                                    for x in range(100):
-                                        b = f"Wait for 100s: {x}"
-                                        print(b, end="\r")
-                                        time.sleep(1)
-                                    pull_counter = 0
-                            if k != 0:
-                                k = k-1
-                            else:
-                                break
-                        print(f'Update done for {name}')
-                        if pull_counter+39 >= 100:
-                            for x in range(100):
-                                b = f"Wait for 100s: {x}"
-                                print(b, end="\r")
-                                time.sleep(1)
-                            pull_counter = 0
-                else:
-                    if '' in list(sheet_confirmed[sheet_confirmed.columns[-1]]):
-                        print(
-                            f'Dates are up-to-date but all fields are not filled... filling that up')
-                        val = []
-                        for i in range(sheet_confirmed.shape[0]+1):
-                            if i == 0:
-                                value = datetime.strftime(datetime.strptime(
-                                    Confirmed.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                                sheet.update_cell(
-                                    i+1, sheet_confirmed.shape[1], value)
-                                pull_counter = pull_counter+1
-                            else:
-                                if i != sheet_confirmed.shape[0]:
-                                    value = int(
-                                        Confirmed[Confirmed.columns[-1]][code_list[i-1]])
-                                    sheet.update_cell(
-                                        i+1, sheet_confirmed.shape[1], value)
-                                    val.append(value)
-                                    pull_counter = pull_counter+1
-                                else:
-                                    value = sum(val)
-                                    sheet.update_cell(
-                                        i+1, sheet_confirmed.shape[1], value)
-                                    pull_counter = pull_counter+1
-                        print(f'Update done for {name}')
-                        if pull_counter+39 >= 100:
-                            for x in range(100):
-                                b = f"Wait for 100s: {x}"
-                                print(b, end="\r")
-                                time.sleep(1)
-                            pull_counter = 0
-                    else:
-                        print(f'No update Required for {name}')
+                if days_diff.days >= 0:
+                    WriteonSheet(api_data=Confirmed, target_data=sheet_confirmed,
+                                 target_sheet=sheet, diff=days_diff, code_list=code_list, tag='Confirmed')
 
             else:
-                # r_pull_counter=pull_counter
                 if 'RECOVERY' in name:
-                    # print(pull_counter)
                     sheet = client.open(name).sheet1
                     code_list = list(sheet_recovered['CODE'])
                     days_diff = datetime.strptime(
                         Recovered.columns[-1], '%d-%b-%y')-datetime.strptime(sheet_recovered.columns[-1], '%m/%d/%Y')
-                    if days_diff.days > 0:
-                        api_updated_date = datetime.strftime(datetime.strptime(
-                            Recovered.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                        sheet_updated_date = sheet_recovered.columns[-1]
-                        if api_updated_date != sheet_updated_date:
-                            print(
-                                f'Recovery Google Sheet will be updated till {api_updated_date}')
-                            sheet.add_cols(days_diff.days)
-                            k = days_diff.days
-
-                            for j in range(days_diff.days):
-                                val = []
-                                for i in range(sheet_recovered.shape[0]+1):
-                                    if i == 0:
-                                        value = datetime.strftime(datetime.strptime(
-                                            Recovered.columns[-k], '%d-%b-%y'), '%m/%d/%Y')
-                                        sheet.update_cell(
-                                            i+1, sheet_recovered.shape[1]+j+1, value)
-                                        pull_counter = pull_counter+1
-                                    else:
-                                        if i != sheet_recovered.shape[0]:
-                                            value = int(
-                                                Recovered[Recovered.columns[-k]][code_list[i-1]])
-                                            sheet.update_cell(
-                                                i+1, sheet_recovered.shape[1]+j+1, value)
-                                            val.append(value)
-                                            pull_counter = pull_counter+1
-                                        else:
-                                            value = sum(val)
-                                            sheet.update_cell(
-                                                i+1, sheet_recovered.shape[1]+j+1, value)
-                                            pull_counter = pull_counter+1
-                                if j != days_diff.days-1:
-                                    if pull_counter+38 >= 100:
-                                        for x in range(100):
-                                            b = f"Wait for 100s: {x}"
-                                            print(b, end="\r")
-                                            time.sleep(1)
-                                        pull_counter = 0
-                                if k != 0:
-                                    k = k-1
-                                else:
-                                    break
-                            print(f'Update done for {name}')
-                            if pull_counter+38 >= 100:
-                                for x in range(100):
-                                    b = f"Wait for 100s: {x}"
-                                    print(b, end="\r")
-                                    time.sleep(1)
-                                pull_counter = 0
-                    else:
-                        if '' in list(sheet_recovered[sheet_recovered.columns[-1]]):
-                            print(
-                                f'Dates are up-to-date but all fields are not filled... filling that up')
-                            val = []
-                            for i in range(sheet_recovered.shape[0]+1):
-                                if i == 0:
-                                    value = datetime.strftime(datetime.strptime(
-                                        Recovered.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                                    sheet.update_cell(
-                                        i+1, sheet_recovered.shape[1], value)
-                                    pull_counter = pull_counter+1
-                                else:
-                                    if i != sheet_recovered.shape[0]:
-                                        value = int(
-                                            Recovered[Recovered.columns[-1]][code_list[i-1]])
-                                        sheet.update_cell(
-                                            i+1, sheet_recovered.shape[1], value)
-                                        val.append(value)
-                                        pull_counter = pull_counter+1
-                                    else:
-                                        value = sum(val)
-                                        sheet.update_cell(
-                                            i+1, sheet_recovered.shape[1], value)
-                                        pull_counter = pull_counter+1
-                            print(f'Update done for {name}')
-                            if pull_counter+38 >= 100:
-                                for x in range(100):
-                                    b = f"Wait for 100s: {x}"
-                                    print(b, end="\r")
-                                    time.sleep(1)
-                                pull_counter = 0
-                        else:
-                            print(f'No update Required for {name}')
+                    if days_diff.days >= 0:
+                        WriteonSheet(api_data=Recovered, target_data=sheet_recovered,
+                                     target_sheet=sheet, diff=days_diff, code_list=code_list, tag='Recovered')
                 else:
-                    # d_pull_counter=pull_counter
                     sheet = client.open(name).sheet1
                     code_list = list(sheet_death['CODE'])
                     days_diff = datetime.strptime(
                         Death.columns[-1], '%d-%b-%y')-datetime.strptime(sheet_death.columns[-1], '%m/%d/%Y')
-                    if days_diff.days > 0:
-                        api_updated_date = datetime.strftime(
-                            datetime.strptime(Death.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                        sheet_updated_date = sheet_death.columns[-1]
-                        if api_updated_date != sheet_updated_date:
-                            print(
-                                f'Deceased Google Sheet will be updated till {api_updated_date}')
-                            sheet.add_cols(days_diff.days)
-                            k = days_diff.days
-                            for j in range(days_diff.days):
-                                val = []
-                                for i in range(sheet_death.shape[0]+1):
-                                    if i == 0:
-                                        value = datetime.strftime(datetime.strptime(
-                                            Death.columns[-k], '%d-%b-%y'), '%m/%d/%Y')
-                                        sheet.update_cell(
-                                            i+1, sheet_death.shape[1]+j+1, value)
-                                        pull_counter = pull_counter+1
-                                    else:
-                                        if i != sheet_death.shape[0]:
-                                            value = int(
-                                                Death[Death.columns[-k]][code_list[i-1]])
-                                            sheet.update_cell(
-                                                i+1, sheet_death.shape[1]+j+1, value)
-                                            val.append(value)
-                                            pull_counter = pull_counter+1
-                                        else:
-                                            value = sum(val)
-                                            sheet.update_cell(
-                                                i+1, sheet_death.shape[1]+j+1, value)
-                                            pull_counter = pull_counter+1
-                                if j != days_diff.days-1:
-                                    if pull_counter+38 >= 100:
-                                        for x in range(100):
-                                            b = f"Wait for 100s: {x}"
-                                            print(b, end="\r")
-                                            time.sleep(1)
-                                        pull_counter = 0
-                                if k != 0:
-                                    k = k-1
-                                else:
-                                    break
-                            print(f'Update done for {name}')
-
-                    else:
-                        if '' in list(sheet_death[sheet_death.columns[-1]]):
-                            print(
-                                f'Dates are up-to-date but all fields are not filled... filling that up')
-                            val = []
-                            for i in range(sheet_death.shape[0]+1):
-                                if i == 0:
-                                    value = datetime.strftime(datetime.strptime(
-                                        Death.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                                    sheet.update_cell(
-                                        i+1, sheet_death.shape[1], value)
-                                    pull_counter = pull_counter+1
-                                else:
-                                    if i != sheet_death.shape[0]:
-                                        value = int(
-                                            Death[Death.columns[-1]][code_list[i-1]])
-                                        sheet.update_cell(
-                                            i+1, sheet_death.shape[1], value)
-                                        val.append(value)
-                                        pull_counter = pull_counter+1
-                                    else:
-                                        value = sum(val)
-                                        sheet.update_cell(
-                                            i+1, sheet_death.shape[1], value)
-                                        pull_counter = pull_counter+1
-                            print(f'Update done for {name}')
-
-                        else:
-                            print(f'No update Required for {name}')
-
-    else:
-        if error == False:
-            for name in sheet_list:
-                if 'CONFIRMED' in name.split('_'):
+                    if days_diff.days >= 0:
+                        WriteonSheet(api_data=Death, target_data=sheet_death,
+                                     target_sheet=sheet, diff=days_diff, code_list=code_list, tag='Deceased')
+    elif check_error and skip == False:
+        error = checker(api_data, sheet_data)
+    elif check_error == False:
+        api_data = [Confirmed, Recovered, Death]
+        sheet_data = [sheet_confirmed, sheet_recovered, sheet_death]
+        for name in sheet_data_list:
+            if 'CONFIRMED' in name.split('_'):
+                sheet = client.open(name).sheet1
+                code_list = list(sheet_confirmed['CODE'])
+                days_diff = datetime.strptime(
+                    Confirmed.columns[-1], '%d-%b-%y')-datetime.strptime(sheet_confirmed.columns[-1], '%m/%d/%Y')
+                if days_diff.days >= 0:
+                    WriteonSheet(api_data=Confirmed, target_data=sheet_confirmed,
+                                 target_sheet=sheet, diff=days_diff, code_list=code_list, tag='Confirmed')
+            else:
+                if 'RECOVERY' in name:
                     sheet = client.open(name).sheet1
-                    code_list = list(sheet_confirmed['CODE'])
+                    code_list = list(sheet_recovered['CODE'])
                     days_diff = datetime.strptime(
-                        Confirmed.columns[-1], '%d-%b-%y')-datetime.strptime(sheet_confirmed.columns[-1], '%m/%d/%Y')
-                    if days_diff.days > 0:
-                        api_updated_date = datetime.strftime(datetime.strptime(
-                            Confirmed.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                        sheet_updated_date = sheet_confirmed.columns[-1]
-                        if api_updated_date != sheet_updated_date:
-                            print(
-                                f'Google Sheet will be updated till {api_updated_date}')
-                            sheet.add_cols(days_diff.days)
-                            k = days_diff.days
-                            for j in range(days_diff.days):
-                                val = []
-                                for i in range(sheet_confirmed.shape[0]+1):
-                                    if i == 0:
-                                        value = datetime.strftime(datetime.strptime(
-                                            Confirmed.columns[-k], '%d-%b-%y'), '%m/%d/%Y')
-                                        sheet.update_cell(
-                                            i+1, sheet_confirmed.shape[1]+j+1, value)
-                                        pull_counter = pull_counter+1
-                                    else:
-                                        if i != sheet_confirmed.shape[0]:
-                                            value = int(
-                                                Confirmed[Confirmed.columns[-k]][code_list[i-1]])
-                                            sheet.update_cell(
-                                                i+1, sheet_confirmed.shape[1]+j+1, value)
-                                            val.append(value)
-                                            pull_counter = pull_counter+1
-                                        else:
-                                            value = sum(val)
-                                            sheet.update_cell(
-                                                i+1, sheet_confirmed.shape[1]+j+1, value)
-                                            pull_counter = pull_counter+1
-                                if j != days_diff.days-1:
-                                    if pull_counter+38 >= 100:
-                                        for x in range(100):
-                                            b = f"Wait for 100s: {x}"
-                                            print(b, end="\r")
-                                            time.sleep(1)
-                                        pull_counter = 0
-                                if k != 0:
-                                    k = k-1
-                                else:
-                                    break
-                            print(f'Update done for {name}')
-                            if pull_counter+38 >= 100:
-                                for x in range(100):
-                                    b = f"Wait for 100s: {x}"
-                                    print(b, end="\r")
-                                    time.sleep(1)
-                                pull_counter = 0
-                    else:
-                        if '' in list(sheet_confirmed[sheet_confirmed.columns[-1]]):
-                            print(
-                                f'Dates are up-to-date but all fields are not filled... filling that up')
-                            val = []
-                            for i in range(sheet_confirmed.shape[0]+1):
-                                if i == 0:
-                                    value = datetime.strftime(datetime.strptime(
-                                        Confirmed.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                                    sheet.update_cell(
-                                        i+1, sheet_confirmed.shape[1], value)
-                                    pull_counter = pull_counter+1
-                                else:
-                                    if i != sheet_confirmed.shape[0]:
-                                        value = int(
-                                            Confirmed[Confirmed.columns[-1]][code_list[i-1]])
-                                        sheet.update_cell(
-                                            i+1, sheet_confirmed.shape[1], value)
-                                        val.append(value)
-                                        pull_counter = pull_counter+1
-                                    else:
-                                        value = sum(val)
-                                        sheet.update_cell(
-                                            i+1, sheet_confirmed.shape[1], value)
-                                        pull_counter = pull_counter+1
-                            print(f'Update done for {name}')
-                            if pull_counter+38 >= 100:
-                                for x in range(100):
-                                    b = f"Wait for 100s: {x}"
-                                    print(b, end="\r")
-                                    time.sleep(1)
-                                pull_counter = 0
-                        else:
-                            print(f'No update Required for {name}')
-
+                        Recovered.columns[-1], '%d-%b-%y')-datetime.strptime(sheet_recovered.columns[-1], '%m/%d/%Y')
+                    if days_diff.days >= 0:
+                        WriteonSheet(api_data=Recovered, target_data=sheet_recovered,
+                                     target_sheet=sheet, diff=days_diff, code_list=code_list, tag='Recovered')
                 else:
-                    if 'RECOVERY' in name:
-                        # r_pull_counter=pull_counter
-                        sheet = client.open(name).sheet1
-                        code_list = list(sheet_recovered['CODE'])
-                        days_diff = datetime.strptime(
-                            Recovered.columns[-1], '%d-%b-%y')-datetime.strptime(sheet_recovered.columns[-1], '%m/%d/%Y')
-                        if days_diff.days > 0:
-                            api_updated_date = datetime.strftime(datetime.strptime(
-                                Recovered.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                            sheet_updated_date = sheet_recovered.columns[-1]
-                            if api_updated_date != sheet_updated_date:
-                                print(
-                                    f'Recovery Google Sheet will be updated till {api_updated_date}')
-                                sheet.add_cols(days_diff.days)
-                                k = days_diff.days
-                                for j in range(days_diff.days):
-                                    val = []
-                                    for i in range(sheet_recovered.shape[0]+1):
-                                        if i == 0:
-                                            value = datetime.strftime(datetime.strptime(
-                                                Recovered.columns[-k], '%d-%b-%y'), '%m/%d/%Y')
-                                            sheet.update_cell(
-                                                i+1, sheet_recovered.shape[1]+j+1, value)
-                                            pull_counter = pull_counter+1
-                                        else:
-                                            if i != sheet_recovered.shape[0]:
-                                                value = int(
-                                                    Recovered[Recovered.columns[-k]][code_list[i-1]])
-                                                sheet.update_cell(
-                                                    i+1, sheet_recovered.shape[1]+j+1, value)
-                                                val.append(value)
-                                                pull_counter = pull_counter+1
-                                            else:
-                                                value = sum(val)
-                                                sheet.update_cell(
-                                                    i+1, sheet_recovered.shape[1]+j+1, value)
-                                                pull_counter = pull_counter+1
-                                    if j != days_diff.days-1:
-                                        if pull_counter+38 >= 100:
-                                            for x in range(100):
-                                                b = f"Wait for 100s: {x}"
-                                                print(b, end="\r")
-                                                time.sleep(1)
-                                            pull_counter = 0
-                                    if k != 0:
-                                        k = k-1
-                                    else:
-                                        break
-                                print(f'Update done for {name}')
-                                if pull_counter+38 >= 100:
-                                    for x in range(100):
-                                        b = f"Wait for 100s: {x}"
-                                        print(b, end="\r")
-                                        time.sleep(1)
-                                    pull_counter = 0
-                        else:
-                            if '' in list(sheet_recovered[sheet_recovered.columns[-1]]):
-                                print(
-                                    f'Dates are up-to-date but all fields are not filled... filling that up')
-                                val = []
-                                for i in range(sheet_recovered.shape[0]+1):
-                                    if i == 0:
-                                        value = datetime.strftime(datetime.strptime(
-                                            Recovered.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                                        sheet.update_cell(
-                                            i+1, sheet_recovered.shape[1], value)
-                                        pull_counter = pull_counter+1
-                                    else:
-                                        if i != sheet_recovered.shape[0]:
-                                            value = int(
-                                                Recovered[Recovered.columns[-1]][code_list[i-1]])
-                                            sheet.update_cell(
-                                                i+1, sheet_recovered.shape[1], value)
-                                            val.append(value)
-                                            pull_counter = pull_counter+1
-                                        else:
-                                            value = sum(val)
-                                            sheet.update_cell(
-                                                i+1, sheet_recovered.shape[1], value)
-                                            pull_counter = pull_counter+1
-                                print(f'Update done for {name}')
-                                if pull_counter+38 >= 100:
-                                    for x in range(100):
-                                        b = f"Wait for 100s: {x}"
-                                        print(b, end="\r")
-                                        time.sleep(1)
-                                    pull_counter = 0
-                            else:
-                                print(f'No update Required for {name}')
-                    else:
-                        # d_pull_counter=pull_counter
-                        sheet = client.open(name).sheet1
-                        code_list = list(sheet_death['CODE'])
-                        days_diff = datetime.strptime(
-                            Death.columns[-1], '%d-%b-%y')-datetime.strptime(sheet_death.columns[-1], '%m/%d/%Y')
-                        if days_diff.days > 0:
-                            api_updated_date = datetime.strftime(
-                                datetime.strptime(Death.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                            sheet_updated_date = sheet_death.columns[-1]
-                            if api_updated_date != sheet_updated_date:
-                                print(
-                                    f'Google Sheet will be updated till {api_updated_date}')
-                                sheet.add_cols(days_diff.days)
-                                k = days_diff.days
-                                for j in range(days_diff.days):
-                                    val = []
-                                    for i in range(sheet_death.shape[0]+1):
-                                        if i == 0:
-                                            value = datetime.strftime(datetime.strptime(
-                                                Death.columns[-k], '%d-%b-%y'), '%m/%d/%Y')
-                                            sheet.update_cell(
-                                                i+1, sheet_death.shape[1]+j+1, value)
-                                            pull_counter = pull_counter+1
-                                        else:
-                                            if i != sheet_death.shape[0]:
-                                                value = int(
-                                                    Death[Death.columns[-k]][code_list[i-1]])
-                                                sheet.update_cell(
-                                                    i+1, sheet_death.shape[1]+j+1, value)
-                                                val.append(value)
-                                                pull_counter = pull_counter+1
-                                            else:
-                                                value = sum(val)
-                                                sheet.update_cell(
-                                                    i+1, sheet_death.shape[1]+j+1, value)
-                                                pull_counter = pull_counter+1
-                                    if j != days_diff.days-1:
-                                        if pull_counter+38 >= 100:
-                                            for x in range(100):
-                                                b = f"Wait for 100s: {x}"
-                                                print(b, end="\r")
-                                                time.sleep(1)
-                                            pull_counter = 0
-                                    if k != 0:
-                                        k = k-1
-                                    else:
-                                        break
-                                print(f'Update done for {name}')
-
-                        else:
-                            if '' in list(sheet_death[sheet_death.columns[-1]]):
-                                print(
-                                    f'Dates are up-to-date but all fields are not filled... filling that up')
-                                val = []
-                                for i in range(sheet_death.shape[0]+1):
-                                    if i == 0:
-                                        value = datetime.strftime(datetime.strptime(
-                                            Death.columns[-1], '%d-%b-%y'), '%m/%d/%Y')
-                                        sheet.update_cell(
-                                            i+1, sheet_death.shape[1], value)
-                                        pull_counter = pull_counter+1
-                                    else:
-                                        if i != sheet_death.shape[0]:
-                                            value = int(
-                                                Death[Death.columns[-1]][code_list[i-1]])
-                                            sheet.update_cell(
-                                                i+1, sheet_death.shape[1], value)
-                                            val.append(value)
-                                            pull_counter = pull_counter+1
-                                        else:
-                                            value = sum(val)
-                                            sheet.update_cell(
-                                                i+1, sheet_death.shape[1], value)
-                                            pull_counter = pull_counter+1
-                                print(f'Update done for {name}')
-
-                            else:
-                                print(f'No update Required for {name}')
-
-        else:
-            pass
+                    sheet = client.open(name).sheet1
+                    code_list = list(sheet_death['CODE'])
+                    days_diff = datetime.strptime(
+                        Death.columns[-1], '%d-%b-%y')-datetime.strptime(sheet_death.columns[-1], '%m/%d/%Y')
+                    if days_diff.days >= 0:
+                        WriteonSheet(api_data=Death, target_data=sheet_death,
+                                     target_sheet=sheet, diff=days_diff, code_list=code_list, tag='Deceased')
 
 
 def sheet_save():
-    for name in sheet_list:
+    for name in sheet_data_list:
         sheet = client.open(name).sheet1
         result = sheet.get_all_records()
         df = pd.DataFrame(result)
         df.to_csv(f'{name}.csv', index=False)
     print('All google sheets are saved')
+
 

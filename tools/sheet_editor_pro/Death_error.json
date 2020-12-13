@@ -1,0 +1,2866 @@
+[
+    {
+        "api_sheet": 53,
+        "google_sheet": 52,
+        "position": {
+            "api": [
+                "an",
+                "27-Sep-20"
+            ],
+            "gsheet": [
+                2,
+                248
+            ]
+        },
+        "State": "Andaman and Nicobar Islands",
+        "Date": "9/27/2020"
+    },
+    {
+        "api_sheet": 73,
+        "google_sheet": 74,
+        "position": {
+            "api": [
+                "ap",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                3,
+                134
+            ]
+        },
+        "State": "Andhra Pradesh",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 3,
+        "google_sheet": 2,
+        "position": {
+            "api": [
+                "ar",
+                "13-Jul-20"
+            ],
+            "gsheet": [
+                4,
+                172
+            ]
+        },
+        "State": "Arunachal Pradesh",
+        "Date": "7/13/2020"
+    },
+    {
+        "api_sheet": 19,
+        "google_sheet": 18,
+        "position": {
+            "api": [
+                "ar",
+                "05-Oct-20"
+            ],
+            "gsheet": [
+                4,
+                256
+            ]
+        },
+        "State": "Arunachal Pradesh",
+        "Date": "10/5/2020"
+    },
+    {
+        "api_sheet": 28,
+        "google_sheet": 24,
+        "position": {
+            "api": [
+                "ar",
+                "13-Oct-20"
+            ],
+            "gsheet": [
+                4,
+                264
+            ]
+        },
+        "State": "Arunachal Pradesh",
+        "Date": "10/13/2020"
+    },
+    {
+        "api_sheet": 46,
+        "google_sheet": 45,
+        "position": {
+            "api": [
+                "ar",
+                "08-Nov-20"
+            ],
+            "gsheet": [
+                4,
+                290
+            ]
+        },
+        "State": "Arunachal Pradesh",
+        "Date": "11/8/2020"
+    },
+    {
+        "api_sheet": 48,
+        "google_sheet": 47,
+        "position": {
+            "api": [
+                "ar",
+                "14-Nov-20"
+            ],
+            "gsheet": [
+                4,
+                296
+            ]
+        },
+        "State": "Arunachal Pradesh",
+        "Date": "11/14/2020"
+    },
+    {
+        "api_sheet": 5,
+        "google_sheet": 4,
+        "position": {
+            "api": [
+                "as",
+                "10-Jun-20"
+            ],
+            "gsheet": [
+                5,
+                139
+            ]
+        },
+        "State": "Assam",
+        "Date": "6/10/2020"
+    },
+    {
+        "api_sheet": 62,
+        "google_sheet": 61,
+        "position": {
+            "api": [
+                "as",
+                "20-Jul-20"
+            ],
+            "gsheet": [
+                5,
+                179
+            ]
+        },
+        "State": "Assam",
+        "Date": "7/20/2020"
+    },
+    {
+        "api_sheet": 473,
+        "google_sheet": 457,
+        "position": {
+            "api": [
+                "as",
+                "13-Sep-20"
+            ],
+            "gsheet": [
+                5,
+                234
+            ]
+        },
+        "State": "Assam",
+        "Date": "9/13/2020"
+    },
+    {
+        "api_sheet": 486,
+        "google_sheet": 470,
+        "position": {
+            "api": [
+                "as",
+                "14-Sep-20"
+            ],
+            "gsheet": [
+                5,
+                235
+            ]
+        },
+        "State": "Assam",
+        "Date": "9/14/2020"
+    },
+    {
+        "api_sheet": 496,
+        "google_sheet": 480,
+        "position": {
+            "api": [
+                "as",
+                "15-Sep-20"
+            ],
+            "gsheet": [
+                5,
+                236
+            ]
+        },
+        "State": "Assam",
+        "Date": "9/15/2020"
+    },
+    {
+        "api_sheet": 515,
+        "google_sheet": 499,
+        "position": {
+            "api": [
+                "as",
+                "16-Sep-20"
+            ],
+            "gsheet": [
+                5,
+                237
+            ]
+        },
+        "State": "Assam",
+        "Date": "9/16/2020"
+    },
+    {
+        "api_sheet": 532,
+        "google_sheet": 516,
+        "position": {
+            "api": [
+                "as",
+                "17-Sep-20"
+            ],
+            "gsheet": [
+                5,
+                238
+            ]
+        },
+        "State": "Assam",
+        "Date": "9/17/2020"
+    },
+    {
+        "api_sheet": 544,
+        "google_sheet": 516,
+        "position": {
+            "api": [
+                "as",
+                "18-Sep-20"
+            ],
+            "gsheet": [
+                5,
+                239
+            ]
+        },
+        "State": "Assam",
+        "Date": "9/18/2020"
+    },
+    {
+        "api_sheet": 582,
+        "google_sheet": 566,
+        "position": {
+            "api": [
+                "as",
+                "21-Sep-20"
+            ],
+            "gsheet": [
+                5,
+                242
+            ]
+        },
+        "State": "Assam",
+        "Date": "9/21/2020"
+    },
+    {
+        "api_sheet": 659,
+        "google_sheet": 642,
+        "position": {
+            "api": [
+                "as",
+                "27-Sep-20"
+            ],
+            "gsheet": [
+                5,
+                248
+            ]
+        },
+        "State": "Assam",
+        "Date": "9/27/2020"
+    },
+    {
+        "api_sheet": 29,
+        "google_sheet": 31,
+        "position": {
+            "api": [
+                "br",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                6,
+                134
+            ]
+        },
+        "State": "Bihar",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 28,
+        "google_sheet": 29,
+        "position": {
+            "api": [
+                "ch",
+                "14-Aug-20"
+            ],
+            "gsheet": [
+                7,
+                204
+            ]
+        },
+        "State": "Chandigarh",
+        "Date": "8/14/2020"
+    },
+    {
+        "api_sheet": 120,
+        "google_sheet": 116,
+        "position": {
+            "api": [
+                "ch",
+                "20-Sep-20"
+            ],
+            "gsheet": [
+                7,
+                241
+            ]
+        },
+        "State": "Chandigarh",
+        "Date": "9/20/2020"
+    },
+    {
+        "api_sheet": 123,
+        "google_sheet": 116,
+        "position": {
+            "api": [
+                "ch",
+                "21-Sep-20"
+            ],
+            "gsheet": [
+                7,
+                242
+            ]
+        },
+        "State": "Chandigarh",
+        "Date": "9/21/2020"
+    },
+    {
+        "api_sheet": 2,
+        "google_sheet": 1,
+        "position": {
+            "api": [
+                "ct",
+                "02-Jun-20"
+            ],
+            "gsheet": [
+                8,
+                131
+            ]
+        },
+        "State": "Chhattisgarh",
+        "Date": "6/2/2020"
+    },
+    {
+        "api_sheet": 2,
+        "google_sheet": 1,
+        "position": {
+            "api": [
+                "ct",
+                "03-Jun-20"
+            ],
+            "gsheet": [
+                8,
+                132
+            ]
+        },
+        "State": "Chhattisgarh",
+        "Date": "6/3/2020"
+    },
+    {
+        "api_sheet": 9,
+        "google_sheet": 6,
+        "position": {
+            "api": [
+                "ct",
+                "14-Jun-20"
+            ],
+            "gsheet": [
+                8,
+                143
+            ]
+        },
+        "State": "Chhattisgarh",
+        "Date": "6/14/2020"
+    },
+    {
+        "api_sheet": 1045,
+        "google_sheet": 1044,
+        "position": {
+            "api": [
+                "ct",
+                "04-Oct-20"
+            ],
+            "gsheet": [
+                8,
+                255
+            ]
+        },
+        "State": "Chhattisgarh",
+        "Date": "10/4/2020"
+    },
+    {
+        "api_sheet": 708,
+        "google_sheet": 703,
+        "position": {
+            "api": [
+                "dl",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                11,
+                134
+            ]
+        },
+        "State": "Delhi",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 905,
+        "google_sheet": 874,
+        "position": {
+            "api": [
+                "dl",
+                "09-Jun-20"
+            ],
+            "gsheet": [
+                11,
+                138
+            ]
+        },
+        "State": "Delhi",
+        "Date": "6/9/2020"
+    },
+    {
+        "api_sheet": 4907,
+        "google_sheet": 4877,
+        "position": {
+            "api": [
+                "dl",
+                "18-Sep-20"
+            ],
+            "gsheet": [
+                11,
+                239
+            ]
+        },
+        "State": "Delhi",
+        "Date": "9/18/2020"
+    },
+    {
+        "api_sheet": 4982,
+        "google_sheet": 4945,
+        "position": {
+            "api": [
+                "dl",
+                "20-Sep-20"
+            ],
+            "gsheet": [
+                11,
+                241
+            ]
+        },
+        "State": "Delhi",
+        "Date": "9/20/2020"
+    },
+    {
+        "api_sheet": 5014,
+        "google_sheet": 4977,
+        "position": {
+            "api": [
+                "dl",
+                "21-Sep-20"
+            ],
+            "gsheet": [
+                11,
+                242
+            ]
+        },
+        "State": "Delhi",
+        "Date": "9/21/2020"
+    },
+    {
+        "api_sheet": 5147,
+        "google_sheet": 5123,
+        "position": {
+            "api": [
+                "dl",
+                "25-Sep-20"
+            ],
+            "gsheet": [
+                11,
+                246
+            ]
+        },
+        "State": "Delhi",
+        "Date": "9/25/2020"
+    },
+    {
+        "api_sheet": 5235,
+        "google_sheet": 5193,
+        "position": {
+            "api": [
+                "dl",
+                "27-Sep-20"
+            ],
+            "gsheet": [
+                11,
+                248
+            ]
+        },
+        "State": "Delhi",
+        "Date": "9/27/2020"
+    },
+    {
+        "api_sheet": 1,
+        "google_sheet": 0,
+        "position": {
+            "api": [
+                "dn",
+                "07-Jul-20"
+            ],
+            "gsheet": [
+                9,
+                166
+            ]
+        },
+        "State": "Dadra and Nagar Haveli",
+        "Date": "7/7/2020"
+    },
+    {
+        "api_sheet": 229,
+        "google_sheet": 220,
+        "position": {
+            "api": [
+                "ga",
+                "05-Sep-20"
+            ],
+            "gsheet": [
+                12,
+                226
+            ]
+        },
+        "State": "Goa",
+        "Date": "9/5/2020"
+    },
+    {
+        "api_sheet": 245,
+        "google_sheet": 236,
+        "position": {
+            "api": [
+                "ga",
+                "07-Sep-20"
+            ],
+            "gsheet": [
+                12,
+                228
+            ]
+        },
+        "State": "Goa",
+        "Date": "9/7/2020"
+    },
+    {
+        "api_sheet": 256,
+        "google_sheet": 247,
+        "position": {
+            "api": [
+                "ga",
+                "08-Sep-20"
+            ],
+            "gsheet": [
+                12,
+                229
+            ]
+        },
+        "State": "Goa",
+        "Date": "9/8/2020"
+    },
+    {
+        "api_sheet": 262,
+        "google_sheet": 253,
+        "position": {
+            "api": [
+                "ga",
+                "09-Sep-20"
+            ],
+            "gsheet": [
+                12,
+                230
+            ]
+        },
+        "State": "Goa",
+        "Date": "9/9/2020"
+    },
+    {
+        "api_sheet": 268,
+        "google_sheet": 259,
+        "position": {
+            "api": [
+                "ga",
+                "10-Sep-20"
+            ],
+            "gsheet": [
+                12,
+                231
+            ]
+        },
+        "State": "Goa",
+        "Date": "9/10/2020"
+    },
+    {
+        "api_sheet": 276,
+        "google_sheet": 267,
+        "position": {
+            "api": [
+                "ga",
+                "11-Sep-20"
+            ],
+            "gsheet": [
+                12,
+                232
+            ]
+        },
+        "State": "Goa",
+        "Date": "9/11/2020"
+    },
+    {
+        "api_sheet": 401,
+        "google_sheet": 391,
+        "position": {
+            "api": [
+                "ga",
+                "27-Sep-20"
+            ],
+            "gsheet": [
+                12,
+                248
+            ]
+        },
+        "State": "Goa",
+        "Date": "9/27/2020"
+    },
+    {
+        "api_sheet": 1190,
+        "google_sheet": 1188,
+        "position": {
+            "api": [
+                "gj",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                13,
+                134
+            ]
+        },
+        "State": "Gujarat",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 10,
+        "google_sheet": 9,
+        "position": {
+            "api": [
+                "hp",
+                "04-Jul-20"
+            ],
+            "gsheet": [
+                15,
+                163
+            ]
+        },
+        "State": "Himachal Pradesh",
+        "Date": "7/4/2020"
+    },
+    {
+        "api_sheet": 109,
+        "google_sheet": 97,
+        "position": {
+            "api": [
+                "hp",
+                "18-Sep-20"
+            ],
+            "gsheet": [
+                15,
+                239
+            ]
+        },
+        "State": "Himachal Pradesh",
+        "Date": "9/18/2020"
+    },
+    {
+        "api_sheet": 125,
+        "google_sheet": 118,
+        "position": {
+            "api": [
+                "hp",
+                "21-Sep-20"
+            ],
+            "gsheet": [
+                15,
+                242
+            ]
+        },
+        "State": "Himachal Pradesh",
+        "Date": "9/21/2020"
+    },
+    {
+        "api_sheet": 170,
+        "google_sheet": 159,
+        "position": {
+            "api": [
+                "hp",
+                "27-Sep-20"
+            ],
+            "gsheet": [
+                15,
+                248
+            ]
+        },
+        "State": "Himachal Pradesh",
+        "Date": "9/27/2020"
+    },
+    {
+        "api_sheet": 24,
+        "google_sheet": 25,
+        "position": {
+            "api": [
+                "hr",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                14,
+                134
+            ]
+        },
+        "State": "Haryana",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 1789,
+        "google_sheet": 1787,
+        "position": {
+            "api": [
+                "hr",
+                "31-Oct-20"
+            ],
+            "gsheet": [
+                14,
+                282
+            ]
+        },
+        "State": "Haryana",
+        "Date": "10/31/2020"
+    },
+    {
+        "api_sheet": 19,
+        "google_sheet": 18,
+        "position": {
+            "api": [
+                "jh",
+                "05-Jul-20"
+            ],
+            "gsheet": [
+                17,
+                164
+            ]
+        },
+        "State": "Jharkhand",
+        "Date": "7/5/2020"
+    },
+    {
+        "api_sheet": 53,
+        "google_sheet": 49,
+        "position": {
+            "api": [
+                "jh",
+                "20-Jul-20"
+            ],
+            "gsheet": [
+                17,
+                179
+            ]
+        },
+        "State": "Jharkhand",
+        "Date": "7/20/2020"
+    },
+    {
+        "api_sheet": 57,
+        "google_sheet": 61,
+        "position": {
+            "api": [
+                "ka",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                18,
+                134
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 125,
+        "google_sheet": 126,
+        "position": {
+            "api": [
+                "ka",
+                "19-Jun-20"
+            ],
+            "gsheet": [
+                18,
+                148
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "6/19/2020"
+    },
+    {
+        "api_sheet": 1962,
+        "google_sheet": 1960,
+        "position": {
+            "api": [
+                "ka",
+                "27-Jul-20"
+            ],
+            "gsheet": [
+                18,
+                186
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "7/27/2020"
+    },
+    {
+        "api_sheet": 3004,
+        "google_sheet": 3005,
+        "position": {
+            "api": [
+                "ka",
+                "07-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                197
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/7/2020"
+    },
+    {
+        "api_sheet": 3097,
+        "google_sheet": 3098,
+        "position": {
+            "api": [
+                "ka",
+                "08-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                198
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/8/2020"
+    },
+    {
+        "api_sheet": 3204,
+        "google_sheet": 3205,
+        "position": {
+            "api": [
+                "ka",
+                "09-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                199
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/9/2020"
+    },
+    {
+        "api_sheet": 3318,
+        "google_sheet": 3319,
+        "position": {
+            "api": [
+                "ka",
+                "10-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                200
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/10/2020"
+    },
+    {
+        "api_sheet": 3404,
+        "google_sheet": 3405,
+        "position": {
+            "api": [
+                "ka",
+                "11-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                201
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/11/2020"
+    },
+    {
+        "api_sheet": 3517,
+        "google_sheet": 3518,
+        "position": {
+            "api": [
+                "ka",
+                "12-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                202
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/12/2020"
+    },
+    {
+        "api_sheet": 3620,
+        "google_sheet": 3621,
+        "position": {
+            "api": [
+                "ka",
+                "13-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                203
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/13/2020"
+    },
+    {
+        "api_sheet": 3724,
+        "google_sheet": 3725,
+        "position": {
+            "api": [
+                "ka",
+                "14-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                204
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/14/2020"
+    },
+    {
+        "api_sheet": 3838,
+        "google_sheet": 3839,
+        "position": {
+            "api": [
+                "ka",
+                "15-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                205
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/15/2020"
+    },
+    {
+        "api_sheet": 3954,
+        "google_sheet": 3963,
+        "position": {
+            "api": [
+                "ka",
+                "16-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                206
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/16/2020"
+    },
+    {
+        "api_sheet": 4069,
+        "google_sheet": 4078,
+        "position": {
+            "api": [
+                "ka",
+                "17-Aug-20"
+            ],
+            "gsheet": [
+                18,
+                207
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "8/17/2020"
+    },
+    {
+        "api_sheet": 6400,
+        "google_sheet": 5804,
+        "position": {
+            "api": [
+                "ka",
+                "06-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                227
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/6/2020"
+    },
+    {
+        "api_sheet": 6541,
+        "google_sheet": 5945,
+        "position": {
+            "api": [
+                "ka",
+                "07-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                228
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/7/2020"
+    },
+    {
+        "api_sheet": 6687,
+        "google_sheet": 6091,
+        "position": {
+            "api": [
+                "ka",
+                "08-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                229
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/8/2020"
+    },
+    {
+        "api_sheet": 6815,
+        "google_sheet": 6219,
+        "position": {
+            "api": [
+                "ka",
+                "09-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                230
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/9/2020"
+    },
+    {
+        "api_sheet": 6944,
+        "google_sheet": 6348,
+        "position": {
+            "api": [
+                "ka",
+                "10-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                231
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/10/2020"
+    },
+    {
+        "api_sheet": 7074,
+        "google_sheet": 6478,
+        "position": {
+            "api": [
+                "ka",
+                "11-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                232
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/11/2020"
+    },
+    {
+        "api_sheet": 7168,
+        "google_sheet": 6572,
+        "position": {
+            "api": [
+                "ka",
+                "12-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                233
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/12/2020"
+    },
+    {
+        "api_sheet": 7272,
+        "google_sheet": 6676,
+        "position": {
+            "api": [
+                "ka",
+                "13-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                234
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/13/2020"
+    },
+    {
+        "api_sheet": 7391,
+        "google_sheet": 6795,
+        "position": {
+            "api": [
+                "ka",
+                "14-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                235
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/14/2020"
+    },
+    {
+        "api_sheet": 7488,
+        "google_sheet": 6892,
+        "position": {
+            "api": [
+                "ka",
+                "15-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                236
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/15/2020"
+    },
+    {
+        "api_sheet": 7543,
+        "google_sheet": 6947,
+        "position": {
+            "api": [
+                "ka",
+                "16-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                237
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/16/2020"
+    },
+    {
+        "api_sheet": 7636,
+        "google_sheet": 7040,
+        "position": {
+            "api": [
+                "ka",
+                "17-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                238
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/17/2020"
+    },
+    {
+        "api_sheet": 7815,
+        "google_sheet": 7219,
+        "position": {
+            "api": [
+                "ka",
+                "18-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                239
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/18/2020"
+    },
+    {
+        "api_sheet": 7929,
+        "google_sheet": 7333,
+        "position": {
+            "api": [
+                "ka",
+                "19-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                240
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/19/2020"
+    },
+    {
+        "api_sheet": 8030,
+        "google_sheet": 7434,
+        "position": {
+            "api": [
+                "ka",
+                "20-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                241
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/20/2020"
+    },
+    {
+        "api_sheet": 8152,
+        "google_sheet": 7556,
+        "position": {
+            "api": [
+                "ka",
+                "21-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                242
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/21/2020"
+    },
+    {
+        "api_sheet": 8235,
+        "google_sheet": 7639,
+        "position": {
+            "api": [
+                "ka",
+                "22-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                243
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/22/2020"
+    },
+    {
+        "api_sheet": 8273,
+        "google_sheet": 7677,
+        "position": {
+            "api": [
+                "ka",
+                "23-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                244
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/23/2020"
+    },
+    {
+        "api_sheet": 8338,
+        "google_sheet": 7742,
+        "position": {
+            "api": [
+                "ka",
+                "24-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                245
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/24/2020"
+    },
+    {
+        "api_sheet": 8424,
+        "google_sheet": 7828,
+        "position": {
+            "api": [
+                "ka",
+                "25-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                246
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/25/2020"
+    },
+    {
+        "api_sheet": 8510,
+        "google_sheet": 7914,
+        "position": {
+            "api": [
+                "ka",
+                "26-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                247
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/26/2020"
+    },
+    {
+        "api_sheet": 8589,
+        "google_sheet": 7993,
+        "position": {
+            "api": [
+                "ka",
+                "27-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                248
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/27/2020"
+    },
+    {
+        "api_sheet": 8648,
+        "google_sheet": 8052,
+        "position": {
+            "api": [
+                "ka",
+                "28-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                249
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/28/2020"
+    },
+    {
+        "api_sheet": 8784,
+        "google_sheet": 8188,
+        "position": {
+            "api": [
+                "ka",
+                "29-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                250
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/29/2020"
+    },
+    {
+        "api_sheet": 8871,
+        "google_sheet": 8275,
+        "position": {
+            "api": [
+                "ka",
+                "30-Sep-20"
+            ],
+            "gsheet": [
+                18,
+                251
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "9/30/2020"
+    },
+    {
+        "api_sheet": 9001,
+        "google_sheet": 8405,
+        "position": {
+            "api": [
+                "ka",
+                "01-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                252
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/1/2020"
+    },
+    {
+        "api_sheet": 9126,
+        "google_sheet": 8530,
+        "position": {
+            "api": [
+                "ka",
+                "02-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                253
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/2/2020"
+    },
+    {
+        "api_sheet": 9226,
+        "google_sheet": 8630,
+        "position": {
+            "api": [
+                "ka",
+                "03-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                254
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/3/2020"
+    },
+    {
+        "api_sheet": 9293,
+        "google_sheet": 8697,
+        "position": {
+            "api": [
+                "ka",
+                "04-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                255
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/4/2020"
+    },
+    {
+        "api_sheet": 9377,
+        "google_sheet": 8781,
+        "position": {
+            "api": [
+                "ka",
+                "05-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                256
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/5/2020"
+    },
+    {
+        "api_sheet": 9468,
+        "google_sheet": 8872,
+        "position": {
+            "api": [
+                "ka",
+                "06-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                257
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/6/2020"
+    },
+    {
+        "api_sheet": 9581,
+        "google_sheet": 8985,
+        "position": {
+            "api": [
+                "ka",
+                "07-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                258
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/7/2020"
+    },
+    {
+        "api_sheet": 9682,
+        "google_sheet": 9086,
+        "position": {
+            "api": [
+                "ka",
+                "08-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                259
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/8/2020"
+    },
+    {
+        "api_sheet": 9796,
+        "google_sheet": 9200,
+        "position": {
+            "api": [
+                "ka",
+                "09-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                260
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/9/2020"
+    },
+    {
+        "api_sheet": 9898,
+        "google_sheet": 9302,
+        "position": {
+            "api": [
+                "ka",
+                "10-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                261
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/10/2020"
+    },
+    {
+        "api_sheet": 9973,
+        "google_sheet": 9377,
+        "position": {
+            "api": [
+                "ka",
+                "11-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                262
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/11/2020"
+    },
+    {
+        "api_sheet": 10043,
+        "google_sheet": 9447,
+        "position": {
+            "api": [
+                "ka",
+                "12-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                263
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/12/2020"
+    },
+    {
+        "api_sheet": 10130,
+        "google_sheet": 9534,
+        "position": {
+            "api": [
+                "ka",
+                "13-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                264
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/13/2020"
+    },
+    {
+        "api_sheet": 10205,
+        "google_sheet": 9609,
+        "position": {
+            "api": [
+                "ka",
+                "14-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                265
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/14/2020"
+    },
+    {
+        "api_sheet": 10290,
+        "google_sheet": 9694,
+        "position": {
+            "api": [
+                "ka",
+                "15-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                266
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/15/2020"
+    },
+    {
+        "api_sheet": 10363,
+        "google_sheet": 9767,
+        "position": {
+            "api": [
+                "ka",
+                "16-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                267
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/16/2020"
+    },
+    {
+        "api_sheet": 10434,
+        "google_sheet": 9838,
+        "position": {
+            "api": [
+                "ka",
+                "17-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                268
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/17/2020"
+    },
+    {
+        "api_sheet": 10485,
+        "google_sheet": 9889,
+        "position": {
+            "api": [
+                "ka",
+                "18-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                269
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/18/2020"
+    },
+    {
+        "api_sheet": 10549,
+        "google_sheet": 9953,
+        "position": {
+            "api": [
+                "ka",
+                "19-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                270
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/19/2020"
+    },
+    {
+        "api_sheet": 10615,
+        "google_sheet": 10019,
+        "position": {
+            "api": [
+                "ka",
+                "20-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                271
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/20/2020"
+    },
+    {
+        "api_sheet": 10703,
+        "google_sheet": 10107,
+        "position": {
+            "api": [
+                "ka",
+                "21-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                272
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/21/2020"
+    },
+    {
+        "api_sheet": 10777,
+        "google_sheet": 10181,
+        "position": {
+            "api": [
+                "ka",
+                "22-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                273
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/22/2020"
+    },
+    {
+        "api_sheet": 10828,
+        "google_sheet": 10232,
+        "position": {
+            "api": [
+                "ka",
+                "23-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                274
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/23/2020"
+    },
+    {
+        "api_sheet": 10880,
+        "google_sheet": 10284,
+        "position": {
+            "api": [
+                "ka",
+                "24-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                275
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/24/2020"
+    },
+    {
+        "api_sheet": 10912,
+        "google_sheet": 10316,
+        "position": {
+            "api": [
+                "ka",
+                "25-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                276
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/25/2020"
+    },
+    {
+        "api_sheet": 10954,
+        "google_sheet": 10358,
+        "position": {
+            "api": [
+                "ka",
+                "26-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                277
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/26/2020"
+    },
+    {
+        "api_sheet": 10998,
+        "google_sheet": 10402,
+        "position": {
+            "api": [
+                "ka",
+                "27-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                278
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/27/2020"
+    },
+    {
+        "api_sheet": 11053,
+        "google_sheet": 10457,
+        "position": {
+            "api": [
+                "ka",
+                "28-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                279
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/28/2020"
+    },
+    {
+        "api_sheet": 11098,
+        "google_sheet": 10502,
+        "position": {
+            "api": [
+                "ka",
+                "29-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                280
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/29/2020"
+    },
+    {
+        "api_sheet": 11147,
+        "google_sheet": 10551,
+        "position": {
+            "api": [
+                "ka",
+                "30-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                281
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/30/2020"
+    },
+    {
+        "api_sheet": 11175,
+        "google_sheet": 10579,
+        "position": {
+            "api": [
+                "ka",
+                "31-Oct-20"
+            ],
+            "gsheet": [
+                18,
+                282
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "10/31/2020"
+    },
+    {
+        "api_sheet": 11199,
+        "google_sheet": 10603,
+        "position": {
+            "api": [
+                "ka",
+                "01-Nov-20"
+            ],
+            "gsheet": [
+                18,
+                283
+            ]
+        },
+        "State": "Karnataka",
+        "Date": "11/1/2020"
+    },
+    {
+        "api_sheet": 7,
+        "google_sheet": 6,
+        "position": {
+            "api": [
+                "la",
+                "30-Jul-20"
+            ],
+            "gsheet": [
+                20,
+                189
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "7/30/2020"
+    },
+    {
+        "api_sheet": 58,
+        "google_sheet": 57,
+        "position": {
+            "api": [
+                "la",
+                "27-Sep-20"
+            ],
+            "gsheet": [
+                20,
+                248
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "9/27/2020"
+    },
+    {
+        "api_sheet": 61,
+        "google_sheet": 58,
+        "position": {
+            "api": [
+                "la",
+                "01-Oct-20"
+            ],
+            "gsheet": [
+                20,
+                252
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "10/1/2020"
+    },
+    {
+        "api_sheet": 66,
+        "google_sheet": 65,
+        "position": {
+            "api": [
+                "la",
+                "17-Oct-20"
+            ],
+            "gsheet": [
+                20,
+                268
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "10/17/2020"
+    },
+    {
+        "api_sheet": 74,
+        "google_sheet": 73,
+        "position": {
+            "api": [
+                "la",
+                "28-Oct-20"
+            ],
+            "gsheet": [
+                20,
+                279
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "10/28/2020"
+    },
+    {
+        "api_sheet": 74,
+        "google_sheet": 73,
+        "position": {
+            "api": [
+                "la",
+                "29-Oct-20"
+            ],
+            "gsheet": [
+                20,
+                280
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "10/29/2020"
+    },
+    {
+        "api_sheet": 74,
+        "google_sheet": 73,
+        "position": {
+            "api": [
+                "la",
+                "30-Oct-20"
+            ],
+            "gsheet": [
+                20,
+                281
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "10/30/2020"
+    },
+    {
+        "api_sheet": 76,
+        "google_sheet": 75,
+        "position": {
+            "api": [
+                "la",
+                "02-Nov-20"
+            ],
+            "gsheet": [
+                20,
+                284
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "11/2/2020"
+    },
+    {
+        "api_sheet": 79,
+        "google_sheet": 76,
+        "position": {
+            "api": [
+                "la",
+                "04-Nov-20"
+            ],
+            "gsheet": [
+                20,
+                286
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "11/4/2020"
+    },
+    {
+        "api_sheet": 80,
+        "google_sheet": 79,
+        "position": {
+            "api": [
+                "la",
+                "06-Nov-20"
+            ],
+            "gsheet": [
+                20,
+                288
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "11/6/2020"
+    },
+    {
+        "api_sheet": 94,
+        "google_sheet": 93,
+        "position": {
+            "api": [
+                "la",
+                "17-Nov-20"
+            ],
+            "gsheet": [
+                20,
+                299
+            ]
+        },
+        "State": "Ladakh",
+        "Date": "11/17/2020"
+    },
+    {
+        "api_sheet": 1,
+        "google_sheet": 2,
+        "position": {
+            "api": [
+                "ml",
+                "07-Jul-20"
+            ],
+            "gsheet": [
+                25,
+                166
+            ]
+        },
+        "State": "Meghalaya",
+        "Date": "7/7/2020"
+    },
+    {
+        "api_sheet": 2,
+        "google_sheet": 1,
+        "position": {
+            "api": [
+                "ml",
+                "08-Jul-20"
+            ],
+            "gsheet": [
+                25,
+                167
+            ]
+        },
+        "State": "Meghalaya",
+        "Date": "7/8/2020"
+    },
+    {
+        "api_sheet": 2,
+        "google_sheet": 1,
+        "position": {
+            "api": [
+                "ml",
+                "09-Jul-20"
+            ],
+            "gsheet": [
+                25,
+                168
+            ]
+        },
+        "State": "Meghalaya",
+        "Date": "7/9/2020"
+    },
+    {
+        "api_sheet": 9,
+        "google_sheet": 8,
+        "position": {
+            "api": [
+                "ml",
+                "27-Aug-20"
+            ],
+            "gsheet": [
+                25,
+                217
+            ]
+        },
+        "State": "Meghalaya",
+        "Date": "8/27/2020"
+    },
+    {
+        "api_sheet": 10,
+        "google_sheet": 9,
+        "position": {
+            "api": [
+                "ml",
+                "28-Aug-20"
+            ],
+            "gsheet": [
+                25,
+                218
+            ]
+        },
+        "State": "Meghalaya",
+        "Date": "8/28/2020"
+    },
+    {
+        "api_sheet": 78,
+        "google_sheet": 77,
+        "position": {
+            "api": [
+                "ml",
+                "22-Oct-20"
+            ],
+            "gsheet": [
+                25,
+                273
+            ]
+        },
+        "State": "Meghalaya",
+        "Date": "10/22/2020"
+    },
+    {
+        "api_sheet": 232,
+        "google_sheet": 231,
+        "position": {
+            "api": [
+                "mn",
+                "20-Nov-20"
+            ],
+            "gsheet": [
+                24,
+                302
+            ]
+        },
+        "State": "Manipur",
+        "Date": "11/20/2020"
+    },
+    {
+        "api_sheet": 385,
+        "google_sheet": 384,
+        "position": {
+            "api": [
+                "mp",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                22,
+                134
+            ]
+        },
+        "State": "Madhya Pradesh",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 1662,
+        "google_sheet": 1661,
+        "position": {
+            "api": [
+                "mp",
+                "10-Sep-20"
+            ],
+            "gsheet": [
+                22,
+                231
+            ]
+        },
+        "State": "Madhya Pradesh",
+        "Date": "9/10/2020"
+    },
+    {
+        "api_sheet": 1692,
+        "google_sheet": 1689,
+        "position": {
+            "api": [
+                "mp",
+                "11-Sep-20"
+            ],
+            "gsheet": [
+                22,
+                232
+            ]
+        },
+        "State": "Madhya Pradesh",
+        "Date": "9/11/2020"
+    },
+    {
+        "api_sheet": 1,
+        "google_sheet": 0,
+        "position": {
+            "api": [
+                "nl",
+                "24-Jul-20"
+            ],
+            "gsheet": [
+                27,
+                183
+            ]
+        },
+        "State": "Nagaland",
+        "Date": "7/24/2020"
+    },
+    {
+        "api_sheet": 4,
+        "google_sheet": 0,
+        "position": {
+            "api": [
+                "nl",
+                "25-Jul-20"
+            ],
+            "gsheet": [
+                27,
+                184
+            ]
+        },
+        "State": "Nagaland",
+        "Date": "7/25/2020"
+    },
+    {
+        "api_sheet": 25,
+        "google_sheet": 24,
+        "position": {
+            "api": [
+                "nl",
+                "25-Oct-20"
+            ],
+            "gsheet": [
+                27,
+                276
+            ]
+        },
+        "State": "Nagaland",
+        "Date": "10/25/2020"
+    },
+    {
+        "api_sheet": 27,
+        "google_sheet": 25,
+        "position": {
+            "api": [
+                "nl",
+                "26-Oct-20"
+            ],
+            "gsheet": [
+                27,
+                277
+            ]
+        },
+        "State": "Nagaland",
+        "Date": "10/26/2020"
+    },
+    {
+        "api_sheet": 27,
+        "google_sheet": 33,
+        "position": {
+            "api": [
+                "nl",
+                "27-Oct-20"
+            ],
+            "gsheet": [
+                27,
+                278
+            ]
+        },
+        "State": "Nagaland",
+        "Date": "10/27/2020"
+    },
+    {
+        "api_sheet": 10,
+        "google_sheet": 9,
+        "position": {
+            "api": [
+                "or",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                28,
+                134
+            ]
+        },
+        "State": "Odisha",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 622,
+        "google_sheet": 619,
+        "position": {
+            "api": [
+                "or",
+                "08-Sep-20"
+            ],
+            "gsheet": [
+                28,
+                229
+            ]
+        },
+        "State": "Odisha",
+        "Date": "9/8/2020"
+    },
+    {
+        "api_sheet": 633,
+        "google_sheet": 630,
+        "position": {
+            "api": [
+                "or",
+                "09-Sep-20"
+            ],
+            "gsheet": [
+                28,
+                230
+            ]
+        },
+        "State": "Odisha",
+        "Date": "9/9/2020"
+    },
+    {
+        "api_sheet": 644,
+        "google_sheet": 641,
+        "position": {
+            "api": [
+                "or",
+                "10-Sep-20"
+            ],
+            "gsheet": [
+                28,
+                231
+            ]
+        },
+        "State": "Odisha",
+        "Date": "9/10/2020"
+    },
+    {
+        "api_sheet": 658,
+        "google_sheet": 655,
+        "position": {
+            "api": [
+                "or",
+                "11-Sep-20"
+            ],
+            "gsheet": [
+                28,
+                232
+            ]
+        },
+        "State": "Odisha",
+        "Date": "9/11/2020"
+    },
+    {
+        "api_sheet": 48,
+        "google_sheet": 47,
+        "position": {
+            "api": [
+                "pb",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                30,
+                134
+            ]
+        },
+        "State": "Punjab",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 260,
+        "google_sheet": 253,
+        "position": {
+            "api": [
+                "py",
+                "03-Sep-20"
+            ],
+            "gsheet": [
+                29,
+                224
+            ]
+        },
+        "State": "Puducherry",
+        "Date": "9/3/2020"
+    },
+    {
+        "api_sheet": 194,
+        "google_sheet": 195,
+        "position": {
+            "api": [
+                "rj",
+                "31-May-20"
+            ],
+            "gsheet": [
+                31,
+                129
+            ]
+        },
+        "State": "Rajasthan",
+        "Date": "5/31/2020"
+    },
+    {
+        "api_sheet": 218,
+        "google_sheet": 217,
+        "position": {
+            "api": [
+                "rj",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                31,
+                134
+            ]
+        },
+        "State": "Rajasthan",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 16,
+        "google_sheet": 13,
+        "position": {
+            "api": [
+                "sk",
+                "13-Sep-20"
+            ],
+            "gsheet": [
+                32,
+                234
+            ]
+        },
+        "State": "Sikkim",
+        "Date": "9/13/2020"
+    },
+    {
+        "api_sheet": 16,
+        "google_sheet": 13,
+        "position": {
+            "api": [
+                "sk",
+                "14-Sep-20"
+            ],
+            "gsheet": [
+                32,
+                235
+            ]
+        },
+        "State": "Sikkim",
+        "Date": "9/14/2020"
+    },
+    {
+        "api_sheet": 19,
+        "google_sheet": 17,
+        "position": {
+            "api": [
+                "sk",
+                "15-Sep-20"
+            ],
+            "gsheet": [
+                32,
+                236
+            ]
+        },
+        "State": "Sikkim",
+        "Date": "9/15/2020"
+    },
+    {
+        "api_sheet": 19,
+        "google_sheet": 16,
+        "position": {
+            "api": [
+                "sk",
+                "16-Sep-20"
+            ],
+            "gsheet": [
+                32,
+                237
+            ]
+        },
+        "State": "Sikkim",
+        "Date": "9/16/2020"
+    },
+    {
+        "api_sheet": 23,
+        "google_sheet": 20,
+        "position": {
+            "api": [
+                "sk",
+                "17-Sep-20"
+            ],
+            "gsheet": [
+                32,
+                238
+            ]
+        },
+        "State": "Sikkim",
+        "Date": "9/17/2020"
+    },
+    {
+        "api_sheet": 26,
+        "google_sheet": 23,
+        "position": {
+            "api": [
+                "sk",
+                "18-Sep-20"
+            ],
+            "gsheet": [
+                32,
+                239
+            ]
+        },
+        "State": "Sikkim",
+        "Date": "9/18/2020"
+    },
+    {
+        "api_sheet": 33,
+        "google_sheet": 31,
+        "position": {
+            "api": [
+                "sk",
+                "27-Sep-20"
+            ],
+            "gsheet": [
+                32,
+                248
+            ]
+        },
+        "State": "Sikkim",
+        "Date": "9/27/2020"
+    },
+    {
+        "api_sheet": 113,
+        "google_sheet": 111,
+        "position": {
+            "api": [
+                "tg",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                34,
+                134
+            ]
+        },
+        "State": "Telangana",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 463,
+        "google_sheet": 455,
+        "position": {
+            "api": [
+                "tg",
+                "25-Jul-20"
+            ],
+            "gsheet": [
+                34,
+                184
+            ]
+        },
+        "State": "Telangana",
+        "Date": "7/25/2020"
+    },
+    {
+        "api_sheet": 235,
+        "google_sheet": 238,
+        "position": {
+            "api": [
+                "tn",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                33,
+                134
+            ]
+        },
+        "State": "Tamil Nadu",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 7836,
+        "google_sheet": 7839,
+        "position": {
+            "api": [
+                "tn",
+                "06-Sep-20"
+            ],
+            "gsheet": [
+                33,
+                227
+            ]
+        },
+        "State": "Tamil Nadu",
+        "Date": "9/6/2020"
+    },
+    {
+        "api_sheet": 7925,
+        "google_sheet": 7928,
+        "position": {
+            "api": [
+                "tn",
+                "07-Sep-20"
+            ],
+            "gsheet": [
+                33,
+                228
+            ]
+        },
+        "State": "Tamil Nadu",
+        "Date": "9/7/2020"
+    },
+    {
+        "api_sheet": 8012,
+        "google_sheet": 8015,
+        "position": {
+            "api": [
+                "tn",
+                "08-Sep-20"
+            ],
+            "gsheet": [
+                33,
+                229
+            ]
+        },
+        "State": "Tamil Nadu",
+        "Date": "9/8/2020"
+    },
+    {
+        "api_sheet": 8090,
+        "google_sheet": 8093,
+        "position": {
+            "api": [
+                "tn",
+                "09-Sep-20"
+            ],
+            "gsheet": [
+                33,
+                230
+            ]
+        },
+        "State": "Tamil Nadu",
+        "Date": "9/9/2020"
+    },
+    {
+        "api_sheet": 8154,
+        "google_sheet": 8157,
+        "position": {
+            "api": [
+                "tn",
+                "10-Sep-20"
+            ],
+            "gsheet": [
+                33,
+                231
+            ]
+        },
+        "State": "Tamil Nadu",
+        "Date": "9/10/2020"
+    },
+    {
+        "api_sheet": 8231,
+        "google_sheet": 8234,
+        "position": {
+            "api": [
+                "tn",
+                "11-Sep-20"
+            ],
+            "gsheet": [
+                33,
+                232
+            ]
+        },
+        "State": "Tamil Nadu",
+        "Date": "9/11/2020"
+    },
+    {
+        "api_sheet": 11,
+        "google_sheet": 10,
+        "position": {
+            "api": [
+                "tr",
+                "24-Jul-20"
+            ],
+            "gsheet": [
+                35,
+                183
+            ]
+        },
+        "State": "Tripura",
+        "Date": "7/24/2020"
+    },
+    {
+        "api_sheet": 23,
+        "google_sheet": 21,
+        "position": {
+            "api": [
+                "tr",
+                "01-Aug-20"
+            ],
+            "gsheet": [
+                35,
+                191
+            ]
+        },
+        "State": "Tripura",
+        "Date": "8/1/2020"
+    },
+    {
+        "api_sheet": 257,
+        "google_sheet": 260,
+        "position": {
+            "api": [
+                "up",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                36,
+                134
+            ]
+        },
+        "State": "Uttar Pradesh",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 11,
+        "google_sheet": 12,
+        "position": {
+            "api": [
+                "ut",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                37,
+                134
+            ]
+        },
+        "State": "Uttarakhand",
+        "Date": "6/5/2020"
+    },
+    {
+        "api_sheet": 464,
+        "google_sheet": 460,
+        "position": {
+            "api": [
+                "ut",
+                "18-Sep-20"
+            ],
+            "gsheet": [
+                37,
+                239
+            ]
+        },
+        "State": "Uttarakhand",
+        "Date": "9/18/2020"
+    },
+    {
+        "api_sheet": 993,
+        "google_sheet": 984,
+        "position": {
+            "api": [
+                "ut",
+                "25-Oct-20"
+            ],
+            "gsheet": [
+                37,
+                276
+            ]
+        },
+        "State": "Uttarakhand",
+        "Date": "10/25/2020"
+    },
+    {
+        "api_sheet": 1133,
+        "google_sheet": 1134,
+        "position": {
+            "api": [
+                "ut",
+                "19-Nov-20"
+            ],
+            "gsheet": [
+                37,
+                301
+            ]
+        },
+        "State": "Uttarakhand",
+        "Date": "11/19/2020"
+    },
+    {
+        "api_sheet": 366,
+        "google_sheet": 365,
+        "position": {
+            "api": [
+                "wb",
+                "05-Jun-20"
+            ],
+            "gsheet": [
+                38,
+                134
+            ]
+        },
+        "State": "West Bengal",
+        "Date": "6/5/2020"
+    }
+]
