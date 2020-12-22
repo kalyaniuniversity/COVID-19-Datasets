@@ -1,18 +1,18 @@
 [
     {
-        "api_sheet": 119,
-        "google_sheet": 118,
+        "api_sheet": 626,
+        "google_sheet": 624,
         "position": {
             "api": [
-                "sk",
-                "15-Dec-20"
+                "py",
+                "20-Dec-20"
             ],
             "gsheet": [
-                32,
-                327
+                29,
+                332
             ]
         },
-        "State": "Sikkim",
-        "Date": "12/15/2020"
+        "State": "Puducherry",
+        "Date": "12/20/2020"
     }
 ]
