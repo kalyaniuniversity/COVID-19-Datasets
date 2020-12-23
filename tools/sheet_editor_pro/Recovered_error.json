@@ -1,18 +1,18 @@
 [
     {
-        "api_sheet": 36777,
-        "google_sheet": 36752,
+        "api_sheet": 3973,
+        "google_sheet": 3974,
         "position": {
             "api": [
-                "py",
-                "20-Dec-20"
+                "mz",
+                "21-Dec-20"
             ],
             "gsheet": [
-                29,
-                332
+                26,
+                333
             ]
         },
-        "State": "Puducherry",
-        "Date": "12/20/2020"
+        "State": "Mizoram",
+        "Date": "12/21/2020"
     }
 ]
