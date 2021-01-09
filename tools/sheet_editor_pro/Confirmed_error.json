@@ -1,82 +1,18 @@
 [
     {
-        "api_sheet": 13360,
-        "google_sheet": 13379,
+        "api_sheet": 51626,
+        "google_sheet": 51597,
         "position": {
             "api": [
-                "ml",
-                "31-Dec-20"
+                "ga",
+                "07-Jan-21"
             ],
             "gsheet": [
-                25,
-                343
+                12,
+                350
             ]
         },
-        "State": "Meghalaya",
-        "Date": "12/31/2020"
-    },
-    {
-        "api_sheet": 13360,
-        "google_sheet": 13379,
-        "position": {
-            "api": [
-                "ml",
-                "01-Jan-21"
-            ],
-            "gsheet": [
-                25,
-                344
-            ]
-        },
-        "State": "Meghalaya",
-        "Date": "1/1/2021"
-    },
-    {
-        "api_sheet": 13400,
-        "google_sheet": 13419,
-        "position": {
-            "api": [
-                "ml",
-                "02-Jan-21"
-            ],
-            "gsheet": [
-                25,
-                345
-            ]
-        },
-        "State": "Meghalaya",
-        "Date": "1/2/2021"
-    },
-    {
-        "api_sheet": 5915,
-        "google_sheet": 5914,
-        "position": {
-            "api": [
-                "sk",
-                "01-Jan-21"
-            ],
-            "gsheet": [
-                32,
-                344
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "1/1/2021"
-    },
-    {
-        "api_sheet": 5925,
-        "google_sheet": 5924,
-        "position": {
-            "api": [
-                "sk",
-                "02-Jan-21"
-            ],
-            "gsheet": [
-                32,
-                345
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "1/2/2021"
+        "State": "Goa",
+        "Date": "1/7/2021"
     }
 ]
