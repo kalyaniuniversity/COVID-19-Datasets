@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 19780,
-        "google_sheet": 19800,
+        "api_sheet": 5625,
+        "google_sheet": 5530,
         "position": {
             "api": [
-                "ch",
-                "12-Jan-21"
+                "sk",
+                "14-Jan-21"
             ],
             "gsheet": [
-                7,
-                355
+                32,
+                357
             ]
         },
-        "State": "Chandigarh",
-        "Date": "1/12/2021"
-    },
-    {
-        "api_sheet": 19794,
-        "google_sheet": 19814,
-        "position": {
-            "api": [
-                "ch",
-                "13-Jan-21"
-            ],
-            "gsheet": [
-                7,
-                356
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "1/13/2021"
+        "State": "Sikkim",
+        "Date": "1/14/2021"
     }
 ]
