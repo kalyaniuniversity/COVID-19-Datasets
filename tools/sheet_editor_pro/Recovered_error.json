@@ -1,50 +1,18 @@
 [
     {
-        "api_sheet": 20302,
-        "google_sheet": 20273,
+        "api_sheet": 14,
+        "google_sheet": 0,
         "position": {
             "api": [
-                "ch",
-                "25-Jan-21"
+                "ld",
+                "29-Jan-21"
             ],
             "gsheet": [
-                7,
-                368
+                21,
+                372
             ]
         },
-        "State": "Chandigarh",
-        "Date": "1/25/2021"
-    },
-    {
-        "api_sheet": 20302,
-        "google_sheet": 20273,
-        "position": {
-            "api": [
-                "ch",
-                "26-Jan-21"
-            ],
-            "gsheet": [
-                7,
-                369
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "1/26/2021"
-    },
-    {
-        "api_sheet": 20339,
-        "google_sheet": 20310,
-        "position": {
-            "api": [
-                "ch",
-                "27-Jan-21"
-            ],
-            "gsheet": [
-                7,
-                370
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "1/27/2021"
+        "State": "Lakshadweep",
+        "Date": "1/29/2021"
     }
 ]
