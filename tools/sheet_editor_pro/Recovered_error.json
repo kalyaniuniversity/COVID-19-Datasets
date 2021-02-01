@@ -1,18 +1,18 @@
 [
     {
-        "api_sheet": 14,
-        "google_sheet": 0,
+        "api_sheet": 30,
+        "google_sheet": 14,
         "position": {
             "api": [
                 "ld",
-                "29-Jan-21"
+                "30-Jan-21"
             ],
             "gsheet": [
                 21,
-                372
+                373
             ]
         },
         "State": "Lakshadweep",
-        "Date": "1/29/2021"
+        "Date": "1/30/2021"
     }
 ]
