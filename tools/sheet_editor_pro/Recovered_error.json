@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 117229,
-        "google_sheet": 117228,
+        "api_sheet": 9535,
+        "google_sheet": 9530,
         "position": {
             "api": [
-                "jh",
-                "02-Feb-21"
+                "la",
+                "03-Feb-21"
             ],
             "gsheet": [
-                17,
-                376
+                20,
+                377
             ]
         },
-        "State": "Jharkhand",
-        "Date": "2/2/2021"
-    },
-    {
-        "api_sheet": 56,
-        "google_sheet": 63,
-        "position": {
-            "api": [
-                "ld",
-                "02-Feb-21"
-            ],
-            "gsheet": [
-                21,
-                376
-            ]
-        },
-        "State": "Lakshadweep",
-        "Date": "2/2/2021"
+        "State": "Ladakh",
+        "Date": "2/3/2021"
     }
 ]
