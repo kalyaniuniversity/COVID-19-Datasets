@@ -1,18 +1,18 @@
 [
     {
-        "api_sheet": 338,
-        "google_sheet": 337,
+        "api_sheet": 8686,
+        "google_sheet": 8682,
         "position": {
             "api": [
-                "ch",
-                "05-Feb-21"
+                "up",
+                "06-Feb-21"
             ],
             "gsheet": [
-                7,
-                379
+                36,
+                380
             ]
         },
-        "State": "Chandigarh",
-        "Date": "2/5/2021"
+        "State": "Uttar Pradesh",
+        "Date": "2/6/2021"
     }
 ]
