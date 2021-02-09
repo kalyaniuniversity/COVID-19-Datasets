@@ -1,18 +1,34 @@
 [
     {
-        "api_sheet": 8686,
-        "google_sheet": 8682,
+        "api_sheet": 340,
+        "google_sheet": 338,
         "position": {
             "api": [
-                "up",
-                "06-Feb-21"
+                "ch",
+                "07-Feb-21"
             ],
             "gsheet": [
-                36,
-                380
+                7,
+                381
             ]
         },
-        "State": "Uttar Pradesh",
-        "Date": "2/6/2021"
+        "State": "Chandigarh",
+        "Date": "2/7/2021"
+    },
+    {
+        "api_sheet": 5642,
+        "google_sheet": 5640,
+        "position": {
+            "api": [
+                "pb",
+                "07-Feb-21"
+            ],
+            "gsheet": [
+                30,
+                381
+            ]
+        },
+        "State": "Punjab",
+        "Date": "2/7/2021"
     }
 ]

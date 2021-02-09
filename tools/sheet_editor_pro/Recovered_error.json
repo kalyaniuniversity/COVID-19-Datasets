@@ -1,34 +1,66 @@
 [
     {
-        "api_sheet": 9542,
-        "google_sheet": 9541,
+        "api_sheet": 20598,
+        "google_sheet": 20535,
+        "position": {
+            "api": [
+                "ch",
+                "07-Feb-21"
+            ],
+            "gsheet": [
+                7,
+                381
+            ]
+        },
+        "State": "Chandigarh",
+        "Date": "2/7/2021"
+    },
+    {
+        "api_sheet": 9545,
+        "google_sheet": 9542,
         "position": {
             "api": [
                 "la",
-                "06-Feb-21"
+                "07-Feb-21"
             ],
             "gsheet": [
                 20,
-                380
+                381
             ]
         },
         "State": "Ladakh",
-        "Date": "2/6/2021"
+        "Date": "2/7/2021"
     },
     {
-        "api_sheet": 588148,
-        "google_sheet": 587984,
+        "api_sheet": 166828,
+        "google_sheet": 166643,
         "position": {
             "api": [
-                "up",
-                "06-Feb-21"
+                "pb",
+                "07-Feb-21"
             ],
             "gsheet": [
-                36,
-                380
+                30,
+                381
             ]
         },
-        "State": "Uttar Pradesh",
-        "Date": "2/6/2021"
+        "State": "Punjab",
+        "Date": "2/7/2021"
+    },
+    {
+        "api_sheet": 32930,
+        "google_sheet": 32927,
+        "position": {
+            "api": [
+                "tr",
+                "07-Feb-21"
+            ],
+            "gsheet": [
+                35,
+                381
+            ]
+        },
+        "State": "Tripura",
+        "Date": "2/7/2021"
     }
 ]
