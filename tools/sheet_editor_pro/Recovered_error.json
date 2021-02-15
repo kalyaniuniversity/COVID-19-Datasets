@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 9569,
-        "google_sheet": 9552,
+        "api_sheet": 214570,
+        "google_sheet": 214542,
         "position": {
             "api": [
-                "la",
-                "09-Feb-21"
+                "as",
+                "13-Feb-21"
             ],
             "gsheet": [
-                20,
-                383
+                5,
+                387
             ]
         },
-        "State": "Ladakh",
-        "Date": "2/9/2021"
-    },
-    {
-        "api_sheet": 167285,
-        "google_sheet": 167073,
-        "position": {
-            "api": [
-                "pb",
-                "09-Feb-21"
-            ],
-            "gsheet": [
-                30,
-                383
-            ]
-        },
-        "State": "Punjab",
-        "Date": "2/9/2021"
+        "State": "Assam",
+        "Date": "2/13/2021"
     }
 ]
