@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 1083,
-        "google_sheet": 1082,
-        "position": {
-            "api": [
-                "jh",
-                "14-Feb-21"
-            ],
-            "gsheet": [
-                17,
-                388
-            ]
-        },
-        "State": "Jharkhand",
-        "Date": "2/14/2021"
-    },
-    {
-        "api_sheet": 5697,
-        "google_sheet": 5694,
+        "api_sheet": 5707,
+        "google_sheet": 5697,
         "position": {
             "api": [
                 "pb",
-                "14-Feb-21"
+                "15-Feb-21"
             ],
             "gsheet": [
                 30,
-                388
+                389
             ]
         },
         "State": "Punjab",
-        "Date": "2/14/2021"
+        "Date": "2/15/2021"
     }
 ]
