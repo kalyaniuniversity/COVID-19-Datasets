@@ -1,162 +1,50 @@
 [
     {
-        "api_sheet": 20623,
-        "google_sheet": 20598,
+        "api_sheet": 168833,
+        "google_sheet": 168654,
         "position": {
             "api": [
-                "ch",
-                "08-Feb-21"
-            ],
-            "gsheet": [
-                7,
-                382
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "2/8/2021"
-    },
-    {
-        "api_sheet": 20644,
-        "google_sheet": 20619,
-        "position": {
-            "api": [
-                "ch",
-                "09-Feb-21"
-            ],
-            "gsheet": [
-                7,
-                383
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "2/9/2021"
-    },
-    {
-        "api_sheet": 20670,
-        "google_sheet": 20645,
-        "position": {
-            "api": [
-                "ch",
-                "10-Feb-21"
-            ],
-            "gsheet": [
-                7,
-                384
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "2/10/2021"
-    },
-    {
-        "api_sheet": 20700,
-        "google_sheet": 20675,
-        "position": {
-            "api": [
-                "ch",
-                "11-Feb-21"
-            ],
-            "gsheet": [
-                7,
-                385
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "2/11/2021"
-    },
-    {
-        "api_sheet": 20717,
-        "google_sheet": 20692,
-        "position": {
-            "api": [
-                "ch",
-                "12-Feb-21"
-            ],
-            "gsheet": [
-                7,
-                386
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "2/12/2021"
-    },
-    {
-        "api_sheet": 20752,
-        "google_sheet": 20727,
-        "position": {
-            "api": [
-                "ch",
-                "13-Feb-21"
-            ],
-            "gsheet": [
-                7,
-                387
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "2/13/2021"
-    },
-    {
-        "api_sheet": 20765,
-        "google_sheet": 20740,
-        "position": {
-            "api": [
-                "ch",
-                "14-Feb-21"
-            ],
-            "gsheet": [
-                7,
-                388
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "2/14/2021"
-    },
-    {
-        "api_sheet": 20789,
-        "google_sheet": 20764,
-        "position": {
-            "api": [
-                "ch",
-                "15-Feb-21"
-            ],
-            "gsheet": [
-                7,
-                389
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "2/15/2021"
-    },
-    {
-        "api_sheet": 20813,
-        "google_sheet": 20788,
-        "position": {
-            "api": [
-                "ch",
-                "16-Feb-21"
-            ],
-            "gsheet": [
-                7,
-                390
-            ]
-        },
-        "State": "Chandigarh",
-        "Date": "2/16/2021"
-    },
-    {
-        "api_sheet": 20832,
-        "google_sheet": 20807,
-        "position": {
-            "api": [
-                "ch",
+                "pb",
                 "17-Feb-21"
             ],
             "gsheet": [
-                7,
+                30,
                 391
             ]
         },
-        "State": "Chandigarh",
+        "State": "Punjab",
         "Date": "2/17/2021"
+    },
+    {
+        "api_sheet": 169002,
+        "google_sheet": 168654,
+        "position": {
+            "api": [
+                "pb",
+                "18-Feb-21"
+            ],
+            "gsheet": [
+                30,
+                392
+            ]
+        },
+        "State": "Punjab",
+        "Date": "2/18/2021"
+    },
+    {
+        "api_sheet": 591269,
+        "google_sheet": 591013,
+        "position": {
+            "api": [
+                "up",
+                "18-Feb-21"
+            ],
+            "gsheet": [
+                36,
+                392
+            ]
+        },
+        "State": "Uttar Pradesh",
+        "Date": "2/18/2021"
     }
 ]
