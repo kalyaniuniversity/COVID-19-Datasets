@@ -1,50 +1,34 @@
 [
     {
-        "api_sheet": 5722,
-        "google_sheet": 5712,
+        "api_sheet": 5740,
+        "google_sheet": 5732,
         "position": {
             "api": [
                 "pb",
-                "17-Feb-21"
+                "19-Feb-21"
             ],
             "gsheet": [
                 30,
-                391
+                393
             ]
         },
         "State": "Punjab",
-        "Date": "2/17/2021"
+        "Date": "2/19/2021"
     },
     {
-        "api_sheet": 5732,
-        "google_sheet": 5712,
+        "api_sheet": 662,
+        "google_sheet": 660,
         "position": {
             "api": [
-                "pb",
-                "18-Feb-21"
+                "py",
+                "19-Feb-21"
             ],
             "gsheet": [
-                30,
-                392
+                29,
+                393
             ]
         },
-        "State": "Punjab",
-        "Date": "2/18/2021"
-    },
-    {
-        "api_sheet": 8711,
-        "google_sheet": 8707,
-        "position": {
-            "api": [
-                "up",
-                "18-Feb-21"
-            ],
-            "gsheet": [
-                36,
-                392
-            ]
-        },
-        "State": "Uttar Pradesh",
-        "Date": "2/18/2021"
+        "State": "Puducherry",
+        "Date": "2/19/2021"
     }
 ]

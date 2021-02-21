@@ -1,146 +1,34 @@
 [
     {
-        "api_sheet": 177108,
-        "google_sheet": 176767,
+        "api_sheet": 177759,
+        "google_sheet": 177376,
         "position": {
             "api": [
                 "pb",
-                "17-Feb-21"
+                "19-Feb-21"
             ],
             "gsheet": [
                 30,
-                391
+                393
             ]
         },
         "State": "Punjab",
-        "Date": "2/17/2021"
+        "Date": "2/19/2021"
     },
     {
-        "api_sheet": 177376,
-        "google_sheet": 176767,
+        "api_sheet": 39542,
+        "google_sheet": 39528,
         "position": {
             "api": [
-                "pb",
-                "18-Feb-21"
+                "py",
+                "19-Feb-21"
             ],
             "gsheet": [
-                30,
-                392
+                29,
+                393
             ]
         },
-        "State": "Punjab",
-        "Date": "2/18/2021"
-    },
-    {
-        "api_sheet": 295918,
-        "google_sheet": 295911,
-        "position": {
-            "api": [
-                "tg",
-                "13-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                387
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/13/2021"
-    },
-    {
-        "api_sheet": 296064,
-        "google_sheet": 296057,
-        "position": {
-            "api": [
-                "tg",
-                "14-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                388
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/14/2021"
-    },
-    {
-        "api_sheet": 296163,
-        "google_sheet": 296156,
-        "position": {
-            "api": [
-                "tg",
-                "15-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                389
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/15/2021"
-    },
-    {
-        "api_sheet": 296292,
-        "google_sheet": 296285,
-        "position": {
-            "api": [
-                "tg",
-                "16-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                390
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/16/2021"
-    },
-    {
-        "api_sheet": 296440,
-        "google_sheet": 296433,
-        "position": {
-            "api": [
-                "tg",
-                "17-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                391
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/17/2021"
-    },
-    {
-        "api_sheet": 296603,
-        "google_sheet": 296596,
-        "position": {
-            "api": [
-                "tg",
-                "18-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                392
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/18/2021"
-    },
-    {
-        "api_sheet": 602553,
-        "google_sheet": 602410,
-        "position": {
-            "api": [
-                "up",
-                "18-Feb-21"
-            ],
-            "gsheet": [
-                36,
-                392
-            ]
-        },
-        "State": "Uttar Pradesh",
-        "Date": "2/18/2021"
+        "State": "Puducherry",
+        "Date": "2/19/2021"
     }
 ]
