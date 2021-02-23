@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 5740,
-        "google_sheet": 5732,
+        "api_sheet": 3855,
+        "google_sheet": 3851,
         "position": {
             "api": [
-                "pb",
-                "19-Feb-21"
+                "mp",
+                "21-Feb-21"
             ],
             "gsheet": [
-                30,
-                393
+                22,
+                395
             ]
         },
-        "State": "Punjab",
-        "Date": "2/19/2021"
-    },
-    {
-        "api_sheet": 662,
-        "google_sheet": 660,
-        "position": {
-            "api": [
-                "py",
-                "19-Feb-21"
-            ],
-            "gsheet": [
-                29,
-                393
-            ]
-        },
-        "State": "Puducherry",
-        "Date": "2/19/2021"
+        "State": "Madhya Pradesh",
+        "Date": "2/21/2021"
     }
 ]

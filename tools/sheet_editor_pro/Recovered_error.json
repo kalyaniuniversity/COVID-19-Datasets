@@ -1,114 +1,18 @@
 [
     {
-        "api_sheet": 4939,
-        "google_sheet": 4935,
+        "api_sheet": 253522,
+        "google_sheet": 253284,
         "position": {
             "api": [
-                "an",
-                "19-Feb-21"
+                "mp",
+                "21-Feb-21"
             ],
             "gsheet": [
-                2,
-                393
+                22,
+                395
             ]
         },
-        "State": "Andaman and Nicobar Islands",
-        "Date": "2/19/2021"
-    },
-    {
-        "api_sheet": 169216,
-        "google_sheet": 169002,
-        "position": {
-            "api": [
-                "pb",
-                "19-Feb-21"
-            ],
-            "gsheet": [
-                30,
-                393
-            ]
-        },
-        "State": "Punjab",
-        "Date": "2/19/2021"
-    },
-    {
-        "api_sheet": 38701,
-        "google_sheet": 38667,
-        "position": {
-            "api": [
-                "py",
-                "19-Feb-21"
-            ],
-            "gsheet": [
-                29,
-                393
-            ]
-        },
-        "State": "Puducherry",
-        "Date": "2/19/2021"
-    },
-    {
-        "api_sheet": 293540,
-        "google_sheet": 293548,
-        "position": {
-            "api": [
-                "tg",
-                "16-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                390
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/16/2021"
-    },
-    {
-        "api_sheet": 293690,
-        "google_sheet": 293698,
-        "position": {
-            "api": [
-                "tg",
-                "17-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                391
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/17/2021"
-    },
-    {
-        "api_sheet": 293791,
-        "google_sheet": 293799,
-        "position": {
-            "api": [
-                "tg",
-                "18-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                392
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/18/2021"
-    },
-    {
-        "api_sheet": 293940,
-        "google_sheet": 293948,
-        "position": {
-            "api": [
-                "tg",
-                "19-Feb-21"
-            ],
-            "gsheet": [
-                34,
-                393
-            ]
-        },
-        "State": "Telangana",
-        "Date": "2/19/2021"
+        "State": "Madhya Pradesh",
+        "Date": "2/21/2021"
     }
 ]
