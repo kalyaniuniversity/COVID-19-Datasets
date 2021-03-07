@@ -1,66 +1,50 @@
 [
     {
-        "api_sheet": 28871,
-        "google_sheet": 28880,
+        "api_sheet": 4945,
+        "google_sheet": 4944,
         "position": {
             "api": [
-                "mn",
-                "01-Mar-21"
+                "an",
+                "05-Mar-21"
             ],
             "gsheet": [
-                24,
-                403
+                2,
+                407
             ]
         },
-        "State": "Manipur",
-        "Date": "3/1/2021"
+        "State": "Andaman and Nicobar Islands",
+        "Date": "3/5/2021"
     },
     {
-        "api_sheet": 28876,
-        "google_sheet": 28885,
+        "api_sheet": 9654,
+        "google_sheet": 9651,
         "position": {
             "api": [
-                "mn",
-                "02-Mar-21"
+                "la",
+                "05-Mar-21"
             ],
             "gsheet": [
-                24,
-                404
+                20,
+                407
             ]
         },
-        "State": "Manipur",
-        "Date": "3/2/2021"
+        "State": "Ladakh",
+        "Date": "3/5/2021"
     },
     {
-        "api_sheet": 28878,
-        "google_sheet": 28887,
+        "api_sheet": 38979,
+        "google_sheet": 38959,
         "position": {
             "api": [
-                "mn",
-                "03-Mar-21"
+                "py",
+                "05-Mar-21"
             ],
             "gsheet": [
-                24,
-                405
+                29,
+                407
             ]
         },
-        "State": "Manipur",
-        "Date": "3/3/2021"
-    },
-    {
-        "api_sheet": 28878,
-        "google_sheet": 28887,
-        "position": {
-            "api": [
-                "mn",
-                "04-Mar-21"
-            ],
-            "gsheet": [
-                24,
-                406
-            ]
-        },
-        "State": "Manipur",
-        "Date": "3/4/2021"
+        "State": "Puducherry",
+        "Date": "3/5/2021"
     }
 ]
