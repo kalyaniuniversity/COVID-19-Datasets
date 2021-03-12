@@ -1,114 +1,66 @@
 [
     {
-        "api_sheet": 9830,
-        "google_sheet": 9826,
+        "api_sheet": 315486,
+        "google_sheet": 315030,
+        "position": {
+            "api": [
+                "ct",
+                "10-Mar-21"
+            ],
+            "gsheet": [
+                8,
+                412
+            ]
+        },
+        "State": "Chhattisgarh",
+        "Date": "3/10/2021"
+    },
+    {
+        "api_sheet": 120411,
+        "google_sheet": 120349,
+        "position": {
+            "api": [
+                "jh",
+                "10-Mar-21"
+            ],
+            "gsheet": [
+                17,
+                412
+            ]
+        },
+        "State": "Jharkhand",
+        "Date": "3/10/2021"
+    },
+    {
+        "api_sheet": 9838,
+        "google_sheet": 9835,
         "position": {
             "api": [
                 "la",
-                "06-Mar-21"
+                "10-Mar-21"
             ],
             "gsheet": [
                 20,
-                408
+                412
             ]
         },
         "State": "Ladakh",
-        "Date": "3/6/2021"
+        "Date": "3/10/2021"
     },
     {
-        "api_sheet": 29280,
-        "google_sheet": 29279,
+        "api_sheet": 266043,
+        "google_sheet": 265527,
         "position": {
             "api": [
-                "mn",
-                "02-Mar-21"
+                "mp",
+                "10-Mar-21"
             ],
             "gsheet": [
-                24,
-                404
+                22,
+                412
             ]
         },
-        "State": "Manipur",
-        "Date": "3/2/2021"
-    },
-    {
-        "api_sheet": 29281,
-        "google_sheet": 29280,
-        "position": {
-            "api": [
-                "mn",
-                "03-Mar-21"
-            ],
-            "gsheet": [
-                24,
-                405
-            ]
-        },
-        "State": "Manipur",
-        "Date": "3/3/2021"
-    },
-    {
-        "api_sheet": 29281,
-        "google_sheet": 29280,
-        "position": {
-            "api": [
-                "mn",
-                "04-Mar-21"
-            ],
-            "gsheet": [
-                24,
-                406
-            ]
-        },
-        "State": "Manipur",
-        "Date": "3/4/2021"
-    },
-    {
-        "api_sheet": 29284,
-        "google_sheet": 29283,
-        "position": {
-            "api": [
-                "mn",
-                "05-Mar-21"
-            ],
-            "gsheet": [
-                24,
-                407
-            ]
-        },
-        "State": "Manipur",
-        "Date": "3/5/2021"
-    },
-    {
-        "api_sheet": 29286,
-        "google_sheet": 29285,
-        "position": {
-            "api": [
-                "mn",
-                "06-Mar-21"
-            ],
-            "gsheet": [
-                24,
-                408
-            ]
-        },
-        "State": "Manipur",
-        "Date": "3/6/2021"
-    },
-    {
-        "api_sheet": 39845,
-        "google_sheet": 39826,
-        "position": {
-            "api": [
-                "py",
-                "06-Mar-21"
-            ],
-            "gsheet": [
-                29,
-                408
-            ]
-        },
-        "State": "Puducherry",
-        "Date": "3/6/2021"
+        "State": "Madhya Pradesh",
+        "Date": "3/10/2021"
     }
 ]
