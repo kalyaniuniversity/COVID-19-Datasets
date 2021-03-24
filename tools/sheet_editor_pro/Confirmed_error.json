@@ -1,66 +1,18 @@
 [
     {
-        "api_sheet": 315486,
-        "google_sheet": 315030,
+        "api_sheet": 691,
+        "google_sheet": 666,
         "position": {
             "api": [
-                "ct",
-                "10-Mar-21"
+                "ld",
+                "22-Mar-21"
             ],
             "gsheet": [
-                8,
-                412
+                21,
+                424
             ]
         },
-        "State": "Chhattisgarh",
-        "Date": "3/10/2021"
-    },
-    {
-        "api_sheet": 120411,
-        "google_sheet": 120349,
-        "position": {
-            "api": [
-                "jh",
-                "10-Mar-21"
-            ],
-            "gsheet": [
-                17,
-                412
-            ]
-        },
-        "State": "Jharkhand",
-        "Date": "3/10/2021"
-    },
-    {
-        "api_sheet": 9838,
-        "google_sheet": 9835,
-        "position": {
-            "api": [
-                "la",
-                "10-Mar-21"
-            ],
-            "gsheet": [
-                20,
-                412
-            ]
-        },
-        "State": "Ladakh",
-        "Date": "3/10/2021"
-    },
-    {
-        "api_sheet": 266043,
-        "google_sheet": 265527,
-        "position": {
-            "api": [
-                "mp",
-                "10-Mar-21"
-            ],
-            "gsheet": [
-                22,
-                412
-            ]
-        },
-        "State": "Madhya Pradesh",
-        "Date": "3/10/2021"
+        "State": "Lakshadweep",
+        "Date": "3/22/2021"
     }
 ]
