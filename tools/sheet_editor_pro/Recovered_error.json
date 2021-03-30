@@ -1,114 +1,18 @@
 [
     {
-        "api_sheet": 5920,
-        "google_sheet": 5919,
+        "api_sheet": 336691,
+        "google_sheet": 336571,
         "position": {
             "api": [
-                "sk",
-                "20-Mar-21"
+                "or",
+                "28-Mar-21"
             ],
             "gsheet": [
-                32,
-                422
+                28,
+                430
             ]
         },
-        "State": "Sikkim",
-        "Date": "3/20/2021"
-    },
-    {
-        "api_sheet": 5921,
-        "google_sheet": 5920,
-        "position": {
-            "api": [
-                "sk",
-                "21-Mar-21"
-            ],
-            "gsheet": [
-                32,
-                423
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "3/21/2021"
-    },
-    {
-        "api_sheet": 5926,
-        "google_sheet": 5925,
-        "position": {
-            "api": [
-                "sk",
-                "22-Mar-21"
-            ],
-            "gsheet": [
-                32,
-                424
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "3/22/2021"
-    },
-    {
-        "api_sheet": 5935,
-        "google_sheet": 5934,
-        "position": {
-            "api": [
-                "sk",
-                "23-Mar-21"
-            ],
-            "gsheet": [
-                32,
-                425
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "3/23/2021"
-    },
-    {
-        "api_sheet": 5936,
-        "google_sheet": 5935,
-        "position": {
-            "api": [
-                "sk",
-                "24-Mar-21"
-            ],
-            "gsheet": [
-                32,
-                426
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "3/24/2021"
-    },
-    {
-        "api_sheet": 5941,
-        "google_sheet": 5940,
-        "position": {
-            "api": [
-                "sk",
-                "25-Mar-21"
-            ],
-            "gsheet": [
-                32,
-                427
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "3/25/2021"
-    },
-    {
-        "api_sheet": 5943,
-        "google_sheet": 5942,
-        "position": {
-            "api": [
-                "sk",
-                "26-Mar-21"
-            ],
-            "gsheet": [
-                32,
-                428
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "3/26/2021"
+        "State": "Odisha",
+        "Date": "3/28/2021"
     }
 ]
