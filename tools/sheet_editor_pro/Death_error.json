@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 3872,
-        "google_sheet": 3864,
+        "api_sheet": 136,
+        "google_sheet": 135,
         "position": {
             "api": [
-                "ct",
-                "10-Mar-21"
+                "sk",
+                "05-Apr-21"
             ],
             "gsheet": [
-                8,
-                412
+                32,
+                438
             ]
         },
-        "State": "Chhattisgarh",
-        "Date": "3/10/2021"
-    },
-    {
-        "api_sheet": 3878,
-        "google_sheet": 3875,
-        "position": {
-            "api": [
-                "mp",
-                "10-Mar-21"
-            ],
-            "gsheet": [
-                22,
-                412
-            ]
-        },
-        "State": "Madhya Pradesh",
-        "Date": "3/10/2021"
+        "State": "Sikkim",
+        "Date": "4/5/2021"
     }
 ]

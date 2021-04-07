@@ -1,66 +1,18 @@
 [
     {
-        "api_sheet": 11980,
-        "google_sheet": 11982,
+        "api_sheet": 4444,
+        "google_sheet": 4439,
         "position": {
             "api": [
-                "nl",
-                "01-Apr-21"
+                "mz",
+                "05-Apr-21"
             ],
             "gsheet": [
-                27,
-                434
+                26,
+                438
             ]
         },
-        "State": "Nagaland",
-        "Date": "4/1/2021"
-    },
-    {
-        "api_sheet": 11980,
-        "google_sheet": 11982,
-        "position": {
-            "api": [
-                "nl",
-                "02-Apr-21"
-            ],
-            "gsheet": [
-                27,
-                435
-            ]
-        },
-        "State": "Nagaland",
-        "Date": "4/2/2021"
-    },
-    {
-        "api_sheet": 11980,
-        "google_sheet": 11982,
-        "position": {
-            "api": [
-                "nl",
-                "03-Apr-21"
-            ],
-            "gsheet": [
-                27,
-                436
-            ]
-        },
-        "State": "Nagaland",
-        "Date": "4/3/2021"
-    },
-    {
-        "api_sheet": 11980,
-        "google_sheet": 11982,
-        "position": {
-            "api": [
-                "nl",
-                "04-Apr-21"
-            ],
-            "gsheet": [
-                27,
-                437
-            ]
-        },
-        "State": "Nagaland",
-        "Date": "4/4/2021"
+        "State": "Mizoram",
+        "Date": "4/5/2021"
     }
 ]
