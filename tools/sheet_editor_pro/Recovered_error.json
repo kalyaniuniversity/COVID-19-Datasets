@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 10053,
-        "google_sheet": 10037,
+        "api_sheet": 10095,
+        "google_sheet": 10088,
         "position": {
             "api": [
                 "la",
-                "12-Apr-21"
+                "14-Apr-21"
             ],
             "gsheet": [
                 20,
-                445
+                447
             ]
         },
         "State": "Ladakh",
-        "Date": "4/12/2021"
-    },
-    {
-        "api_sheet": 732,
-        "google_sheet": 731,
-        "position": {
-            "api": [
-                "ld",
-                "12-Apr-21"
-            ],
-            "gsheet": [
-                21,
-                445
-            ]
-        },
-        "State": "Lakshadweep",
-        "Date": "4/12/2021"
+        "Date": "4/14/2021"
     }
 ]
