@@ -1,130 +1,34 @@
 [
     {
-        "api_sheet": 5520,
-        "google_sheet": 5503,
+        "api_sheet": 7108,
+        "google_sheet": 6989,
         "position": {
             "api": [
                 "dn",
-                "21-Apr-21"
+                "28-Apr-21"
             ],
             "gsheet": [
                 9,
-                454
+                461
             ]
         },
         "State": "Dadra and Nagar Haveli",
-        "Date": "4/21/2021"
+        "Date": "4/28/2021"
     },
     {
-        "api_sheet": 5879,
-        "google_sheet": 5849,
+        "api_sheet": 5741,
+        "google_sheet": 5742,
         "position": {
             "api": [
-                "dn",
-                "22-Apr-21"
+                "mz",
+                "28-Apr-21"
             ],
             "gsheet": [
-                9,
-                455
+                26,
+                461
             ]
         },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/22/2021"
-    },
-    {
-        "api_sheet": 6115,
-        "google_sheet": 6070,
-        "position": {
-            "api": [
-                "dn",
-                "23-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                456
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/23/2021"
-    },
-    {
-        "api_sheet": 6366,
-        "google_sheet": 6304,
-        "position": {
-            "api": [
-                "dn",
-                "24-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                457
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/24/2021"
-    },
-    {
-        "api_sheet": 6574,
-        "google_sheet": 6507,
-        "position": {
-            "api": [
-                "dn",
-                "25-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                458
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/25/2021"
-    },
-    {
-        "api_sheet": 6711,
-        "google_sheet": 6634,
-        "position": {
-            "api": [
-                "dn",
-                "26-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                459
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/26/2021"
-    },
-    {
-        "api_sheet": 6928,
-        "google_sheet": 6835,
-        "position": {
-            "api": [
-                "dn",
-                "27-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                460
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/27/2021"
-    },
-    {
-        "api_sheet": 13642,
-        "google_sheet": 13502,
-        "position": {
-            "api": [
-                "la",
-                "27-Apr-21"
-            ],
-            "gsheet": [
-                20,
-                460
-            ]
-        },
-        "State": "Ladakh",
-        "Date": "4/27/2021"
+        "State": "Mizoram",
+        "Date": "4/28/2021"
     }
 ]

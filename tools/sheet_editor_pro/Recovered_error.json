@@ -1,162 +1,82 @@
 [
     {
-        "api_sheet": 4039,
-        "google_sheet": 4032,
+        "api_sheet": 982922,
+        "google_sheet": 979250,
+        "position": {
+            "api": [
+                "dl",
+                "28-Apr-21"
+            ],
+            "gsheet": [
+                11,
+                461
+            ]
+        },
+        "State": "Delhi",
+        "Date": "4/28/2021"
+    },
+    {
+        "api_sheet": 5000,
+        "google_sheet": 4840,
         "position": {
             "api": [
                 "dn",
-                "21-Apr-21"
+                "28-Apr-21"
             ],
             "gsheet": [
                 9,
-                454
+                461
             ]
         },
         "State": "Dadra and Nagar Haveli",
-        "Date": "4/21/2021"
+        "Date": "4/28/2021"
     },
     {
-        "api_sheet": 4133,
-        "google_sheet": 4120,
+        "api_sheet": 334144,
+        "google_sheet": 334108,
         "position": {
             "api": [
-                "dn",
-                "22-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                455
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/22/2021"
-    },
-    {
-        "api_sheet": 4242,
-        "google_sheet": 4225,
-        "position": {
-            "api": [
-                "dn",
-                "23-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                456
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/23/2021"
-    },
-    {
-        "api_sheet": 4360,
-        "google_sheet": 4335,
-        "position": {
-            "api": [
-                "dn",
-                "24-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                457
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/24/2021"
-    },
-    {
-        "api_sheet": 4466,
-        "google_sheet": 4439,
-        "position": {
-            "api": [
-                "dn",
-                "25-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                458
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/25/2021"
-    },
-    {
-        "api_sheet": 4589,
-        "google_sheet": 4553,
-        "position": {
-            "api": [
-                "dn",
+                "tg",
                 "26-Apr-21"
             ],
             "gsheet": [
-                9,
+                34,
                 459
             ]
         },
-        "State": "Dadra and Nagar Haveli",
+        "State": "Telangana",
         "Date": "4/26/2021"
     },
     {
-        "api_sheet": 4779,
-        "google_sheet": 4736,
+        "api_sheet": 340590,
+        "google_sheet": 340554,
         "position": {
             "api": [
-                "dn",
+                "tg",
                 "27-Apr-21"
             ],
             "gsheet": [
-                9,
+                34,
                 460
             ]
         },
-        "State": "Dadra and Nagar Haveli",
+        "State": "Telangana",
         "Date": "4/27/2021"
     },
     {
-        "api_sheet": 11507,
-        "google_sheet": 11505,
+        "api_sheet": 345683,
+        "google_sheet": 345647,
         "position": {
             "api": [
-                "la",
-                "26-Apr-21"
+                "tg",
+                "28-Apr-21"
             ],
             "gsheet": [
-                20,
-                459
+                34,
+                461
             ]
         },
-        "State": "Ladakh",
-        "Date": "4/26/2021"
-    },
-    {
-        "api_sheet": 11800,
-        "google_sheet": 11505,
-        "position": {
-            "api": [
-                "la",
-                "27-Apr-21"
-            ],
-            "gsheet": [
-                20,
-                460
-            ]
-        },
-        "State": "Ladakh",
-        "Date": "4/27/2021"
-    },
-    {
-        "api_sheet": 4743,
-        "google_sheet": 4733,
-        "position": {
-            "api": [
-                "mz",
-                "27-Apr-21"
-            ],
-            "gsheet": [
-                26,
-                460
-            ]
-        },
-        "State": "Mizoram",
-        "Date": "4/27/2021"
+        "State": "Telangana",
+        "Date": "4/28/2021"
     }
 ]
