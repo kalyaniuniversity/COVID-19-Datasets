@@ -1,82 +1,50 @@
 [
     {
-        "api_sheet": 982922,
-        "google_sheet": 979250,
-        "position": {
-            "api": [
-                "dl",
-                "28-Apr-21"
-            ],
-            "gsheet": [
-                11,
-                461
-            ]
-        },
-        "State": "Delhi",
-        "Date": "4/28/2021"
-    },
-    {
-        "api_sheet": 5000,
-        "google_sheet": 4840,
+        "api_sheet": 5138,
+        "google_sheet": 5112,
         "position": {
             "api": [
                 "dn",
-                "28-Apr-21"
+                "29-Apr-21"
             ],
             "gsheet": [
                 9,
-                461
+                462
             ]
         },
         "State": "Dadra and Nagar Haveli",
-        "Date": "4/28/2021"
+        "Date": "4/29/2021"
     },
     {
-        "api_sheet": 334144,
-        "google_sheet": 334108,
+        "api_sheet": 12129,
+        "google_sheet": 11937,
         "position": {
             "api": [
-                "tg",
-                "26-Apr-21"
+                "la",
+                "29-Apr-21"
             ],
             "gsheet": [
-                34,
-                459
+                20,
+                462
             ]
         },
-        "State": "Telangana",
-        "Date": "4/26/2021"
+        "State": "Ladakh",
+        "Date": "4/29/2021"
     },
     {
-        "api_sheet": 340590,
-        "google_sheet": 340554,
+        "api_sheet": 4882,
+        "google_sheet": 4857,
         "position": {
             "api": [
-                "tg",
-                "27-Apr-21"
+                "mz",
+                "29-Apr-21"
             ],
             "gsheet": [
-                34,
-                460
+                26,
+                462
             ]
         },
-        "State": "Telangana",
-        "Date": "4/27/2021"
-    },
-    {
-        "api_sheet": 345683,
-        "google_sheet": 345647,
-        "position": {
-            "api": [
-                "tg",
-                "28-Apr-21"
-            ],
-            "gsheet": [
-                34,
-                461
-            ]
-        },
-        "State": "Telangana",
-        "Date": "4/28/2021"
+        "State": "Mizoram",
+        "Date": "4/29/2021"
     }
 ]
