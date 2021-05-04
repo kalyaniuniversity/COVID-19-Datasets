@@ -1,82 +1,34 @@
 [
     {
-        "api_sheet": 6712,
-        "google_sheet": 6711,
+        "api_sheet": 7896,
+        "google_sheet": 7888,
         "position": {
             "api": [
                 "dn",
-                "26-Apr-21"
+                "02-May-21"
             ],
             "gsheet": [
                 9,
-                459
+                465
             ]
         },
         "State": "Dadra and Nagar Haveli",
-        "Date": "4/26/2021"
+        "Date": "5/2/2021"
     },
     {
-        "api_sheet": 6929,
-        "google_sheet": 6928,
-        "position": {
-            "api": [
-                "dn",
-                "27-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                460
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/27/2021"
-    },
-    {
-        "api_sheet": 7115,
-        "google_sheet": 7108,
-        "position": {
-            "api": [
-                "dn",
-                "28-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                461
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/28/2021"
-    },
-    {
-        "api_sheet": 7331,
-        "google_sheet": 7313,
-        "position": {
-            "api": [
-                "dn",
-                "29-Apr-21"
-            ],
-            "gsheet": [
-                9,
-                462
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "4/29/2021"
-    },
-    {
-        "api_sheet": 13866,
-        "google_sheet": 13758,
+        "api_sheet": 14226,
+        "google_sheet": 14086,
         "position": {
             "api": [
                 "la",
-                "29-Apr-21"
+                "02-May-21"
             ],
             "gsheet": [
                 20,
-                462
+                465
             ]
         },
         "State": "Ladakh",
-        "Date": "4/29/2021"
+        "Date": "5/2/2021"
     }
 ]
