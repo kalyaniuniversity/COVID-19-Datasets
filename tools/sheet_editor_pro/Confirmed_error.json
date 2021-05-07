@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 7896,
-        "google_sheet": 7888,
-        "position": {
-            "api": [
-                "dn",
-                "02-May-21"
-            ],
-            "gsheet": [
-                9,
-                465
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "5/2/2021"
-    },
-    {
-        "api_sheet": 14226,
-        "google_sheet": 14086,
+        "api_sheet": 14811,
+        "google_sheet": 14560,
         "position": {
             "api": [
                 "la",
-                "02-May-21"
+                "05-May-21"
             ],
             "gsheet": [
                 20,
-                465
+                468
             ]
         },
         "State": "Ladakh",
-        "Date": "5/2/2021"
+        "Date": "5/5/2021"
     }
 ]
