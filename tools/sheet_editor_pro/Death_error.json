@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 145,
-        "google_sheet": 144,
+        "api_sheet": 2666,
+        "google_sheet": 2625,
         "position": {
             "api": [
-                "la",
-                "02-May-21"
+                "tg",
+                "07-May-21"
             ],
             "gsheet": [
-                20,
-                465
+                34,
+                470
             ]
         },
-        "State": "Ladakh",
-        "Date": "5/2/2021"
-    },
-    {
-        "api_sheet": 16,
-        "google_sheet": 15,
-        "position": {
-            "api": [
-                "mz",
-                "02-May-21"
-            ],
-            "gsheet": [
-                26,
-                465
-            ]
-        },
-        "State": "Mizoram",
-        "Date": "5/2/2021"
+        "State": "Telangana",
+        "Date": "5/7/2021"
     }
 ]
