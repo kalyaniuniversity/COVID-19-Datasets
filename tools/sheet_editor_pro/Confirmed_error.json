@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 6307,
-        "google_sheet": 6306,
+        "api_sheet": 8798,
+        "google_sheet": 8772,
         "position": {
             "api": [
-                "an",
-                "07-May-21"
+                "dn",
+                "08-May-21"
             ],
             "gsheet": [
-                2,
-                470
+                9,
+                471
             ]
         },
-        "State": "Andaman and Nicobar Islands",
-        "Date": "5/7/2021"
-    },
-    {
-        "api_sheet": 486689,
-        "google_sheet": 481130,
-        "position": {
-            "api": [
-                "tg",
-                "07-May-21"
-            ],
-            "gsheet": [
-                34,
-                470
-            ]
-        },
-        "State": "Telangana",
-        "Date": "5/7/2021"
+        "State": "Dadra and Nagar Haveli",
+        "Date": "5/8/2021"
     }
 ]
