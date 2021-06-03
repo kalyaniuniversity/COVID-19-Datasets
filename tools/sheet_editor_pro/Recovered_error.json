@@ -1,50 +1,34 @@
 [
     {
-        "api_sheet": 6710,
-        "google_sheet": 6674,
+        "api_sheet": 9863,
+        "google_sheet": 9828,
         "position": {
             "api": [
-                "an",
+                "dn",
                 "31-May-21"
             ],
             "gsheet": [
-                2,
+                9,
                 494
             ]
         },
-        "State": "Andaman and Nicobar Islands",
+        "State": "Dadra and Nagar Haveli",
         "Date": "5/31/2021"
     },
     {
-        "api_sheet": 16859,
-        "google_sheet": 16754,
+        "api_sheet": 9909,
+        "google_sheet": 9874,
         "position": {
             "api": [
-                "la",
-                "31-May-21"
+                "dn",
+                "01-Jun-21"
             ],
             "gsheet": [
-                20,
-                494
+                9,
+                495
             ]
         },
-        "State": "Ladakh",
-        "Date": "5/31/2021"
-    },
-    {
-        "api_sheet": 9214,
-        "google_sheet": 9144,
-        "position": {
-            "api": [
-                "mz",
-                "31-May-21"
-            ],
-            "gsheet": [
-                26,
-                494
-            ]
-        },
-        "State": "Mizoram",
-        "Date": "5/31/2021"
+        "State": "Dadra and Nagar Haveli",
+        "Date": "6/1/2021"
     }
 ]

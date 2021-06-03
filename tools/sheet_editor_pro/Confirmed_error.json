@@ -1,242 +1,34 @@
 [
     {
-        "api_sheet": 7001,
-        "google_sheet": 6980,
+        "api_sheet": 10142,
+        "google_sheet": 10094,
         "position": {
             "api": [
-                "an",
+                "dn",
                 "31-May-21"
             ],
             "gsheet": [
-                2,
+                9,
                 494
             ]
         },
-        "State": "Andaman and Nicobar Islands",
+        "State": "Dadra and Nagar Haveli",
         "Date": "5/31/2021"
     },
     {
-        "api_sheet": 18662,
-        "google_sheet": 18497,
+        "api_sheet": 10173,
+        "google_sheet": 10109,
         "position": {
             "api": [
-                "la",
-                "31-May-21"
+                "dn",
+                "01-Jun-21"
             ],
             "gsheet": [
-                20,
-                494
+                9,
+                495
             ]
         },
-        "State": "Ladakh",
-        "Date": "5/31/2021"
-    },
-    {
-        "api_sheet": 11969,
-        "google_sheet": 11975,
-        "position": {
-            "api": [
-                "sk",
-                "19-May-21"
-            ],
-            "gsheet": [
-                32,
-                482
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/19/2021"
-    },
-    {
-        "api_sheet": 12218,
-        "google_sheet": 12224,
-        "position": {
-            "api": [
-                "sk",
-                "20-May-21"
-            ],
-            "gsheet": [
-                32,
-                483
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/20/2021"
-    },
-    {
-        "api_sheet": 12535,
-        "google_sheet": 12541,
-        "position": {
-            "api": [
-                "sk",
-                "21-May-21"
-            ],
-            "gsheet": [
-                32,
-                484
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/21/2021"
-    },
-    {
-        "api_sheet": 12822,
-        "google_sheet": 12828,
-        "position": {
-            "api": [
-                "sk",
-                "22-May-21"
-            ],
-            "gsheet": [
-                32,
-                485
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/22/2021"
-    },
-    {
-        "api_sheet": 13146,
-        "google_sheet": 13152,
-        "position": {
-            "api": [
-                "sk",
-                "23-May-21"
-            ],
-            "gsheet": [
-                32,
-                486
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/23/2021"
-    },
-    {
-        "api_sheet": 13247,
-        "google_sheet": 13253,
-        "position": {
-            "api": [
-                "sk",
-                "24-May-21"
-            ],
-            "gsheet": [
-                32,
-                487
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/24/2021"
-    },
-    {
-        "api_sheet": 13525,
-        "google_sheet": 13531,
-        "position": {
-            "api": [
-                "sk",
-                "25-May-21"
-            ],
-            "gsheet": [
-                32,
-                488
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/25/2021"
-    },
-    {
-        "api_sheet": 13820,
-        "google_sheet": 13826,
-        "position": {
-            "api": [
-                "sk",
-                "26-May-21"
-            ],
-            "gsheet": [
-                32,
-                489
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/26/2021"
-    },
-    {
-        "api_sheet": 14228,
-        "google_sheet": 14234,
-        "position": {
-            "api": [
-                "sk",
-                "27-May-21"
-            ],
-            "gsheet": [
-                32,
-                490
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/27/2021"
-    },
-    {
-        "api_sheet": 14648,
-        "google_sheet": 14654,
-        "position": {
-            "api": [
-                "sk",
-                "28-May-21"
-            ],
-            "gsheet": [
-                32,
-                491
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/28/2021"
-    },
-    {
-        "api_sheet": 14921,
-        "google_sheet": 14927,
-        "position": {
-            "api": [
-                "sk",
-                "29-May-21"
-            ],
-            "gsheet": [
-                32,
-                492
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/29/2021"
-    },
-    {
-        "api_sheet": 15185,
-        "google_sheet": 15191,
-        "position": {
-            "api": [
-                "sk",
-                "30-May-21"
-            ],
-            "gsheet": [
-                32,
-                493
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/30/2021"
-    },
-    {
-        "api_sheet": 15331,
-        "google_sheet": 15337,
-        "position": {
-            "api": [
-                "sk",
-                "31-May-21"
-            ],
-            "gsheet": [
-                32,
-                494
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "5/31/2021"
+        "State": "Dadra and Nagar Haveli",
+        "Date": "6/1/2021"
     }
 ]
