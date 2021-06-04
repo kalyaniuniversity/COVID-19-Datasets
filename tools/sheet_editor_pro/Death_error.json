@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 115,
-        "google_sheet": 114,
+        "api_sheet": 191,
+        "google_sheet": 190,
         "position": {
             "api": [
-                "an",
-                "31-May-21"
+                "la",
+                "02-Jun-21"
             ],
             "gsheet": [
-                2,
-                494
+                20,
+                496
             ]
         },
-        "State": "Andaman and Nicobar Islands",
-        "Date": "5/31/2021"
-    },
-    {
-        "api_sheet": 118,
-        "google_sheet": 117,
-        "position": {
-            "api": [
-                "an",
-                "01-Jun-21"
-            ],
-            "gsheet": [
-                2,
-                495
-            ]
-        },
-        "State": "Andaman and Nicobar Islands",
-        "Date": "6/1/2021"
+        "State": "Ladakh",
+        "Date": "6/2/2021"
     }
 ]
