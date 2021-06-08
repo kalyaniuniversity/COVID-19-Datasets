@@ -1,34 +1,34 @@
 [
     {
-        "api_sheet": 10093,
-        "google_sheet": 10062,
-        "position": {
-            "api": [
-                "dn",
-                "05-Jun-21"
-            ],
-            "gsheet": [
-                9,
-                499
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "6/5/2021"
-    },
-    {
-        "api_sheet": 17782,
-        "google_sheet": 17528,
+        "api_sheet": 17913,
+        "google_sheet": 17782,
         "position": {
             "api": [
                 "la",
-                "05-Jun-21"
+                "06-Jun-21"
             ],
             "gsheet": [
                 20,
-                499
+                500
             ]
         },
         "State": "Ladakh",
-        "Date": "6/5/2021"
+        "Date": "6/6/2021"
+    },
+    {
+        "api_sheet": 10345,
+        "google_sheet": 10151,
+        "position": {
+            "api": [
+                "mz",
+                "06-Jun-21"
+            ],
+            "gsheet": [
+                26,
+                500
+            ]
+        },
+        "State": "Mizoram",
+        "Date": "6/6/2021"
     }
 ]
