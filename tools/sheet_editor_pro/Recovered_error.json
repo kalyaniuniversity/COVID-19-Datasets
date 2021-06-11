@@ -1,66 +1,18 @@
 [
     {
-        "api_sheet": 10163,
-        "google_sheet": 10138,
-        "position": {
-            "api": [
-                "dn",
-                "08-Jun-21"
-            ],
-            "gsheet": [
-                9,
-                502
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "6/8/2021"
-    },
-    {
-        "api_sheet": 186034,
-        "google_sheet": 186053,
-        "position": {
-            "api": [
-                "hp",
-                "08-Jun-21"
-            ],
-            "gsheet": [
-                15,
-                502
-            ]
-        },
-        "State": "Himachal Pradesh",
-        "Date": "6/8/2021"
-    },
-    {
-        "api_sheet": 18194,
-        "google_sheet": 18052,
+        "api_sheet": 18265,
+        "google_sheet": 18194,
         "position": {
             "api": [
                 "la",
-                "08-Jun-21"
+                "09-Jun-21"
             ],
             "gsheet": [
                 20,
-                502
+                503
             ]
         },
         "State": "Ladakh",
-        "Date": "6/8/2021"
-    },
-    {
-        "api_sheet": 12895,
-        "google_sheet": 12967,
-        "position": {
-            "api": [
-                "sk",
-                "08-Jun-21"
-            ],
-            "gsheet": [
-                32,
-                502
-            ]
-        },
-        "State": "Sikkim",
-        "Date": "6/8/2021"
+        "Date": "6/9/2021"
     }
 ]
