@@ -1,18 +1,18 @@
 [
     {
-        "api_sheet": 58,
-        "google_sheet": 57,
+        "api_sheet": 197,
+        "google_sheet": 195,
         "position": {
             "api": [
-                "mz",
-                "09-Jun-21"
+                "la",
+                "10-Jun-21"
             ],
             "gsheet": [
-                26,
-                503
+                20,
+                504
             ]
         },
-        "State": "Mizoram",
-        "Date": "6/9/2021"
+        "State": "Ladakh",
+        "Date": "6/10/2021"
     }
 ]
