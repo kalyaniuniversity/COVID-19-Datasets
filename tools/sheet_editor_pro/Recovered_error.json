@@ -1,50 +1,18 @@
 [
     {
-        "api_sheet": 10217,
-        "google_sheet": 10214,
-        "position": {
-            "api": [
-                "dn",
-                "10-Jun-21"
-            ],
-            "gsheet": [
-                9,
-                504
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "6/10/2021"
-    },
-    {
-        "api_sheet": 10237,
-        "google_sheet": 10229,
-        "position": {
-            "api": [
-                "dn",
-                "11-Jun-21"
-            ],
-            "gsheet": [
-                9,
-                505
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "6/11/2021"
-    },
-    {
-        "api_sheet": 18513,
-        "google_sheet": 18425,
+        "api_sheet": 18706,
+        "google_sheet": 18601,
         "position": {
             "api": [
                 "la",
-                "11-Jun-21"
+                "13-Jun-21"
             ],
             "gsheet": [
                 20,
-                505
+                507
             ]
         },
         "State": "Ladakh",
-        "Date": "6/11/2021"
+        "Date": "6/13/2021"
     }
 ]
