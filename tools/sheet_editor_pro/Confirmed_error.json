@@ -1,50 +1,34 @@
 [
     {
-        "api_sheet": 10336,
-        "google_sheet": 10335,
+        "api_sheet": 61310,
+        "google_sheet": 61273,
+        "position": {
+            "api": [
+                "ch",
+                "17-Jun-21"
+            ],
+            "gsheet": [
+                7,
+                511
+            ]
+        },
+        "State": "Chandigarh",
+        "Date": "6/17/2021"
+    },
+    {
+        "api_sheet": 10357,
+        "google_sheet": 10355,
         "position": {
             "api": [
                 "dn",
-                "15-Jun-21"
+                "17-Jun-21"
             ],
             "gsheet": [
                 9,
-                509
+                511
             ]
         },
         "State": "Dadra and Nagar Haveli",
-        "Date": "6/15/2021"
-    },
-    {
-        "api_sheet": 10344,
-        "google_sheet": 10343,
-        "position": {
-            "api": [
-                "dn",
-                "16-Jun-21"
-            ],
-            "gsheet": [
-                9,
-                510
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "6/16/2021"
-    },
-    {
-        "api_sheet": 19682,
-        "google_sheet": 19649,
-        "position": {
-            "api": [
-                "la",
-                "16-Jun-21"
-            ],
-            "gsheet": [
-                20,
-                510
-            ]
-        },
-        "State": "Ladakh",
-        "Date": "6/16/2021"
+        "Date": "6/17/2021"
     }
 ]
