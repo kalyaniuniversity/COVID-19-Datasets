@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 61310,
-        "google_sheet": 61273,
+        "api_sheet": 19730,
+        "google_sheet": 19704,
         "position": {
             "api": [
-                "ch",
-                "17-Jun-21"
+                "la",
+                "18-Jun-21"
             ],
             "gsheet": [
-                7,
-                511
+                20,
+                512
             ]
         },
-        "State": "Chandigarh",
-        "Date": "6/17/2021"
-    },
-    {
-        "api_sheet": 10357,
-        "google_sheet": 10355,
-        "position": {
-            "api": [
-                "dn",
-                "17-Jun-21"
-            ],
-            "gsheet": [
-                9,
-                511
-            ]
-        },
-        "State": "Dadra and Nagar Haveli",
-        "Date": "6/17/2021"
+        "State": "Ladakh",
+        "Date": "6/18/2021"
     }
 ]
