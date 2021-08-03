@@ -88,19 +88,20 @@ def checker(api_list, sheet_list, resolve=True):
                 date = '{d.month}/{d.day}/{d.year}'.format(
                     d=datetime.strptime(j, "%d-%b-%y"))
                 if i in list(y['CODE']):
-                    if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Kerala'):
-                        if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Maharashtra'):
-                            if x.loc[i, j] != y[y['CODE'] == i][date].values[0]:
-                                flag = 1
-                                error = True
-                                change_dict_list.append({'api_sheet': x.loc[i, j],
-                                                     'google_sheet': y[y['CODE'] == i][date].values[0].item(),
-                                                     'position': {
-                                    'api': (i, j),
-                                    'gsheet': (y['CODE'][y['CODE'] == i].index.tolist()[0]+2, list(y.columns).index(date)+1)
-                                },
-                                    'State': y[y['CODE'] == i]['STATE/UT'].values[0],
-                                    'Date':date})
+                    if y[y['CODE'] == i][date].values[0] != "":
+                        if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Kerala'):
+                            if (date != '3/14/2020') & (y[y['CODE'] == i]['STATE/UT'].values[0] != 'Maharashtra'):
+                                if x.loc[i, j] != y[y['CODE'] == i][date].values[0]:
+                                    flag = 1
+                                    error = True
+                                    change_dict_list.append({'api_sheet': x.loc[i, j],
+                                                         'google_sheet': y[y['CODE'] == i][date].values[0].item(),
+                                                         'position': {
+                                        'api': (i, j),
+                                        'gsheet': (y['CODE'][y['CODE'] == i].index.tolist()[0]+2, list(y.columns).index(date)+1)
+                                    },
+                                        'State': y[y['CODE'] == i]['STATE/UT'].values[0],
+                                        'Date':date})
         if flag == 1:
             print('Printing in a file...')
             with open(f'{tag[k]}_error.json', 'w') as f:
