@@ -1,34 +1,18 @@
 [
     {
-        "api_sheet": 1410809,
-        "google_sheet": 1410714,
-        "position": {
-            "api": [
-                "dl",
-                "02-Aug-21"
-            ],
-            "gsheet": [
-                11,
-                557
-            ]
-        },
-        "State": "Delhi",
-        "Date": "8/2/2021"
-    },
-    {
-        "api_sheet": 20141,
-        "google_sheet": 20136,
+        "api_sheet": 20151,
+        "google_sheet": 20147,
         "position": {
             "api": [
                 "la",
-                "02-Aug-21"
+                "04-Aug-21"
             ],
             "gsheet": [
                 20,
-                557
+                559
             ]
         },
         "State": "Ladakh",
-        "Date": "8/2/2021"
+        "Date": "8/4/2021"
     }
 ]
