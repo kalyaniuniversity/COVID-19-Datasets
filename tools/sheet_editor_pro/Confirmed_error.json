@@ -1,34 +1,34 @@
 [
     {
-        "api_sheet": 347414,
-        "google_sheet": 347380,
-        "position": {
-            "api": [
-                "jh",
-                "10-Aug-21"
-            ],
-            "gsheet": [
-                17,
-                565
-            ]
-        },
-        "State": "Jharkhand",
-        "Date": "8/10/2021"
-    },
-    {
-        "api_sheet": 20407,
-        "google_sheet": 20400,
+        "api_sheet": 20417,
+        "google_sheet": 20407,
         "position": {
             "api": [
                 "la",
-                "10-Aug-21"
+                "11-Aug-21"
             ],
             "gsheet": [
                 20,
-                565
+                566
             ]
         },
         "State": "Ladakh",
-        "Date": "8/10/2021"
+        "Date": "8/11/2021"
+    },
+    {
+        "api_sheet": 10268,
+        "google_sheet": 10266,
+        "position": {
+            "api": [
+                "ld",
+                "11-Aug-21"
+            ],
+            "gsheet": [
+                21,
+                566
+            ]
+        },
+        "State": "Lakshadweep",
+        "Date": "8/11/2021"
     }
 ]
