@@ -1,0 +1,6 @@
+api_url:
+    timeseries: https://data.covid19india.org/v4/min/timeseries.min.json
+sheet_url:
+    confirmed: https://docs.google.com/spreadsheets/d/1Sa-rVSqRh20754Tzv-nBHrWVhFYwFNiVnVEuwkP4u1c/edit#gid=0
+    deceased: https://docs.google.com/spreadsheets/d/15DMNN9bWd2WriGBC-tc7e-H9ch8udIIs4JYbQgRSY2o/edit#gid=0
+    recovered: https://docs.google.com/spreadsheets/d/1lAcI4NNnivQCKahmxjAtHyv-4bfWmfcUGrJ13HnJN1c/edit#gid=0
