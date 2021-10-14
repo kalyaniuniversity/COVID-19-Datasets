@@ -3,4 +3,5 @@ __pycache__
 cred_sheet.json
 automation.sh
 tools/Automator/*
+!tools/Automator/stdOut.log
 dripta/
