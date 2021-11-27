@@ -25,7 +25,9 @@ if [ $? -eq 0 ]; then
     echo "pushing to git..."
 
     cd ../../
-
+    
+    echo "$EMAIL_ID"
+    echo "$USER_NAME"
     git config --global user.email "$EMAIL_ID"
     git config --global user.name "$USER_NAME"
     git status
