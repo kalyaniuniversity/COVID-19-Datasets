@@ -1,8 +1,6 @@
 name: Dataset Update
 
-on:
-  schedule:
-  - cron: "30 4,13 * * 0-6"
+on: [push]
 
 jobs:
   build-linux:
