@@ -26,8 +26,8 @@ if [ $? -eq 0 ]; then
 
     cd ../../
 
-    git config --global user.email $EMAIL_ID
-    git config --global user.name $USER_NAME
+    git config --global user.email "$EMAIL_ID"
+    git config --global user.name "$USER_NAME"
     git status
     git add .
     git commit -m "datasets updated by automator"
