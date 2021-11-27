@@ -1,0 +1,4 @@
+pandas
+pyyaml
+gspread==4.0.1                                                                                                          
+gspread-pandas==2.3.0 
