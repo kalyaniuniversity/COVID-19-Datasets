@@ -24,6 +24,8 @@ jobs:
     - name: Start Autotation
       env: 
         API_KEY: ${{ secrets.GCP_CREDENTIALS }}
+        EMAIL_ID: ${{ secrets.EMAIL_ID }}
+        USER_ID: ${{ secrets.USER_ID }}
       run: |
         chmod +x tools/automation.sh
         ./tools/automation.sh
