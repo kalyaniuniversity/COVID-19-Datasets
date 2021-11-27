@@ -1,0 +1,6 @@
+api_url:
+    timeseries: https://data.covid19bharat.org/v4/min/timeseries.min.json
+sheet_url:
+    confirmed: https://docs.google.com/spreadsheets/d/1AeL5Dh_8MevlO4tjqbqIa69rIlXZ-teaEi9xh67Tv5I/edit#gid=0
+    deceased: https://docs.google.com/spreadsheets/d/1aQ0D1M7MQZ56_ZMCOQ01rcntgs6iZH0GfJ2HeYKfnwA/edit#gid=0
+    recovered: https://docs.google.com/spreadsheets/d/1MZ_iTaPRlz83uud4eN5ykZ_SoZrKVaNAFxlbPxT99io/edit#gid=0
