@@ -5,7 +5,7 @@ echo "Starting Google Sheet update service...."
 
 cd $PWD/tools/Automator;
 
-python main.py;
+python main.py -m $mode;
 
 if [ $? -eq 0 ]; then
     echo "removing old sheet from disk..."
