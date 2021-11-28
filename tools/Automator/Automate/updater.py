@@ -34,6 +34,7 @@ class Updater():
 
     def Validator(self, new_frame, key):
         new_frame = new_frame.set_index("CODE")
+        new_frame = new_frame.astype(int)
 
         def getName(d1, d2):
             tally = new_frame[d1] <= new_frame[d2]
