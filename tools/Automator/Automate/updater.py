@@ -5,6 +5,16 @@ Created on Fri Sep 10 16:48:16 2021
 @author: dript
 """
 
+'''
+This file will be triggered to pull API data and Google Sheet data
+and check if any new date there or not. Then merge new date if 
+available.
+
+'''
+
+
+
+
 import pandas as pd
 from .api_data_parser import getApiData
 from .sheet_data_parser import getSheetData
@@ -17,14 +27,39 @@ class Updater():
         self.config = config_path
 
     def apiData(self):
+        """This pull the API data from https://data.covid19bharat.org/v4/min/timeseries.min.json
+
+        Returns:
+            dict: Gives a Dict in following format
+            '{
+              "confirmed":DataFrame,
+              "recovered":DataFrame,
+              "deceased":DataFrame  
+            }'
+        """
         data = getApiData()
         return data()
 
     def sheetData(self):
+        """This pull the Google Sheet data
+
+        Returns:
+            dict: Gives a Dict in following format
+            '{
+              "confirmed":DataFrame,
+              "recovered":DataFrame,
+              "deceased":DataFrame  
+            }'
+        """
         data, spread_obj = getSheetData().pull_data_sheet(self.config)
         return data, spread_obj
 
     def logger(self, massage):
+        """Helper function to log any massage
+
+        Args:
+            massage (str): The massage that has to be logged
+        """
         logging.basicConfig(filename="stdOut.log",
                             format='%(asctime)s %(message)s',
                             filemode='a',
@@ -33,6 +68,16 @@ class Updater():
         logging.info(massage)
 
     def Validator(self, new_frame, key):
+        """Validate the data whether current date values 
+            are greater than previous data values or not
+
+        Args:
+            new_frame (DataFrame): The new data with new dates
+            key (str): A value among ["confirmed","deceased","recovered"]
+
+        Returns:
+            bool: If any new date value less than previous data returns False.
+        """
         new_frame = new_frame.set_index("CODE")
         new_frame = new_frame.astype(int)
 
@@ -54,6 +99,21 @@ class Updater():
         return True
 
     def prepare_for_merge(self, api_data, sheet_data, key):
+        """Prepare the new data for merging with old data.
+
+        Args:
+            api_data (DataFrame): The data pull from API    
+            sheet_data (DataFrame): The data pulled from Google Sheet
+            key (str): A value among ["confirmed","deceased","recovered"]
+
+        Raises:
+            Exception: If last updated date is not specified in API data then
+            it raises an exception.
+
+        Returns:
+            DataFrame: If new date is available the new merged data will be returned.
+            Otherwise old data is returned.
+        """
         sheet_cols_last = sheet_data.columns[-1]
         sheet_cols_last = datetime.strptime(sheet_cols_last, "%m/%d/%Y")
         #print(api_data.columns)
