@@ -1,8 +1,6 @@
 name: Dataset Update
 
-on:
-  schedule:
-  - cron: "30 4,13 * * 0-6"
+on: [push]
 
 jobs:
   build-linux:
@@ -28,6 +26,7 @@ jobs:
         API_KEY: ${{ secrets.GCP_CREDENTIALS }}
         EMAIL_ID: ${{ secrets.EMAIL_ID }}
         USER_NAME: ${{ secrets.USER_NAME }}
+        MODE: "Update"
       run: |
         chmod +x tools/automation.sh
         ./tools/automation.sh
