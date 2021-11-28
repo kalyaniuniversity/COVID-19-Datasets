@@ -1,0 +1,35 @@
+name: Validate Dataset
+
+on: [push]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 5
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7.12
+    - name: Add conda to system path
+      run: |
+        # $CONDA is an environment variable pointing to the root of the miniconda directory
+        echo $CONDA/bin >> $GITHUB_PATH
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    - name: Start Automation
+      env: 
+        API_KEY: ${{ secrets.GCP_CREDENTIALS }}
+        EMAIL_ID: ${{ secrets.EMAIL_ID }}
+        USER_NAME: ${{ secrets.USER_NAME }}
+        MODE: "Validate"
+      run: |
+        chmod +x tools/automation.sh
+        ./tools/automation.sh
