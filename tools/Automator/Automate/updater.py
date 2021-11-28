@@ -50,7 +50,7 @@ class Updater():
                     self.logger(
                         f"Data Integrity Error b/w {col_list[idx - 1]} and {col_list[idx]} at {getName(col_list[idx - 1],col_list[idx])} for updating {key}")
         if haserror == True:
-            return False
+            return True    # Toggle this to False if don't want to update when value is less than previous day
         return True
 
     def prepare_for_merge(self, api_data, sheet_data, key):
