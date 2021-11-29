@@ -1,3 +1,6 @@
+[![Dataset Update](https://github.com/kalyaniuniversity/COVID-19-Datasets/actions/workflows/Automation.yml/badge.svg?branch=master&event=schedule)](https://github.com/kalyaniuniversity/COVID-19-Datasets/actions/workflows/Automation.yml)
+
+
 # 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository for India by University of Kalyani
 
 This is a collection of datasets for COVID-19 specifically for the Indian subcontinent. The repository is being created, updated and maintained by University of Kalyani Department of Computer Science & Engineering (KU CSE) and Department of Statistics.
