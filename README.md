@@ -1,4 +1,4 @@
-[![Dataset Update](https://github.com/kalyaniuniversity/COVID-19-Datasets/actions/workflows/Automation.yml/badge.svg?branch=master&event=schedule)](https://github.com/kalyaniuniversity/COVID-19-Datasets/actions/workflows/Automation.yml)
+[![Dataset Update](https://github.com/kalyaniuniversity/COVID-19-Datasets/actions/workflows/Automation.yml/badge.svg?branch=master&event=schedule)](https://github.com/kalyaniuniversity/COVID-19-Datasets/actions/workflows/Automation.yml)   [![Validate Dataset](https://github.com/kalyaniuniversity/COVID-19-Datasets/actions/workflows/validate.yml/badge.svg?branch=master&event=schedule)](https://github.com/kalyaniuniversity/COVID-19-Datasets/actions/workflows/validate.yml)
 
 
 # 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository for India by University of Kalyani
