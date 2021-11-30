@@ -4,3 +4,9 @@
 2021-11-28 12:55:41,136 Values mismatched while checking for state ch,up at 11/25/2021 while updating recovered
 2021-11-28 12:55:41,137 Values mismatched while checking for state an,ap,as,ch,jh,tr,up,ut at 11/26/2021 while updating recovered
 2021-11-29 13:41:13,906 Values mismatched while checking for state an at 11/28/2021 while updating confirmed
+2021-11-30 13:36:56,257 Values mismatched while checking for state tg at 11/27/2021 while updating confirmed
+2021-11-30 13:36:56,258 Values mismatched while checking for state kl,tg at 11/28/2021 while updating confirmed
+2021-11-30 13:36:59,252 Values mismatched while checking for state tg at 11/27/2021 while updating deceased
+2021-11-30 13:36:59,254 Values mismatched while checking for state kl,tg at 11/28/2021 while updating deceased
+2021-11-30 13:37:01,593 Values mismatched while checking for state tg at 11/27/2021 while updating recovered
+2021-11-30 13:37:01,594 Values mismatched while checking for state kl,tg at 11/28/2021 while updating recovered
