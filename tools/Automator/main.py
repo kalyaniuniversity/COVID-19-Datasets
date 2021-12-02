@@ -65,7 +65,7 @@ args = parser.parse_args()
 
 
 if args.mode == "Update":
-    print("Starting Updating Service..")
+    print("Starting Updating Service..")  
     Update(json.loads(gcp_auth))
 elif args.mode == "Validate":
     print("Starting Validate Service..")
