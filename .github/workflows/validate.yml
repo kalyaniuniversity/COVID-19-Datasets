@@ -1,8 +1,6 @@
 name: Validate Dataset
 
-on:
-  schedule:
-  - cron: "30 13 * * 0-6"
+on: [push]
 
 jobs:
   build-linux:
