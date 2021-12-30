@@ -464,3 +464,9 @@
 2021-12-29 13:41:10,514 Values mismatched while checking for state ar,dn,ld,pb at 12/28/2021 while updating confirmed
 2021-12-29 13:41:14,159 Values mismatched while checking for state ar,dn,ld,pb at 12/28/2021 while updating deceased
 2021-12-29 13:41:17,601 Values mismatched while checking for state ar,dn,ld,pb at 12/28/2021 while updating recovered
+2021-12-30 13:40:51,456 Values mismatched while checking for state pb at 12/28/2021 while updating confirmed
+2021-12-30 13:40:51,458 Values mismatched while checking for state jh,pb,up at 12/29/2021 while updating confirmed
+2021-12-30 13:40:55,151 Values mismatched while checking for state pb at 12/28/2021 while updating deceased
+2021-12-30 13:40:55,152 Values mismatched while checking for state pb at 12/29/2021 while updating deceased
+2021-12-30 13:40:58,351 Values mismatched while checking for state pb at 12/28/2021 while updating recovered
+2021-12-30 13:40:58,352 Values mismatched while checking for state pb,up at 12/29/2021 while updating recovered
