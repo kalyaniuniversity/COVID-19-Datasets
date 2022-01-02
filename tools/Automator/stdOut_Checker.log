@@ -501,3 +501,8 @@
 2022-01-01 13:40:02,524 Values mismatched while checking for state pb at 12/29/2021 while updating recovered
 2022-01-01 13:40:02,526 Values mismatched while checking for state mn,pb,tr at 12/30/2021 while updating recovered
 2022-01-01 13:40:02,528 Values mismatched while checking for state jh,la,ld,tr,ut at 12/31/2021 while updating recovered
+2022-01-02 13:39:43,750 Values mismatched while checking for state dn,jh,ld,tr at 01/01/2022 while updating confirmed
+2022-01-02 13:39:47,055 Values mismatched while checking for state jh at 12/31/2021 while updating deceased
+2022-01-02 13:39:47,056 Values mismatched while checking for state dn,jh,ld,tr at 01/01/2022 while updating deceased
+2022-01-02 13:39:49,530 Values mismatched while checking for state jh at 12/31/2021 while updating recovered
+2022-01-02 13:39:49,531 Values mismatched while checking for state dn,jh,ld,tr at 01/01/2022 while updating recovered
