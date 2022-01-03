@@ -77,3 +77,6 @@
 2022-01-02 04:51:56,495 Data Integrity Error b/w 12/31/2021 and 01/01/2022 at dn for updating confirmed
 2022-01-02 04:52:00,169 Data Integrity Error b/w 12/31/2021 and 01/01/2022 at dn for updating deceased
 2022-01-02 04:52:02,714 Data Integrity Error b/w 12/31/2021 and 01/01/2022 at dn for updating recovered
+2022-01-03 04:52:29,109 Data Integrity Error b/w 1/1/2022 and 01/02/2022 at dn for updating confirmed
+2022-01-03 04:52:32,763 Data Integrity Error b/w 1/1/2022 and 01/02/2022 at dn for updating deceased
+2022-01-03 04:52:36,049 Data Integrity Error b/w 1/1/2022 and 01/02/2022 at dn for updating recovered
