@@ -608,3 +608,6 @@
 2022-01-09 13:40:45,004 Values mismatched while checking for state kl,la,ld,tr at 01/08/2022 while updating confirmed
 2022-01-09 13:40:47,989 Values mismatched while checking for state kl,la,ld,tr at 01/08/2022 while updating deceased
 2022-01-09 13:40:50,497 Values mismatched while checking for state kl,la,ld,tr at 01/08/2022 while updating recovered
+2022-01-10 13:43:11,669 Values mismatched while checking for state dn,la,ld,tr at 01/09/2022 while updating confirmed
+2022-01-10 13:43:14,552 Values mismatched while checking for state la,ld,tr at 01/09/2022 while updating deceased
+2022-01-10 13:43:17,437 Values mismatched while checking for state dn,la,ld,tr at 01/09/2022 while updating recovered
