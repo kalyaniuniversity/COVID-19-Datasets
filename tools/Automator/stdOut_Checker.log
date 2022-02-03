@@ -751,3 +751,6 @@
 2022-02-02 13:35:45,232 Values mismatched while checking for state la,tr at 02/01/2022 while updating confirmed
 2022-02-02 13:35:49,039 Values mismatched while checking for state la,tr at 02/01/2022 while updating deceased
 2022-02-02 13:35:52,809 Values mismatched while checking for state la,tr at 02/01/2022 while updating recovered
+2022-02-03 13:35:51,925 Values mismatched while checking for state ch,dn,la,ld,tr,up at 02/02/2022 while updating confirmed
+2022-02-03 13:35:55,133 Values mismatched while checking for state ch,la,ld,tr,up at 02/02/2022 while updating deceased
+2022-02-03 13:35:57,904 Values mismatched while checking for state ch,dn,la,ld,tr,up at 02/02/2022 while updating recovered
