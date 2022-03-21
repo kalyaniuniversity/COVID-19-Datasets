@@ -919,3 +919,6 @@
 2022-03-20 13:40:09,280 Values mismatched while checking for state dn at 03/18/2022 while updating deceased
 2022-03-20 13:40:13,393 Values mismatched while checking for state dn at 03/18/2022 while updating recovered
 2022-03-20 13:40:13,394 Values mismatched while checking for state as,ch,jh,la,up at 03/19/2022 while updating recovered
+2022-03-21 13:43:44,658 Values mismatched while checking for state dn,ld at 03/20/2022 while updating confirmed
+2022-03-21 13:43:47,640 Values mismatched while checking for state dn,ld at 03/20/2022 while updating deceased
+2022-03-21 13:43:51,466 Values mismatched while checking for state dn,ld at 03/20/2022 while updating recovered
