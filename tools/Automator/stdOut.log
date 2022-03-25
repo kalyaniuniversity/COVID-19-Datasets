@@ -290,3 +290,6 @@
 2022-03-24 04:48:31,351 Data Integrity Error b/w 3/22/2022 and 03/23/2022 at br for updating confirmed
 2022-03-24 04:48:35,248 Data Integrity Error b/w 3/22/2022 and 03/23/2022 at br for updating deceased
 2022-03-24 04:48:38,662 Data Integrity Error b/w 3/22/2022 and 03/23/2022 at br for updating recovered
+2022-03-25 04:49:14,323 Data Integrity Error b/w 3/23/2022 and 03/24/2022 at dn for updating confirmed
+2022-03-25 04:49:18,025 Data Integrity Error b/w 3/23/2022 and 03/24/2022 at dn for updating deceased
+2022-03-25 04:49:22,182 Data Integrity Error b/w 3/23/2022 and 03/24/2022 at dn for updating recovered
