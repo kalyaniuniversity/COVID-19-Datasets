@@ -963,3 +963,6 @@
 2022-04-02 13:38:39,016 Values mismatched while checking for state ch,dl,jh,tr,up at 04/01/2022 while updating confirmed
 2022-04-02 13:38:42,306 Values mismatched while checking for state dl,up at 04/01/2022 while updating deceased
 2022-04-02 13:38:46,044 Values mismatched while checking for state ch,dl,jh,la,up at 04/01/2022 while updating recovered
+2022-04-03 13:38:59,543 Values mismatched while checking for state ap,ch,la,tr at 04/02/2022 while updating confirmed
+2022-04-03 13:39:02,731 Values mismatched while checking for state tr at 04/02/2022 while updating deceased
+2022-04-03 13:39:06,296 Values mismatched while checking for state ap,ch at 04/02/2022 while updating recovered
