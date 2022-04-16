@@ -1018,3 +1018,8 @@
 2022-04-15 13:42:22,390 Values mismatched while checking for state jh at 04/11/2022 while updating recovered
 2022-04-15 13:42:22,391 Values mismatched while checking for state up at 04/12/2022 while updating recovered
 2022-04-15 13:42:22,392 Values mismatched while checking for state br,ch,jh,la at 04/14/2022 while updating recovered
+2022-04-16 13:40:24,571 Values mismatched while checking for state br at 04/14/2022 while updating confirmed
+2022-04-16 13:40:24,612 Values mismatched while checking for state ap,ch,la,mh,up at 04/15/2022 while updating confirmed
+2022-04-16 13:40:27,911 Values mismatched while checking for state mh at 04/15/2022 while updating deceased
+2022-04-16 13:40:30,463 Values mismatched while checking for state br at 04/14/2022 while updating recovered
+2022-04-16 13:40:30,464 Values mismatched while checking for state ap,ch,jh,la,mh at 04/15/2022 while updating recovered
