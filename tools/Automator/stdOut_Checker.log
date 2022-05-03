@@ -1141,3 +1141,9 @@
 2022-05-02 13:54:16,767 Values mismatched while checking for state ap,dn,jh,kl,la,nl,or,py,tg,tn,tr at 05/01/2022 while updating deceased
 2022-05-02 13:54:19,724 Values mismatched while checking for state up at 04/30/2022 while updating recovered
 2022-05-02 13:54:19,725 Values mismatched while checking for state ap,dn,jh,kl,la,nl,or,py,tg,tn,tr,up at 05/01/2022 while updating recovered
+2022-05-03 13:54:54,917 Values mismatched while checking for state kl at 05/01/2022 while updating confirmed
+2022-05-03 13:54:54,962 Values mismatched while checking for state an,ap,dn,jh,la,nl,py,tr at 05/02/2022 while updating confirmed
+2022-05-03 13:54:57,668 Values mismatched while checking for state kl at 05/01/2022 while updating deceased
+2022-05-03 13:54:57,669 Values mismatched while checking for state an,ap,dn,jh,la,nl,py,tr at 05/02/2022 while updating deceased
+2022-05-03 13:55:01,717 Values mismatched while checking for state kl at 05/01/2022 while updating recovered
+2022-05-03 13:55:01,718 Values mismatched while checking for state an,ap,dn,jh,la,nl,py,tr at 05/02/2022 while updating recovered
