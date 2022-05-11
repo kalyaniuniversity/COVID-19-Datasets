@@ -1194,3 +1194,11 @@
 2022-05-10 14:02:21,199 Values mismatched while checking for state kl,ld,up at 05/08/2022 while updating confirmed
 2022-05-10 14:02:24,764 Values mismatched while checking for state kl,ld,up at 05/08/2022 while updating deceased
 2022-05-10 14:02:27,755 Values mismatched while checking for state kl,ld,up at 05/08/2022 while updating recovered
+2022-05-11 13:54:10,913 Values mismatched while checking for state tr at 05/07/2022 while updating confirmed
+2022-05-11 13:54:10,974 Values mismatched while checking for state tr at 05/08/2022 while updating confirmed
+2022-05-11 13:54:10,975 Values mismatched while checking for state kl,tr at 05/09/2022 while updating confirmed
+2022-05-11 13:54:10,977 Values mismatched while checking for state ap,ch,kl,la at 05/10/2022 while updating confirmed
+2022-05-11 13:54:14,946 Values mismatched while checking for state kl at 05/09/2022 while updating deceased
+2022-05-11 13:54:14,948 Values mismatched while checking for state kl at 05/10/2022 while updating deceased
+2022-05-11 13:54:17,738 Values mismatched while checking for state kl at 05/09/2022 while updating recovered
+2022-05-11 13:54:17,740 Values mismatched while checking for state ap,ch,kl at 05/10/2022 while updating recovered
