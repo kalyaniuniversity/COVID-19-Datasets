@@ -1291,3 +1291,5 @@
 2022-05-25 13:58:08,258 Values mismatched while checking for state kl at 05/22/2022 while updating recovered
 2022-05-25 13:58:08,260 Values mismatched while checking for state kl at 05/23/2022 while updating recovered
 2022-05-25 13:58:08,261 Values mismatched while checking for state ap,dn,kl,la,ld,py,tr at 05/24/2022 while updating recovered
+2022-05-26 13:52:29,023 Values mismatched while checking for state ap,jh,py at 05/25/2022 while updating confirmed
+2022-05-26 13:52:33,255 Values mismatched while checking for state ap,jh,la,py at 05/25/2022 while updating recovered
