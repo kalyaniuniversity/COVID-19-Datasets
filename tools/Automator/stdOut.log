@@ -510,3 +510,6 @@
 2022-06-21 05:01:33,656 Data Integrity Error b/w 6/19/2022 and 06/20/2022 at ap for updating confirmed
 2022-06-21 05:01:36,613 Data Integrity Error b/w 6/19/2022 and 06/20/2022 at ap for updating deceased
 2022-06-21 05:01:39,338 Data Integrity Error b/w 6/19/2022 and 06/20/2022 at ap for updating recovered
+2022-06-24 05:02:25,365 Data Integrity Error b/w 6/22/2022 and 06/23/2022 at ap for updating confirmed
+2022-06-24 05:02:28,870 Data Integrity Error b/w 6/22/2022 and 06/23/2022 at ap for updating deceased
+2022-06-24 05:02:32,752 Data Integrity Error b/w 6/22/2022 and 06/23/2022 at ap for updating recovered
