@@ -1543,3 +1543,6 @@
 2022-07-03 13:41:10,640 Values mismatched while checking for state as,kl,la,ml,up at 07/02/2022 while updating confirmed
 2022-07-03 13:41:13,624 Values mismatched while checking for state kl at 07/02/2022 while updating deceased
 2022-07-03 13:41:16,907 Values mismatched while checking for state as,kl,la,ml,up at 07/02/2022 while updating recovered
+2022-07-04 13:54:01,412 Values mismatched while checking for state ap,la,ld,tr at 07/03/2022 while updating confirmed
+2022-07-04 13:54:04,963 Values mismatched while checking for state ap,ld,tr at 07/03/2022 while updating deceased
+2022-07-04 13:54:08,207 Values mismatched while checking for state ap,la,ld,tr at 07/03/2022 while updating recovered
