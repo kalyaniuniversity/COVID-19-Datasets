@@ -581,3 +581,6 @@
 2022-08-13 04:51:27,935 Data Integrity Error b/w 8/11/2022 and 08/12/2022 at ld for updating confirmed
 2022-08-13 04:51:32,209 Data Integrity Error b/w 8/11/2022 and 08/12/2022 at ld for updating deceased
 2022-08-13 04:51:35,366 Data Integrity Error b/w 8/11/2022 and 08/12/2022 at ld for updating recovered
+2022-08-14 04:54:23,808 Data Integrity Error b/w 8/12/2022 and 08/13/2022 at kl for updating confirmed
+2022-08-14 04:54:27,504 Data Integrity Error b/w 8/12/2022 and 08/13/2022 at kl for updating deceased
+2022-08-14 04:54:30,760 Data Integrity Error b/w 8/12/2022 and 08/13/2022 at kl for updating recovered
