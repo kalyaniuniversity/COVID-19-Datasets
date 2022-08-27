@@ -1976,3 +1976,9 @@
 2022-08-26 13:52:27,847 Values mismatched while checking for state kl at 08/24/2022 while updating confirmed
 2022-08-26 13:52:30,690 Values mismatched while checking for state kl at 08/24/2022 while updating deceased
 2022-08-26 13:52:33,059 Values mismatched while checking for state kl at 08/24/2022 while updating recovered
+2022-08-27 13:45:54,770 Values mismatched while checking for state kl at 08/25/2022 while updating confirmed
+2022-08-27 13:45:54,771 Values mismatched while checking for state jh,la,tr at 08/26/2022 while updating confirmed
+2022-08-27 13:45:57,293 Values mismatched while checking for state kl at 08/25/2022 while updating deceased
+2022-08-27 13:45:57,294 Values mismatched while checking for state jh,la,tr at 08/26/2022 while updating deceased
+2022-08-27 13:45:59,911 Values mismatched while checking for state kl at 08/25/2022 while updating recovered
+2022-08-27 13:45:59,912 Values mismatched while checking for state jh,la,tr at 08/26/2022 while updating recovered
