@@ -2008,3 +2008,7 @@
 2022-08-31 13:57:46,853 Values mismatched while checking for state kl at 08/29/2022 while updating deceased
 2022-08-31 13:57:51,147 Values mismatched while checking for state jh,kl,nl,tr at 08/29/2022 while updating recovered
 2022-08-31 13:57:51,149 Values mismatched while checking for state up at 08/30/2022 while updating recovered
+2022-09-01 13:53:12,694 Values mismatched while checking for state jh at 08/29/2022 while updating confirmed
+2022-09-01 13:53:12,695 Values mismatched while checking for state sk at 08/31/2022 while updating confirmed
+2022-09-01 13:53:16,634 Values mismatched while checking for state jh at 08/29/2022 while updating recovered
+2022-09-01 13:53:16,635 Values mismatched while checking for state sk at 08/31/2022 while updating recovered
