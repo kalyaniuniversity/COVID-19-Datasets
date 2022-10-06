@@ -2222,3 +2222,9 @@
 2022-10-05 14:36:27,018 Values mismatched while checking for state as at 10/02/2022 while updating recovered
 2022-10-05 14:36:27,019 Values mismatched while checking for state as,kl at 10/03/2022 while updating recovered
 2022-10-05 14:36:27,021 Values mismatched while checking for state ch,dn,kl,ld,mp,mz,py,wb at 10/04/2022 while updating recovered
+2022-10-06 14:13:05,119 Values mismatched while checking for state kl,rj at 10/04/2022 while updating confirmed
+2022-10-06 14:13:05,120 Values mismatched while checking for state as,ch,dn,kl,mz,nl,wb at 10/05/2022 while updating confirmed
+2022-10-06 14:13:08,223 Values mismatched while checking for state kl at 10/04/2022 while updating deceased
+2022-10-06 14:13:08,224 Values mismatched while checking for state as,ch,dn,kl,mz,nl,wb at 10/05/2022 while updating deceased
+2022-10-06 14:13:10,743 Values mismatched while checking for state kl at 10/04/2022 while updating recovered
+2022-10-06 14:13:10,744 Values mismatched while checking for state as,ch,dn,kl,mz,nl,wb at 10/05/2022 while updating recovered
