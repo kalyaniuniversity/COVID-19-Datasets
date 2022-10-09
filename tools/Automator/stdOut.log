@@ -660,3 +660,6 @@
 2022-10-08 05:08:51,730 Data Integrity Error b/w 10/6/2022 and 10/07/2022 at ar for updating confirmed
 2022-10-08 05:08:56,135 Data Integrity Error b/w 10/6/2022 and 10/07/2022 at ar for updating deceased
 2022-10-08 05:09:00,493 Data Integrity Error b/w 10/6/2022 and 10/07/2022 at ar for updating recovered
+2022-10-09 05:23:59,393 Data Integrity Error b/w 10/7/2022 and 10/08/2022 at as for updating confirmed
+2022-10-09 05:24:03,727 Data Integrity Error b/w 10/7/2022 and 10/08/2022 at as for updating deceased
+2022-10-09 05:24:07,808 Data Integrity Error b/w 10/7/2022 and 10/08/2022 at as for updating recovered
