@@ -2687,3 +2687,9 @@
 2022-12-08 13:38:43,804 Values mismatched while checking for state mn at 12/05/2022 while updating recovered
 2022-12-08 13:38:43,805 Values mismatched while checking for state an,ap,as,jh,kl,la,ml,mn,py,tr,ut at 12/06/2022 while updating recovered
 2022-12-08 13:38:43,806 Values mismatched while checking for state an,ar,as,jh,kl,la,ml,tn,tr,ut at 12/07/2022 while updating recovered
+2022-12-09 13:37:54,844 Values mismatched while checking for state kl at 12/07/2022 while updating confirmed
+2022-12-09 13:37:54,845 Values mismatched while checking for state an,ar,as,jh,kl,la,ml,nl,py,tn,tr at 12/08/2022 while updating confirmed
+2022-12-09 13:37:58,648 Values mismatched while checking for state kl at 12/07/2022 while updating deceased
+2022-12-09 13:37:58,649 Values mismatched while checking for state an,ar,as,jh,kl,la,ml,nl,py,tn,tr at 12/08/2022 while updating deceased
+2022-12-09 13:38:01,225 Values mismatched while checking for state kl at 12/07/2022 while updating recovered
+2022-12-09 13:38:01,226 Values mismatched while checking for state an,ar,as,jh,kl,la,ml,nl,py,tn,tr at 12/08/2022 while updating recovered
