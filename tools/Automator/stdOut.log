@@ -837,3 +837,6 @@
 2022-12-16 04:39:41,036 Data Integrity Error b/w 12/14/2022 and 12/15/2022 at ap for updating confirmed
 2022-12-16 04:39:45,292 Data Integrity Error b/w 12/14/2022 and 12/15/2022 at ap for updating deceased
 2022-12-16 04:39:49,623 Data Integrity Error b/w 12/14/2022 and 12/15/2022 at ap for updating recovered
+2022-12-17 04:39:14,634 Data Integrity Error b/w 12/15/2022 and 12/16/2022 at ar for updating confirmed
+2022-12-17 04:39:17,792 Data Integrity Error b/w 12/15/2022 and 12/16/2022 at ar for updating deceased
+2022-12-17 04:39:20,776 Data Integrity Error b/w 12/15/2022 and 12/16/2022 at ar for updating recovered
