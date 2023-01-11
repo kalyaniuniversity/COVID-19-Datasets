@@ -909,3 +909,6 @@
 2023-01-10 04:40:14,487 Data Integrity Error b/w 1/8/2023 and 01/09/2023 at mn for updating confirmed
 2023-01-10 04:40:18,627 Data Integrity Error b/w 1/8/2023 and 01/09/2023 at mn for updating deceased
 2023-01-10 04:40:21,899 Data Integrity Error b/w 1/8/2023 and 01/09/2023 at mn for updating recovered
+2023-01-11 04:40:31,118 Data Integrity Error b/w 1/9/2023 and 01/10/2023 at ap for updating confirmed
+2023-01-11 04:40:35,480 Data Integrity Error b/w 1/9/2023 and 01/10/2023 at ap for updating deceased
+2023-01-11 04:40:39,123 Data Integrity Error b/w 1/9/2023 and 01/10/2023 at ap for updating recovered
