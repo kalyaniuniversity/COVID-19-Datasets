@@ -3067,3 +3067,9 @@
 2023-01-11 13:41:52,872 Values mismatched while checking for state jh,ld,nl at 01/08/2023 while updating recovered
 2023-01-11 13:41:52,873 Values mismatched while checking for state jh,ka,kl,ld,mn,nl,ut at 01/09/2023 while updating recovered
 2023-01-11 13:41:52,873 Values mismatched while checking for state ap,ar,as,dl,dn,jh,kl,la,ld,ml,mn,nl,or,pb,py,up,ut at 01/10/2023 while updating recovered
+2023-01-12 13:44:22,575 Values mismatched while checking for state kl,sk,ut at 01/10/2023 while updating confirmed
+2023-01-12 13:44:22,576 Values mismatched while checking for state ap,as,ch,dl,dn,jh,kl,la,ml,mn,mp,nl,or,pb,py,up at 01/11/2023 while updating confirmed
+2023-01-12 13:44:25,876 Values mismatched while checking for state kl at 01/10/2023 while updating deceased
+2023-01-12 13:44:25,877 Values mismatched while checking for state ap,as,ch,dl,dn,jh,kl,la,ml,mn,mp,nl,or,pb,py,up at 01/11/2023 while updating deceased
+2023-01-12 13:44:28,221 Values mismatched while checking for state kl,ut at 01/10/2023 while updating recovered
+2023-01-12 13:44:28,222 Values mismatched while checking for state ap,as,ch,dl,dn,jh,kl,la,ml,mn,mp,nl,or,pb,py,up at 01/11/2023 while updating recovered
