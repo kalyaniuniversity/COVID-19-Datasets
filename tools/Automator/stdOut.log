@@ -918,3 +918,15 @@
 2023-01-13 04:40:50,967 Data Integrity Error b/w 1/11/2023 and 01/12/2023 at ap for updating confirmed
 2023-01-13 04:40:55,181 Data Integrity Error b/w 1/11/2023 and 01/12/2023 at ap for updating deceased
 2023-01-13 04:40:58,972 Data Integrity Error b/w 1/11/2023 and 01/12/2023 at ap for updating recovered
+2023-01-31 04:39:43,839 Data Integrity Error b/w 01/22/2023 and 01/23/2023 at an for updating confirmed
+2023-01-31 04:39:43,840 Data Integrity Error b/w 01/27/2023 and 01/28/2023 at dn for updating confirmed
+2023-01-31 04:39:43,840 Data Integrity Error b/w 01/28/2023 and 01/29/2023 at ld for updating confirmed
+2023-01-31 04:39:43,841 Data Integrity Error b/w 01/29/2023 and 01/30/2023 at ap for updating confirmed
+2023-01-31 04:39:47,328 Data Integrity Error b/w 01/22/2023 and 01/23/2023 at an for updating deceased
+2023-01-31 04:39:47,329 Data Integrity Error b/w 01/27/2023 and 01/28/2023 at dn for updating deceased
+2023-01-31 04:39:47,330 Data Integrity Error b/w 01/28/2023 and 01/29/2023 at ld for updating deceased
+2023-01-31 04:39:47,330 Data Integrity Error b/w 01/29/2023 and 01/30/2023 at ap for updating deceased
+2023-01-31 04:39:51,409 Data Integrity Error b/w 01/22/2023 and 01/23/2023 at an for updating recovered
+2023-01-31 04:39:51,410 Data Integrity Error b/w 01/27/2023 and 01/28/2023 at dn for updating recovered
+2023-01-31 04:39:51,410 Data Integrity Error b/w 01/28/2023 and 01/29/2023 at ld for updating recovered
+2023-01-31 04:39:51,411 Data Integrity Error b/w 01/29/2023 and 01/30/2023 at ap for updating recovered
